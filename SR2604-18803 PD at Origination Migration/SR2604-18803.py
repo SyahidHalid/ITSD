@@ -7,7 +7,7 @@ import pyodbc
 current_time = pd.Timestamp.now()
 
 #  Read Excel
-link = r"C:\\Users\\syahidhalid\\Syahid_PC\Analytics - ITD\\00. URS & Test Script\\List of Project - 2026\\BD (Active) - PD Rating Migration (SR2604-18803)"
+link = r"C:\\Users\\syahidhalid\\Syahid_PC\\Analytics - ITD\\00. URS & Test Script\\List of Project - 2026\\3. Analytics BD (Pending Sign Off) - PD Rating Migration (SR2604-18803)"
 
 file = "Loandatabase_Feb2026 (Rating) (ITSD)"
 
@@ -93,9 +93,7 @@ LDB_KEY = pd.read_sql_query("SELECT * FROM account_to_application;", connection)
 #     LDB_ACC['facility_id'].value_counts() secondary
 
 
-Excel3 = Excel2.rename(columns={'Rating at Origination':'Rating_at_Origination'}).merge(LDB_ACC[['facility_exim_account_num',
-                                                   'acc_rating_origination',
-                                                   'facility_id']].rename(columns={'facility_exim_account_num':'AccountNumber'}),
+Excel3 = Excel2.rename(columns={'Rating at Origination':'Rating_at_Origination'}).merge(LDB_ACC[['facility_exim_account_num','acc_rating_origination','facility_id']].rename(columns={'facility_exim_account_num':'AccountNumber'}),
                                                      on='AccountNumber',
                                                        how='left', indicator="Cross_Check_Tag")
 
