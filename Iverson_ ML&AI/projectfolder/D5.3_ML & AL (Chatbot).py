@@ -21,7 +21,7 @@ http_client = httpx.Client(
 
 # Initialize OpenAI client with OpenRouter base URL
 client = OpenAI(
-    api_key="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",
+    api_key="your key",
     base_url="https://openrouter.ai/api/v1",
     http_client=http_client  # ✅ inject custom client
 )
