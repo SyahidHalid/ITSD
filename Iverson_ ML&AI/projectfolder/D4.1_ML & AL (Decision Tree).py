@@ -20,7 +20,7 @@ from sklearn.metrics import accuracy_score
 import joblib
 
 from sklearn import tree
-import graphviz
+#import graphviz
 import math
 
 #Import Data
