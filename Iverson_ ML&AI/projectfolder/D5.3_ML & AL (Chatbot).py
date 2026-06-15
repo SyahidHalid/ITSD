@@ -2,7 +2,7 @@
 # https://openrouter.ai/workspaces/default/keys
 
 # 1 day API key
-# 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
+# cth api
 
 # cari LLM yg free
 # OpenAI: gpt-oss-120b (free)
