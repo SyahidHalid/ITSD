@@ -2,12 +2,14 @@
 import pandas as pd
 import numpy as np
 import pyodbc
+import xlsxwriter
+# pip install xlsxwriter --trusted-host pypi.org --trusted-host files.pythonhosted.org
 
 #   Timestamp
 current_time = pd.Timestamp.now()
 
 #  Read Excel
-link = r"C:\\Users\\syahidhalid\\Syahid_PC\\Analytics - ITD\\00. URS & Test Script\\List of Project - 2026\\3. Analytics BD (Pending Sign Off) - PD Rating Migration (SR2604-18803)"
+link = r"C:\\Users\\syahidhalid\\Syahid_PC\\Analytics - ITD\\00. URS & Test Script\\List of Project - 2026\\BAU - BD (Pending CMC) - PD Rating Migration (SR2604-18803)"
 
 file = "Loandatabase_Feb2026 (Rating) (ITSD)"
 
@@ -54,14 +56,14 @@ Excel2["AccountNumber"] = Excel2["AccountNumber"].str.replace("    ", "", regex=
 connection = pyodbc.connect(
    'DRIVER={ODBC Driver 17 for SQL Server};'
    
-   'SERVER=10.32.1.52,1455;'
-   #'SERVER=10.20.1.4,1455;'
+   #'SERVER=10.32.1.52,1455;'
+   'SERVER=10.20.1.4,1455;'
 
-   'DATABASE=mis_db_prod23022025;'
-   #'DATABASE=mis_db_prod_04052026;'
+   #'DATABASE=mis_db_prod23022025;'
+   'DATABASE=mis_db_prod;'
    
-   'UID=sa;'
-   #'UID=mis_admin;'
+   #'UID=sa;'
+   'UID=mis_admin;'
    'PWD=Exim1234;'
    
    'Encrypt=yes;TrustServerCertificate=yes')  # Use if you encounter SSL issues
@@ -173,3 +175,4 @@ connection.commit()
 cursor.execute("drop table A_MAI_PD_RATING")
 connection.commit() 
 
+connection.close()
