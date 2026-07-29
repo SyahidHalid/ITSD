@@ -1,0 +1,112 @@
+1. Fahami Fungsi Credit Risk di EXIM Bank
+
+Secara umum, Credit Risk bertanggungjawab untuk:
+
+Menilai risiko pelanggan sebelum pembiayaan diluluskan
+Memantau portfolio pembiayaan sedia ada
+Mengukur Probability of Default (PD)
+Menentukan Loss Given Default (LGD)
+Menilai Expected Credit Loss (ECL)
+Mengenalpasti akaun bermasalah (Impaired Account)
+Menyediakan laporan kepada Management, BNM dan Board
+
+______________________________________________________________
+
+
+5C of Credit:
+
+Character
+Capacity
+Capital
+Collateral
+Condition
+
+______________________________________________________________
+
+
+Ratio
+
+Liquidity Ratio
+Current Ratio
+= Current Asset / Current Liability
+
+Leverage Ratio
+Debt to Equity
+= Total Debt / Shareholder Equity
+
+Profitability
+ROA
+= Net Profit / Total Asset
+
+ROE
+= Net Profit / Equity
+
+______________________________________________________________
+
+
+MFRS9
+
+Stage 1 = 12 Month ECL
+Stage 2 = Lifetime ECL
+Stage 3 = Lifetime ECL
+
+PD is Kebarangkalian pelanggan gagal bayar.
+LGD is Peratus kerugian selepas mengambil kira recovery.
+EAD is Jumlah exposure ketika default berlaku.
+
+______________________________________________________________
+
+
+Bagaimana anda mengenal pasti akaun berisiko?
+
+Jawapan:
+
+Trend overdue meningkat
+Frequent restructuring
+Deteriorating financial ratio
+Declining sales
+Covenant breaches
+
+Jawapan:
+
+Dashboard boleh digunakan untuk memantau concentration risk, industry exposure, overdue trend, staging movement dan impairment trend secara near real-time.
+
+______________________________________________________________
+
+
+6. EXIM-Specific Questions
+
+Oleh kerana EXIM ialah DFI yang menyokong eksport negara:
+
+Anda perlu faham:
+
+Trade Financing
+Buyer Credit
+Overseas Investment Financing
+Export Credit Insurance
+Guarantee Facilities
+
+Mereka mungkin tanya:
+
+Kenapa risiko kredit EXIM berbeza dengan bank komersial?
+
+Jawapan:
+
+EXIM mempunyai mandat pembangunan (development mandate). Oleh itu ada pembiayaan yang mempunyai impak strategik kepada negara, tetapi profil risikonya mungkin lebih tinggi berbanding portfolio bank komersial biasa.
+
+______________________________________________________________
+
+
+Soalan yang saya jangka untuk anda:
+Apa itu PD, LGD dan EAD?
+Apa perbezaan Stage 1, 2 dan 3 MFRS9?
+Bagaimana menilai kesihatan kewangan syarikat?
+Apa indikator awal risiko kredit meningkat?
+Mengapa EXIM perlu mempunyai Credit Risk Framework?
+Bagaimana Power BI boleh membantu Credit Risk?
+Ceritakan satu projek data analytics yang membantu pengurusan membuat keputusan.
+
+Jika anda dapat jawab 7 soalan ini dengan yakin, saya rasa anda sudah berada pada tahap yang sangat baik untuk interview Credit Risk di EXIM Bank.
+
+______________________________________________________________
+
