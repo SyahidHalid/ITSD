@@ -277,21 +277,21 @@ combine1 = combine.iloc[np.where(combine['datetrans'].notnull() & combine['polic
 #     isa.os_sstgst,
 #     isa.os_yeancb,
 # 	EOMONTH(GETDATE(),-1) as statement_date,
-# 	case when DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 < 30 then ledger_bal else 0 end as aging_current,
-# 	case when DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 >= 30 and DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 < 60 then ledger_bal else 0 end as aging_30days,
-# 	case when DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 >= 60 and DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 < 90 then ledger_bal else 0 end as aging_60days,
-# 	case when DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 >= 90 and DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 < 120  then ledger_bal else 0 end as aging_90days,
-# 	case when DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 >= 120 then ledger_bal else 0 end as aging_120days
+# 	case when DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 < 30 and ledger_bal >= 0 then ledger_bal else 0 end as aging_current,
+# 	case when DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 >= 30 and DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 < 60 and ledger_bal >= 0 then ledger_bal else 0 end as aging_30days,
+# 	case when DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 >= 60 and DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 < 90 and ledger_bal >= 0 then ledger_bal else 0 end as aging_60days,
+# 	case when DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 >= 90 and DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 < 120  and ledger_bal >= 0 then ledger_bal else 0 end as aging_90days,
+# 	case when DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 >= 120 and ledger_bal >= 0 then ledger_bal else 0 end as aging_120days,
+# 	case when ledger_bal < 0 then ledger_bal else 0 end as aging_credit
 # FROM proposal3 p3
 # LEFT JOIN ledger2 l2
 #     ON p3.proposal_number = l2.proposal_number
 # LEFT JOIN invoice_split_aging_pivot1 isa
 #     ON l2.invoice_number = isa.invoice_number
 # where l2.policy_number is null and l2.datetrans is not null 
-# --and p3.proposal_number = 'P/DCT/00022/2026'
+# --and p3.ledger_bal < 0
 # --where p3.proposal_number = 'P/CPC/00093/2023'
 # --order by p3.company_name asc, l2.debit desc;
-# GO
 
 #-----------------------------------------------------------------------------------
 
@@ -358,6 +358,7 @@ combine1 = combine.iloc[np.where(combine['datetrans'].notnull() & combine['polic
 #         , aging_60days
 #         , aging_90days
 #         , aging_120days
+#         , aging_credit
 #     )
 #     SELECT
 #           proposal_number
@@ -387,6 +388,7 @@ combine1 = combine.iloc[np.where(combine['datetrans'].notnull() & combine['polic
 #         , aging_60days
 #         , aging_90days
 #         , aging_120days
+#         , aging_credit
 #     FROM dbo.view_aging_report_proposal;
 # END;
 

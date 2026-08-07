@@ -110,3 +110,62 @@ Jika anda dapat jawab 7 soalan ini dengan yakin, saya rasa anda sudah berada pad
 
 ______________________________________________________________
 
+Character (adakah pelanggan mahu bayar)
+Historical Record
+CCRIS/CTOS
+
+Capacity (adakah mampu bayar)
+cash flow
+Debt Service Ratio
+Debt Sercive Coverage Ratio
+EBITDA (Earning before interest, Taxes, DEpreciation and Amortization)
+Profitability
+
+
+Capital (ada modal x)
+paid-up Capital
+Shareholder fund
+networth
+gearing ratio (Debt over Asset/Equitiy or EBIT/Interest)
+retained earning (net profits)
+
+
+
+collateral (cagaran)
+Fixed Deposit
+Cash Deposit
+Property
+Land
+Mortage
+Corporate Guarantee 
+and shares
+
+
+Condition
+ekonomi
+industri
+risk country and geopolitikal
+government policy
+komoditi
+kadar faedah
+
+Contoh Jawapan Interview Yang Lengkap
+
+"When assessing a borrower, I would apply the 5Cs of Credit. First, 
+Character to evaluate management integrity and repayment track record. 
+Second, Capacity to assess whether the company generates sufficient cash flow to service its debt obligations. 
+Third, Capital to understand the financial strength and commitment of shareholders. 
+Fourth, Collateral to determine the secondary source of repayment in the event of default. 
+Finally, Conditions to evaluate industry, economic, country, and geopolitical risks that may impact the borrower's repayment ability.
+
+LGD = EAD * (1 - recovery rate)
+PD = Credit Spread / (1 - recovery rate) credit spread is economic indicator or options trading strategy
+EAD = Outstanding Principal + CCF X (undrawn AMount)
+EIR = [1 + i/n] i is nominol interest rate n is number of compounding period
+
+ECL S2 EIR on gross carrying amount (w.o ecl)
+ECL s3 EIR on amortised cost (with ECL)
+
+______________________________________________________________
+
+
