@@ -90,107 +90,185 @@ proposal5.loc[proposal5.param_code == 'os_sstgst' ,'os_sstgst'] = proposal5.ledg
 proposal5.loc[proposal5.param_code == 'os_yeancb' ,'os_yeancb'] = proposal5.ledger_bal
 
 
-proposal6 = proposal5[['proposal_number'
-      ,'company_no'
-      ,'company_name'
-      ,'ledger_bal'
-      ,'last_modified_date'
-      ,'rm_incharge'
-      ,'approve_status'
-      ,'recommend_status
-      ,'changes_status
-      ,'param_name
-      ,'param_code
-      ,'policy_type
-      ,'datetrans
-      ,'invoice_number
-      ,'debit
-      ,'credit
-      ,'policy_number
-      ,'os_fee
-      ,'os_premium
-      ,'os_sstgst
-      ,'os_yeancb
-      ,'statement_date
-      ,'aging_current
-      ,'aging_30days
-      ,'aging_60days
-      ,'aging_90days'
-      ,'aging_120days'
-      ,'aging_credit']]
+# proposal6 = proposal5[['proposal_number'
+#       ,'company_no'
+#       ,'company_name'
+#       ,'ledger_bal'
+#       ,'last_modified_date'
+#       ,'rm_incharge'
+#       ,'approve_status'
+#       ,'recommend_status
+#       ,'changes_status
+#       ,'param_name
+#       ,'param_code
+#       ,'policy_type
+#       ,'datetrans
+#       ,'invoice_number
+#       ,'debit
+#       ,'credit
+#       ,'policy_number
+#       ,'os_fee
+#       ,'os_premium
+#       ,'os_sstgst
+#       ,'os_yeancb
+#       ,'statement_date
+#       ,'aging_current
+#       ,'aging_30days
+#       ,'aging_60days
+#       ,'aging_90days'
+#       ,'aging_120days'
+#       ,'aging_credit']]
 
-# with proposal1 as (select a.proposal_number,
-#                       a.company_no,
-# 					  c.company_name,
-#                       a.ledger_bal,
-#                       a.last_modified_date,
-#                       a.rm_incharge,
-#                       a.approve_status,
-#                       a.recommend_status,
-#                       a.changes_status,
-# 					  b.status,
-#                       a.policy_type from proposal a
-# 					  left join proposal_status b
-# 					  ON a.proposal_number = b.proposal_number
-# 					  left join prospect c
-# 					  ON a.company_no = c.company_no),
-# ledger1 as (select ledger_id,
-# 					proposal_number,
-# 					datetrans,
-# 					invoice_number,
-# 					policy_number,
-# 					row_number() over (partition by proposal_number order by ledger_id desc) as rn 
-# 					from ledger),
-# ledger2 as (select * from ledger1
-# 					where rn=1),
-# proposal2 as (select a.proposal_number,
-#                       a.company_no,
-# 					  a.company_name,
-#                       a.ledger_bal,
-#                       a.last_modified_date,
-#                       a.rm_incharge,
-#                       a.approve_status,
-#                       a.recommend_status,
-#                       a.changes_status,
-# 					  a.status,
-#                       a.policy_type,
-# 					  b.ledger_id,
-# 					  b.datetrans,
-# 					  b.invoice_number,
-# 					  b.policy_number from proposal1 as a
-# 							left join ledger2 b
-# 							on a.proposal_number = b.proposal_number),
-# invoice1 as (select invoice_number,
-# 					param_oth,
-# 					invoice_amt,
-# 					payment_order,
-# 					ROW_NUMBER() OVER (ORDER BY invoice_number) AS row_id 
-# 					from invoice_split_aging),
-# invoice2 as (select *,
-# 					row_number() over (partition by invoice_number order by row_id desc) as rn
-# 					from invoice1),
-# invoice3 as (select * from invoice2
-# 					where rn = 1),
-# proposal3 as (select a.proposal_number,
-#                       a.company_no,
-# 					  a.company_name,
-#                       a.ledger_bal,
-#                       a.last_modified_date,
-#                       a.rm_incharge,
-#                       a.approve_status,
-#                       a.recommend_status,
-#                       a.changes_status,
-# 					  a.status,
-#                       a.policy_type,
-# 					  a.ledger_id,
-# 					  a.datetrans,
-# 					  a.invoice_number,
-# 					  a.policy_number,
-# 					  b.param_oth,
-# 					  b.invoice_amt,
-# 					  b.payment_order,
-# 					  b.row_id,
-# 					  b.rn from proposal2 a
-# 							left join invoice3 b
-# 							on a.invoice_number = b.invoice_number)
-# select * from proposal3 where invoice_number = 'DN25070002'
+#--------------------------------------------------------------------------------------------------------------
+
+# latest view as of 2025-08-19
+
+ALTER view [dbo].[view_aging_report_proposal] AS
+
+WITH proposal1 AS (
+    SELECT
+        p.proposal_number,
+        p.company_no,
+        p.ledger_bal,
+        p.last_modified_date,
+        p.rm_incharge,
+        p.approve_status,
+        p.recommend_status,
+        p.changes_status,
+        p.policy_type,
+        'testing' as param_code,
+        ps.status as param_name
+    FROM proposal p
+    LEFT JOIN proposal_status ps
+        ON p.proposal_number = ps.proposal_number
+),
+
+proposal3 AS (
+    SELECT
+        p1.proposal_number,
+        p1.company_no,
+        pr.company_name,
+        p1.ledger_bal,
+        p1.last_modified_date,
+        p1.rm_incharge,
+        p1.approve_status,
+        p1.recommend_status,
+        p1.changes_status,
+        p1.param_name,
+        p1.param_code,
+        p1.policy_type
+    FROM proposal1 p1
+    LEFT JOIN prospect pr
+        ON p1.company_no = pr.company_no
+),
+
+invoice_split_aging_pivot AS (
+    SELECT
+        invoice_number,
+        payment_order,
+
+        SUM(CASE WHEN param_oth = 'os_fee' THEN invoice_amt ELSE 0 END) AS os_fee,
+        SUM(CASE WHEN param_oth = 'os_premium' THEN invoice_amt ELSE 0 END) AS os_premium,
+        SUM(CASE WHEN param_oth = 'os_sstgst' THEN invoice_amt ELSE 0 END) AS os_sstgst,
+        SUM(CASE WHEN param_oth = 'os_yeancb' THEN invoice_amt ELSE 0 END) AS os_yeancb
+
+    FROM invoice_split_aging
+    GROUP BY
+        invoice_number,
+        payment_order
+),
+
+invoice_split_aging_pivot1 AS (
+    SELECT
+        invoice_number,
+        SUM(ISNULL(os_fee, 0)) AS os_fee,
+        SUM(ISNULL(os_premium, 0)) AS os_premium,
+        SUM(ISNULL(os_sstgst, 0)) AS os_sstgst,
+        SUM(ISNULL(os_yeancb, 0)) AS os_yeancb
+    FROM invoice_split_aging_pivot
+    GROUP BY invoice_number
+),
+
+ledger_latest AS (
+    SELECT *
+    FROM (
+        SELECT
+            l.*,
+            ROW_NUMBER() OVER (
+                PARTITION BY l.proposal_number
+                ORDER BY l.ledger_id DESC
+            ) AS rn
+        FROM ledger l
+    ) x
+    WHERE rn = 1
+),
+
+ledger_debit AS (
+    SELECT
+        proposal_number,
+        SUM(debit) AS debit,
+        SUM(credit) AS credit,
+		sum(gst_amt) as gst_amt
+    FROM ledger
+    GROUP BY proposal_number
+),
+
+ledger2 AS (
+    SELECT
+        ll.proposal_number,
+        ll.datetrans,
+        ll.invoice_number,
+		ll.policy_number,
+
+        -- include other ledger columns here if needed
+        -- example:
+        -- ll.payment_order,
+        -- ll.description,
+        -- ll.created_date,
+
+        ld.debit,
+        ld.credit,
+		ld.gst_amt
+    FROM ledger_latest ll
+    LEFT JOIN ledger_debit ld
+        ON ll.proposal_number = ld.proposal_number
+),
+combine AS (
+SELECT
+    p3.*,
+    l2.datetrans,
+    l2.invoice_number,
+    l2.debit,
+    l2.credit,
+    l2.policy_number,
+    case when (ledger_bal - (isa.os_fee+isa.os_premium+isa.os_sstgst+isa.os_yeancb)) != 0 then (l2.debit - l2.credit) else isa.os_fee end as os_fee,
+    isa.os_premium,
+    isa.os_sstgst,
+    isa.os_yeancb,
+	EOMONTH(GETDATE(),-1) as statement_date,
+	case when DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 < 30 and ledger_bal >= 0 then ledger_bal else 0 end as aging_current,
+	case when DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 >= 30 and DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 < 60 and ledger_bal >= 0 then ledger_bal else 0 end as aging_30days,
+	case when DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 >= 60 and DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 < 90 and ledger_bal >= 0 then ledger_bal else 0 end as aging_60days,
+	case when DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 >= 90 and DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 < 120  and ledger_bal >= 0 then ledger_bal else 0 end as aging_90days,
+	case when DATEDIFF(DAY,l2.datetrans,EOMONTH(GETDATE(),-1)) - 30 >= 120 and ledger_bal >= 0 then ledger_bal else 0 end as aging_120days,
+	case when ledger_bal < 0 then ledger_bal else 0 end as aging_credit
+    --l2.gst_amt
+	--(l2.debit - l2.credit-p3.ledger_bal) as a,
+	--(ledger_bal - (isa.os_fee+isa.os_premium+isa.os_sstgst+isa.os_yeancb)) as diff
+FROM proposal3 p3
+LEFT JOIN ledger2 l2
+    ON p3.proposal_number = l2.proposal_number
+LEFT JOIN invoice_split_aging_pivot1 isa
+    ON l2.invoice_number = isa.invoice_number
+where l2.policy_number is null and l2.datetrans is not null and p3.ledger_bal != 0
+--and p3.proposal_number in ('P/DCI/00080/2023','P/DCT/00090/2023','P/CPC/00093/2023')
+--order by p3.company_name asc, l2.debit desc;
+) select *,
+(ledger_bal - (os_fee+os_premium+os_sstgst+os_yeancb)) as diff
+from combine
+where (ledger_bal - (os_fee+os_premium+os_sstgst+os_yeancb)) = 0
+GO
+
+
+
+
