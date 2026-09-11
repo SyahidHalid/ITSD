@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>SME Cashflow Simulator</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --panel:#ffffff; --text:#17191d; --muted:#69707d; --border:#dfe3e8;
+    --accent:#f4c400; --accent-dark:#7a6200; --good:#16794b; --warn:#a15c00; --bad:#b42318;
+    --shadow:0 12px 30px rgba(25,30,40,.08);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  .wrap{max-width:1180px;margin:0 auto;padding:28px 18px 56px}
+  .top{display:flex;gap:18px;justify-content:space-between;align-items:flex-start;margin-bottom:22px}
+  h1{font-size:clamp(28px,4vw,44px);line-height:1.02;margin:0 0 8px;letter-spacing:-.03em}
+  .sub{color:var(--muted);max-width:720px;line-height:1.55}
+  .badge{background:#fff7cc;border:1px solid #eddc7a;border-radius:999px;padding:8px 12px;font-weight:700;font-size:12px;white-space:nowrap}
+  .grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(340px,.9fr);gap:18px}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow);padding:20px}
+  .card h2{margin:0 0 6px;font-size:18px}
+  .hint{font-size:13px;color:var(--muted);margin-bottom:18px}
+  .inputs{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .field{min-width:0}
+  label{font-size:12px;font-weight:800;display:block;margin-bottom:7px;color:#3d424a}
+  input,select{width:100%;border:1px solid var(--border);border-radius:12px;padding:12px 12px;font-size:16px;background:#fff;color:var(--text);outline:none}
+  input:focus,select:focus{border-color:#b79d22;box-shadow:0 0 0 3px rgba(244,196,0,.18)}
+  .rangeRow{display:flex;align-items:center;gap:10px}
+  .rangeRow input[type=range]{padding:0;border:0;box-shadow:none}
+  .rangeVal{min-width:64px;text-align:right;font-weight:800;font-size:13px}
+  .sectionTitle{grid-column:1/-1;margin-top:8px;font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);font-weight:900}
+  .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+  button{border:0;border-radius:12px;min-height:44px;padding:0 15px;font-size:14px;font-weight:800;cursor:pointer}
+  .primary{background:var(--accent);color:#1d1a00}
+  .secondary{background:#f0f2f4;color:#23262b}
+  .scenario{background:#fff;border:1px solid var(--border)}
+  .scorePanel{display:grid;grid-template-columns:150px 1fr;gap:20px;align-items:center}
+  .ring{width:146px;height:146px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--accent) 0deg,#e8ebef 0deg);position:relative}
+  .ring:after{content:"";width:112px;height:112px;border-radius:50%;background:#fff;position:absolute}
+  .ringText{position:relative;z-index:2;text-align:center}
+  .score{font-size:38px;font-weight:900;line-height:1}
+  .score small{font-size:14px;color:var(--muted)}
+  .grade{font-weight:900;margin-top:4px}
+  .status{font-size:18px;font-weight:900;margin-bottom:6px}
+  .statusText{color:var(--muted);font-size:13px;line-height:1.5}
+  .metrics{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:18px}
+  .metric{border:1px solid var(--border);border-radius:14px;padding:12px}
+  .metric .k{font-size:11px;color:var(--muted);font-weight:800;text-transform:uppercase;letter-spacing:.07em}
+  .metric .v{font-size:20px;font-weight:900;margin-top:3px}
+  .metric .n{font-size:11px;color:var(--muted);margin-top:3px}
+  .wide{grid-column:1/-1}
+  .chartBox{overflow-x:auto}
+  svg{width:100%;min-width:700px;height:300px;display:block}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:8px}
+  .dot{display:inline-block;width:9px;height:9px;border-radius:99px;margin-right:5px}
+  .insights{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  .insight{border-radius:14px;padding:14px;border:1px solid var(--border);background:#fafbfc}
+  .insight strong{display:block;margin-bottom:5px}
+  .insight p{margin:0;color:var(--muted);font-size:13px;line-height:1.45}
+  .footer{font-size:11px;color:var(--muted);margin-top:18px;line-height:1.5}
+  .error{display:none;background:#fff0ee;color:#8f1d15;border:1px solid #f1b3ad;border-radius:12px;padding:10px 12px;font-size:13px;margin-bottom:14px}
+  @media(max-width:880px){.grid{grid-template-columns:1fr}.top{flex-direction:column}.scorePanel{grid-template-columns:130px 1fr}.ring{width:126px;height:126px}.ring:after{width:96px;height:96px}.inputs{grid-template-columns:1fr}.insights{grid-template-columns:1fr}}
+  @media(max-width:520px){.scorePanel{grid-template-columns:1fr}.ring{margin:auto}.metrics{grid-template-columns:1fr}.wrap{padding:18px 12px 38px}.card{padding:16px;border-radius:16px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <h1>SME Cashflow Simulator</h1>
+      <div class="sub">Test how sales, expenses, collections and financing affect monthly cash position. Designed as a simple “what-if” tool for SME owners before they approach financing.</div>
+    </div>
+    <div class="badge">12-Month Projection</div>
+  </div>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Your business assumptions</h2>
+      <div class="hint">Adjust the figures. Results update automatically.</div>
+      <div id="error" class="error"></div>
+      <div class="inputs">
+        <div class="sectionTitle">Operations</div>
+        <div class="field">
+          <label for="revenue">Average monthly sales (RM)</label>
+          <input id="revenue" type="number" min="0" step="1000" value="120000">
+        </div>
+        <div class="field">
+          <label for="startingCash">Starting cash balance (RM)</label>
+          <input id="startingCash" type="number" min="0" step="1000" value="80000">
+        </div>
+        <div class="field">
+          <label for="cogs">Cost of goods / variable cost (%)</label>
+          <div class="rangeRow"><input id="cogs" type="range" min="0" max="95" value="55"><div id="cogsVal" class="rangeVal">55%</div></div>
+        </div>
+        <div class="field">
+          <label for="fixed">Fixed operating expenses / month (RM)</label>
+          <input id="fixed" type="number" min="0" step="500" value="32000">
+        </div>
+        <div class="field">
+          <label for="growth">Monthly sales growth (%)</label>
+          <div class="rangeRow"><input id="growth" type="range" min="-20" max="20" step="0.5" value="2"><div id="growthVal" class="rangeVal">2.0%</div></div>
+        </div>
+        <div class="field">
+          <label for="collection">Average collection period (days)</label>
+          <div class="rangeRow"><input id="collection" type="range" min="0" max="90" step="5" value="30"><div id="collectionVal" class="rangeVal">30 days</div></div>
+        </div>
+        <div class="field">
+          <label for="existingDebt">Existing monthly debt commitments (RM)</label>
+          <input id="existingDebt" type="number" min="0" step="500" value="8000">
+        </div>
+        <div class="field">
+          <label for="taxReserve">Tax / statutory reserve (% of operating profit)</label>
+          <div class="rangeRow"><input id="taxReserve" type="range" min="0" max="30" value="10"><div id="taxReserveVal" class="rangeVal">10%</div></div>
+        </div>
+
+        <div class="sectionTitle">Proposed financing</div>
+        <div class="field">
+          <label for="loanAmount">Financing amount (RM)</label>
+          <input id="loanAmount" type="number" min="0" step="5000" value="200000">
+        </div>
+        <div class="field">
+          <label for="rate">Indicative annual rate (%)</label>
+          <input id="rate" type="number" min="0" max="50" step="0.1" value="6.5">
+        </div>
+        <div class="field">
+          <label for="tenure">Tenure (years)</label>
+          <select id="tenure">
+            <option value="1">1 year</option>
+            <option value="2">2 years</option>
+            <option value="3">3 years</option>
+            <option value="5" selected>5 years</option>
+            <option value="7">7 years</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="useOfFunds">Use of financing</label>
+          <select id="useOfFunds">
+            <option>Working capital</option>
+            <option>Equipment / machinery</option>
+            <option>Business expansion</option>
+            <option>Digitalisation</option>
+            <option>Refinancing</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button class="primary" id="baseline" type="button">Baseline</button>
+        <button class="scenario" id="salesDrop" type="button">Stress: Sales −15%</button>
+        <button class="scenario" id="costUp" type="button">Stress: Costs +10%</button>
+        <button class="scenario" id="latePay" type="button">Stress: Collection +30 days</button>
+        <button class="secondary" id="reset" type="button">Reset</button>
+      </div>
+    </section>
+
+    <aside class="card">
+      <h2>Cashflow Health Score</h2>
+      <div class="hint">Indicative score based on liquidity, debt servicing and cash resilience.</div>
+      <div class="scorePanel">
+        <div class="ring" id="ring">
+          <div class="ringText">
+            <div class="score"><span id="score">0</span><small>/100</small></div>
+            <div class="grade" id="grade">—</div>
+          </div>
+        </div>
+        <div>
+          <div class="status" id="status">Calculating…</div>
+          <div class="statusText" id="statusText"></div>
+        </div>
+      </div>
+      <div class="metrics">
+        <div class="metric"><div class="k">Monthly net cashflow</div><div class="v" id="netCash">RM0</div><div class="n">Month 1, after financing instalment</div></div>
+        <div class="metric"><div class="k">Proposed instalment</div><div class="v" id="instalment">RM0</div><div class="n">Indicative monthly repayment</div></div>
+        <div class="metric"><div class="k">DSCR</div><div class="v" id="dscr">0.00×</div><div class="n">Operating cash available ÷ debt service</div></div>
+        <div class="metric"><div class="k">Lowest cash balance</div><div class="v" id="minCash">RM0</div><div class="n">Across the 12-month projection</div></div>
+        <div class="metric"><div class="k">Break-even sales</div><div class="v" id="breakEven">RM0</div><div class="n">Approx. monthly sales needed</div></div>
+        <div class="metric"><div class="k">Cash runway</div><div class="v" id="runway">—</div><div class="n">If Month 1 net cashflow is negative</div></div>
+      </div>
+    </aside>
+
+    <section class="card wide">
+      <h2>12-month cash position</h2>
+      <div class="hint">Projected closing cash balance after operating costs, debt obligations and collection timing.</div>
+      <div class="chartBox"><svg id="chart" viewBox="0 0 900 300" role="img" aria-label="12 month projected cash balance chart"></svg></div>
+      <div class="legend"><span><i class="dot" style="background:#20242a"></i>Closing cash balance</span><span><i class="dot" style="background:#b42318"></i>RM0 threshold</span></div>
+    </section>
+
+    <section class="card wide">
+      <h2>What the numbers are telling you</h2>
+      <div class="hint">These pointers change with your assumptions.</div>
+      <div class="insights">
+        <div class="insight"><strong id="i1t">Liquidity</strong><p id="i1"></p></div>
+        <div class="insight"><strong id="i2t">Debt capacity</strong><p id="i2"></p></div>
+        <div class="insight"><strong id="i3t">Action</strong><p id="i3"></p></div>
+      </div>
+      <div class="footer">This simulator is an educational and planning tool only. It is not a credit decision, financing approval, financial advice, or a representation of any bank's underwriting policy. Actual eligibility depends on verified financial statements, bank statements, credit profile, industry, collateral/security requirements and the financier's internal assessment.</div>
+    </section>
+  </div>
+</div>
+
+<script>
+(function(){
+  const $ = id => document.getElementById(id);
+  const ids = ['revenue','startingCash','cogs','fixed','growth','collection','existingDebt','taxReserve','loanAmount','rate','tenure','useOfFunds'];
+  const defaults = {revenue:120000,startingCash:80000,cogs:55,fixed:32000,growth:2,collection:30,existingDebt:8000,taxReserve:10,loanAmount:200000,rate:6.5,tenure:5,useOfFunds:'Working capital'};
+  const state = {scenario:'baseline'};
+
+  function val(id){ return Number($(id).value)||0; }
+  function fmt(n){
+    const sign=n<0?'-':'';
+    return sign+'RM'+Math.abs(n).toLocaleString('en-MY',{maximumFractionDigits:0});
+  }
+  function clamp(n,a,b){ return Math.min(b,Math.max(a,n)); }
+
+  function payment(principal, annualRate, years){
+    if(principal<=0 || years<=0) return 0;
+    const n=years*12, r=annualRate/100/12;
+    if(r===0) return principal/n;
+    return principal*r*Math.pow(1+r,n)/(Math.pow(1+r,n)-1);
+  }
+
+  function collectFactor(days){
+    // Simple planning approximation: 0 days = 100% current-month cash collection;
+    // 90 days = 25% current-month collection, remainder rolls into later months.
+    return clamp(1-(days/120),0.25,1);
+  }
+
+  function calculate(){
+    $('error').style.display='none';
+    let revenue=Math.max(0,val('revenue'));
+    let startingCash=Math.max(0,val('startingCash'));
+    let cogs=clamp(val('cogs'),0,95)/100;
+    let fixed=Math.max(0,val('fixed'));
+    let growth=clamp(val('growth'),-20,20)/100;
+    let collection=clamp(val('collection'),0,90);
+    let existingDebt=Math.max(0,val('existingDebt'));
+    let taxReserve=clamp(val('taxReserve'),0,30)/100;
+    let loanAmount=Math.max(0,val('loanAmount'));
+    let rate=clamp(val('rate'),0,50);
+    let tenure=Math.max(1,val('tenure'));
+
+    if(state.scenario==='salesDrop') revenue*=0.85;
+    if(state.scenario==='costUp'){ cogs=clamp(cogs*1.10,0,.95); fixed*=1.10; }
+    if(state.scenario==='latePay') collection=clamp(collection+30,0,90);
+
+    const instal=payment(loanAmount,rate,tenure);
+    const collect=collectFactor(collection);
+    let opening=startingCash+loanAmount;
+    const months=[];
+    let priorUncollected=0;
+
+    for(let m=1;m<=12;m++){
+      const sales=revenue*Math.pow(1+growth,m-1);
+      const currentCollected=sales*collect;
+      const lagRelease=priorUncollected*(1/Math.max(1,Math.ceil(collection/30)));
+      const cashIn=currentCollected+lagRelease;
+      priorUncollected=Math.max(0,priorUncollected + sales-currentCollected-lagRelease);
+
+      const variable=sales*cogs;
+      const opProfit=sales-variable-fixed;
+      const reserve=Math.max(0,opProfit*taxReserve);
+      const cashOut=variable+fixed+reserve+existingDebt+instal;
+      const net=cashIn-cashOut;
+      const closing=opening+net;
+      months.push({m,sales,cashIn,cashOut,net,closing,opProfit});
+      opening=closing;
+    }
+
+    const month1=months[0];
+    const operatingCashAvail=Math.max(0, month1.cashIn - month1.sales*cogs - fixed - Math.max(0,month1.opProfit*taxReserve));
+    const debtService=existingDebt+instal;
+    const dscr=debtService>0?operatingCashAvail/debtService:5;
+    const minCash=Math.min(...months.map(x=>x.closing));
+    const contributionMargin=1-cogs;
+    const breakEven=contributionMargin>0?(fixed+existingDebt+instal)/contributionMargin:0;
+    const runway=month1.net<0 ? startingCash/Math.abs(month1.net) : Infinity;
+
+    let score=100;
+    if(month1.net<0) score-=25;
+    if(minCash<0) score-=30; else if(minCash < fixed*1.5) score-=12;
+    if(dscr<1) score-=30; else if(dscr<1.25) score-=18; else if(dscr<1.5) score-=8;
+    const bufferMonths=fixed>0?startingCash/fixed:12;
+    if(bufferMonths<1) score-=15; else if(bufferMonths<2) score-=8;
+    if(collection>60) score-=8; else if(collection>30) score-=4;
+    if(revenue<breakEven) score-=12;
+    score=Math.round(clamp(score,0,100));
+
+    let grade,status,statusText;
+    if(score>=80){grade='Strong';status='Healthy cashflow position';statusText='The business appears resilient under the current assumptions, with stronger capacity to absorb financing commitments.'}
+    else if(score>=65){grade='Moderate';status='Generally manageable';statusText='Cashflow is workable, but there are a few pressure points worth improving before taking on more debt.'}
+    else if(score>=45){grade='Watch';status='Cashflow needs attention';statusText='The projection shows limited headroom. Improve collections, margins or operating costs before increasing commitments.'}
+    else{grade='High Risk';status='Cashflow pressure detected';statusText='The current assumptions indicate material liquidity or debt-servicing stress. Financing may worsen the position without corrective action.'}
+
+    $('score').textContent=score;
+    $('grade').textContent=grade;
+    $('status').textContent=status;
+    $('statusText').textContent=statusText;
+    $('ring').style.background=`conic-gradient(var(--accent) ${score*3.6}deg,#e8ebef 0deg)`;
+    $('netCash').textContent=fmt(month1.net);
+    $('instalment').textContent=fmt(instal);
+    $('dscr').textContent=(Math.min(dscr,9.99)).toFixed(2)+'×';
+    $('minCash').textContent=fmt(minCash);
+    $('breakEven').textContent=fmt(breakEven);
+    $('runway').textContent=Number.isFinite(runway)?(runway.toFixed(1)+' months'):'Positive';
+
+    $('i1').textContent = minCash<0
+      ? `Cash falls below zero during the projection. The lowest point is ${fmt(minCash)}.`
+      : `The business stays cash-positive, with a lowest projected balance of ${fmt(minCash)}.`;
+
+    $('i2').textContent = dscr<1
+      ? `DSCR is ${dscr.toFixed(2)}×, meaning projected operating cash does not fully cover monthly debt service.`
+      : dscr<1.25
+        ? `DSCR is ${dscr.toFixed(2)}×. Debt is covered, but the buffer is relatively thin.`
+        : `DSCR is ${dscr.toFixed(2)}×, giving better headroom for monthly debt commitments.`;
+
+    let action='';
+    if(collection>45) action='Shorten customer collection days or request deposits/upfront payment to release trapped cash.';
+    else if(revenue<breakEven) action=`Monthly sales need to move toward approximately ${fmt(breakEven)} to cover the current cost and debt structure.`;
+    else if(dscr<1.25) action='Consider a lower financing amount, longer tenure, or reducing existing monthly commitments.';
+    else if(startingCash < fixed*2) action='Build a cash buffer of at least 2 months of fixed expenses for stronger resilience.';
+    else action='Run the stress scenarios to test whether the business remains healthy if sales fall or collections slow.';
+    $('i3').textContent=action;
+
+    drawChart(months);
+  }
+
+  function drawChart(months){
+    const svg=$('chart');
+    const W=900,H=300,p={l:72,r:24,t:18,b:48};
+    const vals=months.map(d=>d.closing);
+    let min=Math.min(0,...vals), max=Math.max(0,...vals);
+    if(max===min){max=min+1}
+    const pad=(max-min)*0.12 || 1;
+    max+=pad; min-=pad;
+    const x=i=>p.l+i*(W-p.l-p.r)/(months.length-1);
+    const y=v=>p.t+(max-v)*(H-p.t-p.b)/(max-min);
+    const zeroY=y(0);
+    let path='';
+    months.forEach((d,i)=>{path+=(i?'L':'M')+x(i).toFixed(1)+','+y(d.closing).toFixed(1)+' '});
+    const ticks=4;
+    let g='';
+    for(let i=0;i<=ticks;i++){
+      const v=max-(max-min)*(i/ticks), yy=y(v);
+      g+=`<line x1="${p.l}" x2="${W-p.r}" y1="${yy}" y2="${yy}" stroke="#e6e9ed" stroke-width="1"/>`;
+      g+=`<text x="${p.l-10}" y="${yy+4}" text-anchor="end" font-size="11" fill="#747b86">${compact(v)}</text>`;
+    }
+    g+=`<line x1="${p.l}" x2="${W-p.r}" y1="${zeroY}" y2="${zeroY}" stroke="#b42318" stroke-width="1.5" stroke-dasharray="5 5"/>`;
+    g+=`<path d="${path}" fill="none" stroke="#20242a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>`;
+    months.forEach((d,i)=>{
+      g+=`<circle cx="${x(i)}" cy="${y(d.closing)}" r="4.5" fill="#f4c400" stroke="#20242a" stroke-width="1.5"><title>Month ${d.m}: ${fmt(d.closing)}</title></circle>`;
+      g+=`<text x="${x(i)}" y="${H-20}" text-anchor="middle" font-size="11" fill="#747b86">M${d.m}</text>`;
+    });
+    svg.innerHTML=g;
+  }
+
+  function compact(v){
+    const a=Math.abs(v), s=v<0?'-':'';
+    if(a>=1000000) return s+'RM'+(a/1000000).toFixed(1)+'m';
+    if(a>=1000) return s+'RM'+(a/1000).toFixed(0)+'k';
+    return s+'RM'+a.toFixed(0);
+  }
+
+  function setScenario(s){
+    state.scenario=s;
+    document.querySelectorAll('.scenario,.primary').forEach(b=>b.style.outline='none');
+    calculate();
+  }
+
+  $('baseline').addEventListener('click',()=>setScenario('baseline'));
+  $('salesDrop').addEventListener('click',()=>setScenario('salesDrop'));
+  $('costUp').addEventListener('click',()=>setScenario('costUp'));
+  $('latePay').addEventListener('click',()=>setScenario('latePay'));
+  $('reset').addEventListener('click',()=>{
+    Object.entries(defaults).forEach(([k,v])=>{$(k).value=v;});
+    state.scenario='baseline';
+    syncRanges();
+    calculate();
+  });
+
+  function syncRanges(){
+    $('cogsVal').textContent=Number($('cogs').value).toFixed(0)+'%';
+    $('growthVal').textContent=Number($('growth').value).toFixed(1)+'%';
+    $('collectionVal').textContent=$('collection').value+' days';
+    $('taxReserveVal').textContent=$('taxReserve').value+'%';
+  }
+
+  ids.forEach(id=>$(id).addEventListener('input',()=>{syncRanges();calculate();}));
+  syncRanges();
+  calculate();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,1561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Group CCPT Assessment</title>
+
+    <style>
+
+        /* =================================================
+           GLOBAL
+        ================================================= */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #ffffff;
+            color: #111;
+        }
+
+
+        /* =================================================
+           FULL PAGE
+        ================================================= */
+
+        .page {
+            width: 100%;
+            min-height: 100vh;
+
+            /* No outer border */
+            border: none;
+
+            /* No card/shadow effect */
+            box-shadow: none;
+
+            background: #ffffff;
+
+            padding:
+                25px
+                clamp(30px, 7vw, 130px)
+                60px;
+        }
+
+
+        /* =================================================
+           HEADER
+        ================================================= */
+
+        .header {
+            position: relative;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            min-height: 85px;
+
+            margin-bottom: 10px;
+        }
+
+
+        /* BPMB Logo */
+
+        .logo-container {
+            position: absolute;
+            left: 0;
+            top: 50%;
+
+            transform: translateY(-50%);
+
+            display: flex;
+            align-items: center;
+        }
+
+
+        .bpmb-logo {
+            width: 125px;
+            height: auto;
+
+            display: block;
+
+            object-fit: contain;
+        }
+
+
+        /* Main Title */
+
+        .title {
+            width: 100%;
+
+            text-align: center;
+
+            font-size: 26px;
+            font-weight: 700;
+
+            color: #000;
+        }
+
+
+        /* =================================================
+           SECTION TITLE
+        ================================================= */
+
+        .section-title {
+            width: min(850px, 85%);
+
+            margin:
+                5px auto
+                35px;
+
+            padding: 5px 15px;
+
+            border: 2px solid #111;
+
+            text-align: center;
+
+            font-size: 21px;
+            font-weight: bold;
+        }
+
+
+        /* =================================================
+           FORM CONTAINER
+        ================================================= */
+
+        .form-container {
+            width: min(1100px, 100%);
+            margin: 0 auto;
+        }
+
+
+        /* =================================================
+           FORM ROW
+        ================================================= */
+
+        .form-row {
+            display: grid;
+
+            grid-template-columns:
+                minmax(180px, 260px)
+                minmax(300px, 1fr);
+
+            align-items: stretch;
+        }
+
+
+        /* Label */
+
+        .field-label {
+            display: flex;
+            align-items: center;
+
+            padding: 8px 15px 8px 5px;
+
+            font-size: 13px;
+            font-weight: bold;
+
+            line-height: 1.2;
+        }
+
+
+        /* Input cell */
+
+        .field-box {
+            min-height: 36px;
+
+            border:
+                1px solid #333;
+
+            border-bottom: none;
+
+            background: #fff;
+        }
+
+
+        .form-row:last-child .field-box {
+            border-bottom: 1px solid #333;
+        }
+
+
+        /* =================================================
+           INPUTS
+        ================================================= */
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            height: 100%;
+
+            min-height: 35px;
+
+            border: none;
+
+            padding: 7px 10px;
+
+            background: transparent;
+
+            font-family:
+                Arial,
+                Helvetica,
+                sans-serif;
+
+            font-size: 12px;
+
+            outline: none;
+        }
+
+
+        textarea {
+            min-height: 60px;
+
+            resize: vertical;
+
+            line-height: 1.4;
+        }
+
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            background: #fffbea;
+
+            box-shadow:
+                inset 0 0 0 2px #ffc400;
+        }
+
+
+        /* =================================================
+           BLUE INPUT CELLS
+        ================================================= */
+
+        .blue-field {
+            background: #003b80;
+        }
+
+
+        .blue-field select {
+            background: #003b80;
+
+            color: #ffffff;
+
+            font-weight: bold;
+
+            text-align: center;
+        }
+
+
+        .blue-field option {
+            background: #ffffff;
+
+            color: #111;
+        }
+
+
+        /* =================================================
+           GREY FIELD
+        ================================================= */
+
+        .grey-field {
+            background: #d2d2d2;
+        }
+
+
+        .grey-field select {
+            text-align: center;
+        }
+
+
+        /* =================================================
+           READ ONLY OUTPUT
+        ================================================= */
+
+        .readonly-field {
+            background: #f5f5f5;
+        }
+
+
+        .readonly-field input {
+            color: #333;
+            font-weight: 600;
+        }
+
+
+        /* =================================================
+           CONDITIONAL FIELD
+        ================================================= */
+
+        #otherSectorRow {
+            display: none;
+        }
+
+
+        /* =================================================
+           APPROVAL SECTION
+        ================================================= */
+
+        .approval-section {
+
+            width: min(1100px, 100%);
+
+            margin:
+                30px auto 0;
+
+            border: 2px solid #111;
+        }
+
+
+        .approval-top {
+            display: grid;
+
+            grid-template-columns:
+                1fr 2fr;
+
+            min-height: 95px;
+        }
+
+
+        .approval-cell {
+            position: relative;
+
+            padding: 7px;
+
+            border-right:
+                1px solid #111;
+        }
+
+
+        .approval-cell:last-child {
+            border-right: none;
+        }
+
+
+        .approval-heading {
+            color: #0047d7;
+
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+
+        .approval-cell input,
+        .endorsement input {
+            margin-top: 7px;
+
+            height: 30px;
+            min-height: 30px;
+
+            border-bottom:
+                1px dotted #aaa;
+        }
+
+
+        .approval-role {
+            position: absolute;
+
+            left: 7px;
+            bottom: 20px;
+
+            font-size: 10px;
+        }
+
+
+        .approval-date {
+            position: absolute;
+
+            left: 7px;
+            bottom: 4px;
+
+            color: #0047d7;
+
+            font-size: 10px;
+        }
+
+
+        /* =================================================
+           ENDORSEMENT
+        ================================================= */
+
+        .endorsement {
+            position: relative;
+
+            min-height: 125px;
+
+            padding: 7px;
+
+            border-top:
+                1px solid #111;
+        }
+
+
+        .endorsement-title {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+
+        .endorsement-role {
+            position: absolute;
+
+            left: 7px;
+            bottom: 19px;
+
+            font-size: 10px;
+        }
+
+
+        .endorsement-date {
+            position: absolute;
+
+            left: 7px;
+            bottom: 3px;
+
+            color: #0047d7;
+
+            font-size: 10px;
+        }
+
+
+        /* =================================================
+           BUTTONS
+        ================================================= */
+
+        .button-area {
+            width: min(1100px, 100%);
+
+            margin:
+                25px auto 0;
+
+            display: flex;
+
+            justify-content: flex-end;
+
+            gap: 12px;
+        }
+
+
+        button {
+            min-width: 130px;
+
+            border: none;
+
+            border-radius: 4px;
+
+            padding: 11px 20px;
+
+            cursor: pointer;
+
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+
+        .btn-reset {
+            background: #e1e4e8;
+
+            color: #222;
+        }
+
+
+        .btn-reset:hover {
+            background: #ced3d8;
+        }
+
+
+        .btn-save {
+            background: #003b80;
+
+            color: #ffffff;
+        }
+
+
+        .btn-save:hover {
+            background: #00295b;
+        }
+
+
+        /* =================================================
+           MESSAGE
+        ================================================= */
+
+        #message {
+            width: min(1100px, 100%);
+
+            margin:
+                18px auto 0;
+
+            padding: 12px 15px;
+
+            display: none;
+
+            border-radius: 4px;
+
+            font-size: 13px;
+        }
+
+
+        .success {
+            display: block !important;
+
+            background: #e8f5e9;
+
+            color: #175c23;
+
+            border:
+                1px solid #66a870;
+        }
+
+
+        /* =================================================
+           RESPONSIVE
+        ================================================= */
+
+        @media (max-width: 800px) {
+
+            .page {
+                padding:
+                    15px
+                    20px
+                    40px;
+            }
+
+
+            .header {
+                min-height: 75px;
+
+                justify-content:
+                    flex-end;
+            }
+
+
+            .logo-container {
+                left: 0;
+            }
+
+
+            .bpmb-logo {
+                width: 90px;
+            }
+
+
+            .title {
+                font-size: 20px;
+
+                padding-left: 100px;
+            }
+
+
+            .section-title {
+                width: 100%;
+
+                font-size: 18px;
+
+                margin-top: 15px;
+            }
+
+
+            .form-row {
+                grid-template-columns: 1fr;
+
+                margin-bottom: 10px;
+            }
+
+
+            .field-label {
+                padding:
+                    7px 3px;
+            }
+
+
+            .field-box {
+                border-bottom:
+                    1px solid #333;
+            }
+
+
+            .approval-top {
+                grid-template-columns: 1fr;
+            }
+
+
+            .approval-cell {
+                min-height: 100px;
+
+                border-right: none;
+
+                border-bottom:
+                    1px solid #111;
+            }
+
+        }
+
+
+        /* =================================================
+           PHONE
+        ================================================= */
+
+        @media (max-width: 480px) {
+
+            .header {
+                flex-direction: column;
+
+                justify-content: center;
+
+                padding-top: 75px;
+            }
+
+
+            .logo-container {
+                top: 0;
+                left: 50%;
+
+                transform:
+                    translateX(-50%);
+            }
+
+
+            .bpmb-logo {
+                width: 105px;
+            }
+
+
+            .title {
+                padding-left: 0;
+
+                font-size: 19px;
+            }
+
+
+            .button-area {
+                flex-direction: column;
+            }
+
+
+            button {
+                width: 100%;
+            }
+
+        }
+
+
+        /* =================================================
+           PRINT
+        ================================================= */
+
+        @media print {
+
+            body {
+                background: #fff;
+            }
+
+
+            .page {
+                padding:
+                    10px 20px;
+
+                width: 100%;
+
+                min-height: auto;
+            }
+
+
+            .button-area,
+            #message {
+                display:
+                    none !important;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<div class="page">
+
+
+    <!-- ==============================================
+         HEADER
+    =============================================== -->
+
+    <header class="header">
+
+        <div class="logo-container">
+
+  
+
+        </div>
+
+
+        <div class="title">
+
+            Group CCPT Assessment
+
+        </div>
+
+    </header>
+
+
+    <div class="section-title">
+
+        Summary of Application
+
+    </div>
+
+
+
+    <!-- ==============================================
+         FORM
+    =============================================== -->
+
+    <form id="ccptForm">
+
+
+        <div class="form-container">
+
+
+            <!-- CUSTOMER NAME -->
+
+            <div class="form-row">
+
+                <label
+                    class="field-label"
+                    for="customerName">
+
+                    Customer Name:
+
+                </label>
+
+                <div class="field-box">
+
+                    <input
+                        id="customerName"
+                        name="customerName"
+                        type="text"
+                        value="Astalavista Berhad"
+                        required>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CIF NUMBER -->
+
+            <div class="form-row">
+
+                <label
+                    class="field-label"
+                    for="cif">
+
+                    CIF Number:
+
+                </label>
+
+                <div class="field-box">
+
+                    <input
+                        id="cif"
+                        name="cif"
+                        type="text"
+                        value="EXIM00200"
+                        required>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ACCOUNT -->
+
+            <div class="form-row">
+
+                <label
+                    class="field-label"
+                    for="accountNo">
+
+                    Customer Account No:
+
+                </label>
+
+                <div class="field-box">
+
+                    <input
+                        id="accountNo"
+                        name="accountNo"
+                        type="text"
+                        value="12131212">
+
+                </div>
+
+            </div>
+
+
+
+            <!-- BNM SECTOR -->
+
+            <div class="form-row">
+
+                <label
+                    class="field-label"
+                    for="bnmSector">
+
+                    Customer BNM Sector:
+
+                </label>
+
+                <div class="field-box blue-field">
+
+                    <select
+                        id="bnmSector"
+                        name="bnmSector"
+                        onchange="sectorChanged()"
+                        required>
+
+                        <option value="">
+                            Please select
+                        </option>
+
+                        <option>
+                            Real Estate (Commercial and Residential)
+                        </option>
+
+                        <option>
+                            Electricity, Gas, Steam and Air Conditioning Supply
+                        </option>
+
+                        <option>
+                            Transportation and Storage
+                        </option>
+
+                        <option>
+                            Manufacturing
+                        </option>
+
+                        <option>
+                            Water Supply; Sewerage, Waste Management and Remediation Activities
+                        </option>
+
+                        <option>
+                            Agriculture, Forestry and Fishing
+                        </option>
+
+                        <option selected>
+                            Others (Please specify)
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- OTHER SECTOR -->
+
+            <div
+                class="form-row"
+                id="otherSectorRow">
+
+                <label
+                    class="field-label"
+                    for="otherSector">
+
+                    Specify Sector:
+
+                </label>
+
+                <div class="field-box">
+
+                    <input
+                        id="otherSector"
+                        name="otherSector"
+                        type="text"
+                        placeholder="Please specify the BNM sector">
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PRINCIPAL ACTIVITIES -->
+
+            <div class="form-row">
+
+                <label
+                    class="field-label"
+                    for="principalActivities">
+
+                    Principal Activities:
+
+                </label>
+
+                <div class="field-box">
+
+                    <textarea
+                        id="principalActivities"
+                        name="principalActivities"
+                    >Engaged in the supply of healthcare and related products and services to hospitals, healthcare centers, and pharmacies in Malaysia and internationally.</textarea>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- LOCATION -->
+
+            <div class="form-row">
+
+                <label
+                    class="field-label"
+                    for="businessLocation">
+
+                    Business Location:
+
+                </label>
+
+                <div class="field-box">
+
+                    <input
+                        id="businessLocation"
+                        name="businessLocation"
+                        type="text"
+                        value="3 Church Street, #18-01, Samsung Hub, Singapore 049483">
+
+                </div>
+
+            </div>
+
+
+
+            <!-- FINANCING TYPE -->
+
+            <div class="form-row">
+
+                <label
+                    class="field-label"
+                    for="financingType">
+
+                    Type of Financing:
+
+                </label>
+
+                <div class="field-box blue-field">
+
+                    <select
+                        id="financingType"
+                        name="financingType">
+
+                        <option value="">
+                            Please select
+                        </option>
+
+                        <option selected>
+                            Islamic
+                        </option>
+
+                        <option>
+                            Conventional
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PURPOSE -->
+
+            <div class="form-row">
+
+                <label
+                    class="field-label"
+                    for="purpose">
+
+                    Purpose of Financing:
+
+                </label>
+
+                <div class="field-box">
+
+                    <textarea
+                        id="purpose"
+                        name="purpose"
+                    >a) To part finance investment of Adventa in Indonesia.
+b) To redeem financial of HSBC Indonesia.</textarea>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- TYPE OF ASSESSMENT -->
+
+            <div class="form-row">
+
+                <label
+                    class="field-label"
+                    for="assessmentType">
+
+                    Type of CCPT Assessment:
+
+                </label>
+
+                <div class="field-box grey-field">
+
+                    <select
+                        id="assessmentType"
+                        name="assessmentType">
+
+                        <option selected>
+                            New Application
+                        </option>
+
+                        <option>
+                            Annual Review
+                        </option>
+
+                        <option>
+                            Additional
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ESG -->
+
+            <div class="form-row">
+
+                <label
+                    class="field-label"
+                    for="esg">
+
+                    ESG
+
+                </label>
+
+                <div class="field-box readonly-field">
+
+                    <input
+                        id="esg"
+                        name="esg"
+                        type="text"
+                        placeholder="Assessment result"
+                        readonly>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- GREEN PURE PLAY COMPANY -->
+
+            <div class="form-row">
+
+                <label
+                    class="field-label"
+                    for="greenCompany">
+
+                    Green Pure-Play Company
+
+                </label>
+
+                <div class="field-box">
+
+                    <select
+                        id="greenCompany"
+                        name="greenCompany"
+                        onchange="greenCompanyChanged()">
+
+                        <option value="">
+                            Please select
+                        </option>
+
+                        <option value="Yes">
+                            Yes
+                        </option>
+
+                        <option value="No">
+                            No
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- GREEN PURE PLAY INDUSTRY -->
+
+            <div class="form-row">
+
+                <label
+                    class="field-label"
+                    for="greenIndustry">
+
+                    Green Pure-Play Industry
+
+                </label>
+
+                <div class="field-box">
+
+                    <input
+                        id="greenIndustry"
+                        name="greenIndustry"
+                        type="text"
+                        placeholder="Specify industry">
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CCPT -->
+
+            <div class="form-row">
+
+                <label
+                    class="field-label"
+                    for="ccpt">
+
+                    CCPT
+
+                </label>
+
+                <div class="field-box readonly-field">
+
+                    <input
+                        id="ccpt"
+                        name="ccpt"
+                        type="text"
+                        placeholder="CCPT classification"
+                        readonly>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CORPORATE STATUS -->
+
+            <div class="form-row">
+
+                <label
+                    class="field-label"
+                    for="corporateStatus">
+
+                    Corporate Status
+
+                </label>
+
+                <div class="field-box">
+
+                    <select
+                        id="corporateStatus"
+                        name="corporateStatus">
+
+                        <option value="">
+                            Please select
+                        </option>
+
+                        <option>
+                            Active
+                        </option>
+
+                        <option>
+                            Existing
+                        </option>
+
+                        <option>
+                            New
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- ==============================================
+             APPROVAL
+        =============================================== -->
+
+        <div class="approval-section">
+
+
+            <div class="approval-top">
+
+
+                <!-- PREPARED -->
+
+                <div class="approval-cell">
+
+                    <div class="approval-heading">
+
+                        Prepared by:
+
+                    </div>
+
+                    <input
+                        type="text"
+                        name="preparedBy"
+                        placeholder="Enter name">
+
+                    <div class="approval-role">
+
+                        Relationship Manager
+
+                    </div>
+
+                    <div class="approval-date">
+
+                        Date:
+                        <span id="preparedDate"></span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- REVIEWED -->
+
+                <div class="approval-cell">
+
+                    <div class="approval-heading">
+
+                        Reviewed by:
+
+                    </div>
+
+                    <input
+                        type="text"
+                        name="reviewedBy"
+                        placeholder="Enter name">
+
+                    <div class="approval-role">
+
+                        Team Leader / Head of EC / Regional Director
+
+                    </div>
+
+                    <div class="approval-date">
+
+                        Date:
+                        <span id="reviewedDate"></span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- ENDORSED -->
+
+            <div class="endorsement">
+
+                <div class="endorsement-title">
+
+                    Endorsed by:
+
+                </div>
+
+                <input
+                    type="text"
+                    name="endorsedBy"
+                    placeholder="Enter name">
+
+                <div class="endorsement-role">
+
+                    Climate Risk &amp; Stress Testing Department
+
+                </div>
+
+                <div class="endorsement-date">
+
+                    Date:
+                    <span id="endorsedDate"></span>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- ==============================================
+             BUTTONS
+        =============================================== -->
+
+        <div class="button-area">
+
+            <button
+                type="reset"
+                class="btn-reset">
+
+                Reset
+
+            </button>
+
+            <button
+                type="submit"
+                class="btn-save">
+
+                Save Application
+
+            </button>
+
+        </div>
+
+
+        <div id="message"></div>
+
+
+    </form>
+
+</div>
+
+
+
+<script>
+
+    /* ============================================
+       DATE
+    ============================================ */
+
+    function setCurrentDate() {
+
+        const today = new Date();
+
+        const formattedDate =
+            String(today.getDate()).padStart(2, "0")
+            + "/"
+            + String(today.getMonth() + 1).padStart(2, "0")
+            + "/"
+            + today.getFullYear();
+
+
+        document.getElementById(
+            "preparedDate"
+        ).textContent = formattedDate;
+
+
+        document.getElementById(
+            "reviewedDate"
+        ).textContent = formattedDate;
+
+
+        document.getElementById(
+            "endorsedDate"
+        ).textContent = formattedDate;
+
+    }
+
+
+
+    /* ============================================
+       BNM SECTOR
+    ============================================ */
+
+    function sectorChanged() {
+
+        const sector =
+            document
+                .getElementById("bnmSector")
+                .value;
+
+
+        const row =
+            document
+                .getElementById("otherSectorRow");
+
+
+        const input =
+            document
+                .getElementById("otherSector");
+
+
+        if (
+            sector ===
+            "Others (Please specify)"
+        ) {
+
+            row.style.display = "grid";
+
+            input.required = true;
+
+        }
+
+        else {
+
+            row.style.display = "none";
+
+            input.required = false;
+
+            input.value = "";
+
+        }
+
+    }
+
+
+
+    /* ============================================
+       GREEN PURE-PLAY
+    ============================================ */
+
+    function greenCompanyChanged() {
+
+        const greenCompany =
+            document
+                .getElementById("greenCompany")
+                .value;
+
+
+        const greenIndustry =
+            document
+                .getElementById("greenIndustry");
+
+
+        if (greenCompany === "Yes") {
+
+            greenIndustry.disabled = true;
+
+            greenIndustry.value = "";
+
+            greenIndustry.style.background =
+                "#dddddd";
+
+        }
+
+        else {
+
+            greenIndustry.disabled = false;
+
+            greenIndustry.style.background =
+                "#ffffff";
+
+        }
+
+    }
+
+
+
+    /* ============================================
+       SAVE DEMO
+    ============================================ */
+
+    document
+        .getElementById("ccptForm")
+        .addEventListener(
+            "submit",
+            function(event) {
+
+                event.preventDefault();
+
+
+                const message =
+                    document
+                        .getElementById("message");
+
+
+                message.className =
+                    "success";
+
+
+                message.textContent =
+                    "Application information saved successfully.";
+
+            }
+        );
+
+
+
+    /* ============================================
+       RESET
+    ============================================ */
+
+    document
+        .getElementById("ccptForm")
+        .addEventListener(
+            "reset",
+            function() {
+
+                setTimeout(
+                    function() {
+
+                        sectorChanged();
+
+                        greenCompanyChanged();
+
+                        document
+                            .getElementById("message")
+                            .style.display = "none";
+
+                    },
+                    0
+                );
+
+            }
+        );
+
+
+
+    /* ============================================
+       INITIALISE
+    ============================================ */
+
+    setCurrentDate();
+
+    sectorChanged();
+
+    greenCompanyChanged();
+
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+link http://10.32.1.51:8501/
+
+
+Path:
+<full path to python.exe>
+
+Startup directory:
+E:\Syahid\EXIM-Bank
+
+Arguments:
+-m streamlit run MA_Income_Statement.py --server.address 0.0.0.0 --server.port 8501 --server.headless true
+
+nssm set streamlit_MA_Income_Statement AppStdout E:\Syahid\EXIM-Bank\logs\streamlit_stdout.log
+
+nssm set streamlit_MA_Income_Statement AppStderr E:\Syahid\EXIM-Bank\logs\streamlit_stderr.log
+
+nssm start streamlit_MA_Income_Statement
+
+
+type E:\Syahid\EXIM-Bank\logs\streamlit_stderr.log
+type E:\Syahid\EXIM-Bank\logs\streamlit_stdout.log
