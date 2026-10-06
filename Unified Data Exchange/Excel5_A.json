@@ -1,0 +1,337 @@
+[
+    {
+        "JomXcess":"79 VENTURES SDN BHD",
+        "Matched_with_DMS":"79 VENTURES SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"898 ENGINEERING SDN BHD",
+        "Matched_with_DMS":"DR ENGINEERING SDN BHD",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "JomXcess":"AIRWASTEWATER MANAGEMENT SDN BHD",
+        "Matched_with_DMS":"AIRWASTEWATER MANAGEMENT SDN. BHD.",
+        "Fuzz_Ratio":96.9696969697
+    },
+    {
+        "JomXcess":"AKAR INDAH ENGINEERING SDN BHD",
+        "Matched_with_DMS":"DR ENGINEERING SDN BHD",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "JomXcess":"ALTUS OIL & GAS MALAYSIA SDN BHD",
+        "Matched_with_DMS":"ALTUS OIL & GAS MALAYSIA SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"AVILLION ADMIRAL COVE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"BT TECHNOLOGIES (M) SDN BHD",
+        "Matched_with_DMS":"HUB TECHNOLOGIES (M) SDN BHD",
+        "Fuzz_Ratio":94.5454545455
+    },
+    {
+        "JomXcess":"CHEOK BEE FONG",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"CITY EXPLORER SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"D BALSUN ENTERPRISE",
+        "Matched_with_DMS":"D BALSUN ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"D TIARA MART SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"DERMAGA SARI HOLDINGS SDN BHD",
+        "Matched_with_DMS":"MZ HOLDINGS SDN BHD",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "JomXcess":"ECO PLASTIC AND CONTAINERS TRADING",
+        "Matched_with_DMS":"ECO PLASTIC AND CONTAINERS TRADING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"ELITE DEFINITION SDN BHD",
+        "Matched_with_DMS":"ELITE DEFINITION SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"EVERSEAM SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"FAIRY PHOENIX GROUP SDN BHD",
+        "Matched_with_DMS":"FAIRY PHOENIX GROUP SDN. BHD.",
+        "Fuzz_Ratio":96.4285714286
+    },
+    {
+        "JomXcess":"FRIEND SERVICE AND TYRE SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"FULLE TECHNIK SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"GRAND LEXIS PORT DICKSON",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"HJ SAMURI ANAK-ANAK ENT SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"HJS TRAVEL & TOUR SDN BHD",
+        "Matched_with_DMS":"ADORA TRAVEL & TOUR SDN BHD",
+        "Fuzz_Ratio":91.3043478261
+    },
+    {
+        "JomXcess":"HANA MEDIC SDN BHD",
+        "Matched_with_DMS":"HANA MEDIC SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"IMPRESSIVE FUEL ENTERPRISE",
+        "Matched_with_DMS":"IMPRESSIVE FUEL ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"IMT SERVICES SDN BHD",
+        "Matched_with_DMS":"FT SERVICES SDN BHD",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "JomXcess":"INTELLIGENT POWER SYSTEM TECHNOLOGY SDN BHD",
+        "Matched_with_DMS":"INTELLIGENT POWER SYSTEM TECHNOLOGY SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"KEJURUTERAAN ARUS SETIA SDN BHD",
+        "Matched_with_DMS":"KEJURUTERAAN KK SDN BHD",
+        "Fuzz_Ratio":93.023255814
+    },
+    {
+        "JomXcess":"KL METRO HOTEL MANAGEMENT SDN BHD",
+        "Matched_with_DMS":"ADZ MANAGEMENT SDN BHD",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "JomXcess":"LUM BROTHERS ENGINEERING SDN BHD",
+        "Matched_with_DMS":"DR ENGINEERING SDN BHD",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "JomXcess":"MYA CONSTRUCTION SDN BHD",
+        "Matched_with_DMS":"2B CONSTRUCTION SDN BHD",
+        "Fuzz_Ratio":93.023255814
+    },
+    {
+        "JomXcess":"MALAYSIAN ASSOCIATION OF HOTELS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"MAX LIDA ENTERPRISE",
+        "Matched_with_DMS":"MAX LIDA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"NEGERI SEMBILAN INDUSTRIAL LIAISON COUNCIL (NSILC)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"NEO KHOW WAH",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"NTP AUTOMOBILE SDN BHD",
+        "Matched_with_DMS":"N.T.P. AUTOMOBILE SDN BHD",
+        "Fuzz_Ratio":93.6170212766
+    },
+    {
+        "JomXcess":"NURAIN DENTACARE SDN BHD",
+        "Matched_with_DMS":"NURAIN DENTACARE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"NAZIIF ENTERPRISE",
+        "Matched_with_DMS":"NAZIIF ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"ON NINE TECHNOLOGY SDN BHD",
+        "Matched_with_DMS":"ON NINE TECHNOLOGY SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"OTOMOBIL SEJATI SDN BHD",
+        "Matched_with_DMS":"OTOMOBIL SEJATI SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"PANSHAR GLOBAL MARKETING (M)SDN.BHD",
+        "Matched_with_DMS":"YK GLOBAL MARKETING",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "JomXcess":"PEARL LPG TRANSPORT SDN BHD",
+        "Matched_with_DMS":"PEARL PETROLEUM & TRANSPORT SDN BHD",
+        "Fuzz_Ratio":92.0
+    },
+    {
+        "JomXcess":"PEARL MANAGEMENT SDN BHD",
+        "Matched_with_DMS":"ADZ MANAGEMENT SDN BHD",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "JomXcess":"PEARL PETROLEUM & TRANSPORT SDN BHD",
+        "Matched_with_DMS":"PEARL PETROLEUM & TRANSPORT SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"PENG FONG AIR CONDITIONING AND ENGINEERING SDN BHD",
+        "Matched_with_DMS":"DR ENGINEERING SDN BHD",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "JomXcess":"PLATINUM CHARTERS SDN BHD",
+        "Matched_with_DMS":"PLATINUM CHARTERS SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"POULTEC ENTERPRISE SDN BHD",
+        "Matched_with_DMS":"POULTEC ENTERPRISE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"PERUSAHAAN SERI HIKMAH SETIA",
+        "Matched_with_DMS":"PERUSAHAAN SERI HIKMAH SETIA",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"R AND H RESOURCES MANAGEMENT SDN BHD",
+        "Matched_with_DMS":"R AND H RESOURCES MANAGEMENT SDN. BHD.",
+        "Fuzz_Ratio":97.2972972973
+    },
+    {
+        "JomXcess":"RENCANA INTELEK SDN BHD",
+        "Matched_with_DMS":"RENCANA INTELEK SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"SAA ENGINEERING & MARINE SDN BHD",
+        "Matched_with_DMS":"SAA ENGINEERING & MARINE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"SAFARI WONDERLAND SDN BHD",
+        "Matched_with_DMS":"SAFARI WONDERLAND SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"SEA HORSE SERVICES SDN. BHD.",
+        "Matched_with_DMS":"SEA HORSE SERVICES SDN BHD",
+        "Fuzz_Ratio":96.2962962963
+    },
+    {
+        "JomXcess":"SENSE SERVICES SDN BHD",
+        "Matched_with_DMS":"SENSE SERVICES SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"SIAPTEK SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"SINAR INDAH SDN BHD \/ PORT DICKSON GOLF & COUNTRY CLUB",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"SIRI ETIKA SDN BHD",
+        "Matched_with_DMS":"SIRI ETIKA SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"SME CORP MALAYSIA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"SOTC PLAY & DEVELOPMENT SDN BHD",
+        "Matched_with_DMS":"SOTC PLAY & DEVELOPMENT  SDN. BHD.",
+        "Fuzz_Ratio":96.875
+    },
+    {
+        "JomXcess":"SUN SHINE EDUCATIONAL GROUP (M) SDN BHD",
+        "Matched_with_DMS":"SUN SHINE EDUCATIONAL GROUP (M) SDN. BHD.",
+        "Fuzz_Ratio":97.5
+    },
+    {
+        "JomXcess":"SUPER MOM ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"TOP FRESH AQUACULTURE SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"TRAKSONS CORPORATION (M) SDN BHD",
+        "Matched_with_DMS":"TRAKSONS CORPORATION (M) SDN. BHD.",
+        "Fuzz_Ratio":96.9696969697
+    },
+    {
+        "JomXcess":"TYDIA (M) SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "JomXcess":"TIAN LUN ENGINEERING & TRADING SDN BHD",
+        "Matched_with_DMS":"DR ENGINEERING SDN BHD",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "JomXcess":"VISION SECURITY SDN BHD",
+        "Matched_with_DMS":"VISION SECURITY SDN. BHD.",
+        "Fuzz_Ratio":95.8333333333
+    },
+    {
+        "JomXcess":"VORAUS ENGINEERING (M) SDN BHD",
+        "Matched_with_DMS":"DR ENGINEERING SDN BHD",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "JomXcess":"ZHENZHU TRANSPORT SDN BHD",
+        "Matched_with_DMS":"ZHENZHU TRANSPORT SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "JomXcess":"ZAMIEMA ENT SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    }
+]

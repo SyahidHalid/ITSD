@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Executive Portfolio Dashboard | BNM PMF Integrated</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    body {
+      background: #f0f4fa;
+      padding: 24px 28px;
+      color: #11253e;
+    }
+    .dashboard {
+      max-width: 1720px;
+      margin: 0 auto;
+    }
+    /* Executive Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+    .header-left h1 {
+      font-size: 1.9rem;
+      font-weight: 600;
+      color: #0b2b4b;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .header-left h1 i {
+      color: #1e6f9f;
+      font-size: 1.9rem;
+    }
+    .header-left .sub {
+      font-size: 0.9rem;
+      color: #4a627a;
+      margin-top: 6px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .header-left .sub span i {
+      margin-right: 5px;
+      color: #1e6f9f;
+    }
+    .header-right {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .pill {
+      background: white;
+      padding: 8px 16px;
+      border-radius: 40px;
+      font-weight: 500;
+      font-size: 0.85rem;
+      color: #1e3f5c;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+      border: 1px solid #d9e2ec;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .pill i {
+      color: #1e6f9f;
+    }
+    .pill.alert {
+      background: #fff5f5;
+      border-color: #f6c6c6;
+      color: #b91c1c;
+    }
+    .pill.pmf {
+      background: #f0f9ff;
+      border-color: #a5d8f3;
+      color: #0369a1;
+    }
+    /* KPI Grid */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .kpi-card {
+      background: white;
+      border-radius: 18px;
+      padding: 18px 18px 16px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.02);
+      border: 1px solid #e3eaf2;
+      transition: all 0.15s ease;
+    }
+    .kpi-card:hover {
+      box-shadow: 0 8px 24px rgba(0, 30, 60, 0.06);
+      border-color: #cbdae9;
+    }
+    .kpi-card.pmf-card {
+      border-left: 4px solid #1e6f9f;
+    }
+    .kpi-label {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #4a627a;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    .kpi-value {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #0b2b4b;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+    }
+    .kpi-sub {
+      font-size: 0.78rem;
+      color: #4a627a;
+      margin-top: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .trend-up { color: #0e8a5e; font-weight: 600; }
+    .trend-down { color: #c2414b; font-weight: 600; }
+    .trend-warn { color: #b45309; font-weight: 600; }
+    /* Charts Row */
+    .charts-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 24px;
+    }
+    .chart-card {
+      background: white;
+      border-radius: 20px;
+      padding: 18px 20px 20px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.02);
+      border: 1px solid #e3eaf2;
+    }
+    .chart-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+    .chart-header h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #0b2b4b;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .chart-header h3 i {
+      color: #1e6f9f;
+    }
+    canvas {
+      max-height: 200px;
+      width: 100% !important;
+    }
+    /* PMF Section - Full Width */
+    .pmf-section {
+      background: linear-gradient(135deg, #f8fbfe 0%, #eef6fc 100%);
+      border-radius: 20px;
+      padding: 22px 24px;
+      margin-bottom: 24px;
+      border: 1px solid #d4e4f0;
+    }
+    .pmf-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .pmf-header h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #0b2b4b;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .pmf-header h2 i {
+      color: #1e6f9f;
+    }
+    .pmf-badge {
+      background: #1e6f9f;
+      color: white;
+      padding: 6px 14px;
+      border-radius: 30px;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+    .pmf-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    .pmf-item {
+      background: white;
+      border-radius: 16px;
+      padding: 16px 18px;
+      border: 1px solid #d4e4f0;
+    }
+    .pmf-item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .pmf-item-title {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #1e3f5c;
+    }
+    .pmf-item-value {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #0b2b4b;
+    }
+    .pmf-item-sub {
+      font-size: 0.75rem;
+      color: #64748b;
+      margin-top: 4px;
+    }
+    .pmf-progress {
+      height: 6px;
+      background: #e2e8f0;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    .pmf-progress-fill {
+      height: 6px;
+      border-radius: 10px;
+      background: #1e6f9f;
+    }
+    .pmf-badge-status {
+      font-size: 0.7rem;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-weight: 600;
+    }
+    .badge-green { background: #e3f5ec; color: #0e8a5e; }
+    .badge-amber { background: #fef3e7; color: #b45309; }
+    .badge-red { background: #fee9e9; color: #b91c1c; }
+    .badge-blue { background: #e0f2fe; color: #0369a1; }
+    /* Stress Test Panel */
+    .stress-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 24px;
+    }
+    .stress-card {
+      background: white;
+      border-radius: 20px;
+      padding: 20px 22px 20px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.02);
+      border: 1px solid #e3eaf2;
+    }
+    .stress-card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #0b2b4b;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    .stress-card h3 i {
+      color: #1e6f9f;
+    }
+    .slider-group {
+      margin-bottom: 16px;
+    }
+    .slider-group label {
+      font-weight: 500;
+      font-size: 0.85rem;
+      color: #1e3f5c;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+    .slider-group input[type="range"] {
+      width: 100%;
+      height: 6px;
+      border-radius: 6px;
+      background: #e2e8f0;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+    .slider-group input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #1e6f9f;
+      cursor: pointer;
+      border: 2px solid white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+    .sim-results {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      background: #f7fafd;
+      padding: 14px 16px;
+      border-radius: 14px;
+      border: 1px solid #dfe8f2;
+      margin-top: 6px;
+    }
+    .result-item {
+      display: flex;
+      flex-direction: column;
+    }
+    .result-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      color: #4a627a;
+      font-weight: 600;
+    }
+    .result-value {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #0b2b4b;
+      margin-top: 2px;
+    }
+    .result-diff {
+      font-size: 0.75rem;
+      margin-top: 3px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .btn {
+      background: #1e6f9f;
+      color: white;
+      border: none;
+      padding: 11px 20px;
+      border-radius: 30px;
+      font-weight: 500;
+      font-size: 0.85rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.15s;
+      border: 1px solid #1e6f9f;
+    }
+    .btn:hover {
+      background: #155a82;
+    }
+    .btn-outline {
+      background: transparent;
+      color: #1e6f9f;
+      border: 1px solid #b8cde0;
+    }
+    .btn-outline:hover {
+      background: #eef4fb;
+      border-color: #1e6f9f;
+    }
+    /* Lower Grid */
+    .lower-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 20px 22px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.02);
+      border: 1px solid #e3eaf2;
+    }
+    .card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #0b2b4b;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .card h3 i {
+      color: #1e6f9f;
+    }
+    .portfolio-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .portfolio-table th {
+      text-align: left;
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #4a627a;
+      font-weight: 600;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #dfe8f2;
+    }
+    .portfolio-table td {
+      padding: 10px 0;
+      border-bottom: 1px solid #edf2f8;
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: #1e3f5c;
+    }
+    .portfolio-table tr:last-child td {
+      border-bottom: none;
+    }
+    .risk-low { color: #0e8a5e; background: #e3f5ec; padding: 3px 8px; border-radius: 30px; font-size: 0.68rem; font-weight: 600; }
+    .risk-med { color: #b45309; background: #fef3e7; padding: 3px 8px; border-radius: 30px; font-size: 0.68rem; font-weight: 600; }
+    .risk-high { color: #b91c1c; background: #fee9e9; padding: 3px 8px; border-radius: 30px; font-size: 0.68rem; font-weight: 600; }
+    .risk-critical { color: #7f1d1d; background: #fcdcdc; padding: 3px 8px; border-radius: 30px; font-size: 0.68rem; font-weight: 600; }
+    .progress-bar {
+      height: 5px;
+      background: #e6edf6;
+      border-radius: 10px;
+      margin-top: 5px;
+      width: 100%;
+    }
+    .progress-fill {
+      height: 5px;
+      border-radius: 10px;
+    }
+    .asset-quality-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid #edf2f8;
+    }
+    .asset-quality-item:last-child { border-bottom: none; }
+    .aq-label {
+      font-weight: 500;
+      font-size: 0.85rem;
+      color: #1e3f5c;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .aq-value {
+      font-weight: 700;
+      font-size: 1rem;
+      color: #0b2b4b;
+    }
+    .aq-badge {
+      font-size: 0.65rem;
+      padding: 2px 7px;
+      border-radius: 30px;
+      font-weight: 600;
+    }
+    /* Additionality Cards */
+    .additionality-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-top: 16px;
+    }
+    .add-card {
+      background: white;
+      border-radius: 14px;
+      padding: 14px 16px;
+      border: 1px solid #d4e4f0;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .add-card:hover {
+      border-color: #1e6f9f;
+      box-shadow: 0 4px 12px rgba(30, 111, 159, 0.1);
+    }
+    .add-card.active {
+      border-color: #1e6f9f;
+      background: #f0f9ff;
+    }
+    .add-card-title {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #1e3f5c;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      margin-bottom: 6px;
+    }
+    .add-card-value {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #0b2b4b;
+    }
+    .add-card-sub {
+      font-size: 0.7rem;
+      color: #64748b;
+      margin-top: 2px;
+    }
+    /* Additionality detail panel */
+    .add-detail {
+      margin-top: 14px;
+      background: white;
+      border: 1px solid #d4e4f0;
+      border-radius: 14px;
+      padding: 16px 18px;
+    }
+    .add-detail-title {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #1e3f5c;
+      margin-bottom: 12px;
+    }
+    .add-detail-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 14px;
+    }
+    .add-detail-metric .add-detail-value {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #0b2b4b;
+    }
+    .add-detail-metric .add-detail-label {
+      font-size: 0.72rem;
+      color: #64748b;
+      margin-top: 2px;
+    }
+    /* Responsive */
+    @media (max-width: 1200px) {
+      .charts-row { grid-template-columns: 1fr; }
+      .stress-grid { grid-template-columns: 1fr; }
+      .lower-grid { grid-template-columns: 1fr; }
+      .additionality-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 650px) {
+      body { padding: 16px; }
+      .kpi-grid { grid-template-columns: 1fr 1fr; }
+      .header-left h1 { font-size: 1.4rem; }
+      .additionality-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<div class="dashboard">
+  <!-- Executive Header -->
+  <div class="header">
+    <div class="header-left">
+      <h1><i class="fas fa-landmark"></i> Executive Portfolio Dashboard</h1>
+      <div class="sub">
+        <span><i class="fas fa-user-tie"></i> Senior Management View</span>
+        <span><i class="fas fa-calendar-alt"></i> Q4 2026 · End of Day</span>
+        <span><i class="fas fa-file-contract"></i> BNM PMF Compliant</span>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="pill" id="portfolioPill"><i class="fas fa-chart-line"></i> Portfolio: $1.24B</div>
+      <div class="pill pmf" id="pmfStatusPill"><i class="fas fa-award"></i> PMF Status: On Track</div>
+      <div class="pill alert" id="watchlistPill"><i class="fas fa-exclamation-triangle"></i> Watchlist: 3 accounts</div>
+    </div>
+  </div>
+
+  <!-- KPI Grid -->
+  <div class="kpi-grid" id="kpiGrid">
+    <!-- populated by JS -->
+  </div>
+
+  <!-- BNM PMF Section -->
+  <div class="pmf-section">
+    <div class="pmf-header">
+      <h2><i class="fas fa-file-alt"></i> BNM Performance Measurement Framework (PMF) Metrics</h2>
+      <span class="pmf-badge">Issued 24 June 2026 · Effective 1 July 2027</span>
+    </div>
+    <div class="pmf-grid" id="pmfGrid">
+      <!-- populated by JS -->
+    </div>
+    <div style="margin-top: 20px;">
+      <div style="font-size: 0.85rem; font-weight: 600; color: #1e3f5c; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+        <i class="fas fa-layer-group" style="color: #1e6f9f;"></i> Additionalities Performance
+      </div>
+      <div class="additionality-grid" id="additionalityGrid">
+        <!-- populated by JS -->
+      </div>
+      <div class="add-detail" id="additionalityDetail">
+        <!-- populated by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Charts Row -->
+  <div class="charts-row">
+    <div class="chart-card">
+      <div class="chart-header">
+        <h3><i class="fas fa-chart-line"></i> Portfolio Value Trend</h3>
+        <span style="font-size:0.75rem; color:#4a627a;"><i class="fas fa-circle" style="color:#1e6f9f; font-size:0.5rem;"></i> Actual</span>
+      </div>
+      <canvas id="trendChart" width="400" height="150"></canvas>
+    </div>
+    <div class="chart-card">
+      <div class="chart-header">
+        <h3><i class="fas fa-chart-pie"></i> Risk-Weighted Assets Composition</h3>
+        <span style="font-size:0.75rem; color:#4a627a;"><i class="fas fa-shield-alt"></i> Credit / Market / OpRisk</span>
+      </div>
+      <canvas id="riskChart" width="400" height="150"></canvas>
+    </div>
+  </div>
+
+  <!-- Stress Test Panels -->
+  <div class="stress-grid">
+    <!-- Market Risk Simulation -->
+    <div class="stress-card">
+      <h3><i class="fas fa-chart-bar"></i> Market Risk – What-If Simulation</h3>
+      <div class="slider-group">
+        <label>Interest Rate Shock (bps) <span id="rateShockVal">0 bps</span></label>
+        <input type="range" id="rateShock" min="-200" max="300" step="10" value="0">
+        <div style="display:flex; justify-content:space-between; font-size:0.7rem; color:#7b8fa3;"><span>-200</span><span>+300</span></div>
+      </div>
+      <div class="slider-group">
+        <label>Equity Market Shock (%) <span id="equityShockVal">0%</span></label>
+        <input type="range" id="equityShock" min="-30" max="20" step="1" value="0">
+        <div style="display:flex; justify-content:space-between; font-size:0.7rem; color:#7b8fa3;"><span>-30%</span><span>+20%</span></div>
+      </div>
+      <div class="slider-group">
+        <label>FX Volatility (G10) <span id="fxShockVal">0%</span></label>
+        <input type="range" id="fxShock" min="0" max="25" step="1" value="0">
+        <div style="display:flex; justify-content:space-between; font-size:0.7rem; color:#7b8fa3;"><span>0%</span><span>+25%</span></div>
+      </div>
+      <div class="sim-results" id="marketSimResults">
+        <!-- populated by JS -->
+      </div>
+    </div>
+
+    <!-- Credit Risk & Asset Quality Simulation -->
+    <div class="stress-card">
+      <h3><i class="fas fa-hand-holding-usd"></i> Credit Risk & Asset Quality – Stress Test</h3>
+      <div class="slider-group">
+        <label>Default Rate Shock (pp) <span id="defaultShockVal">0.0 pp</span></label>
+        <input type="range" id="defaultShock" min="0" max="8" step="0.1" value="0">
+        <div style="display:flex; justify-content:space-between; font-size:0.7rem; color:#7b8fa3;"><span>0.0</span><span>+8.0</span></div>
+      </div>
+      <div class="slider-group">
+        <label>Recovery Rate Change (%) <span id="recoveryShockVal">0%</span></label>
+        <input type="range" id="recoveryShock" min="-25" max="15" step="1" value="0">
+        <div style="display:flex; justify-content:space-between; font-size:0.7rem; color:#7b8fa3;"><span>-25%</span><span>+15%</span></div>
+      </div>
+      <div class="slider-group">
+        <label>Concentration Risk Impact <span id="concentrationVal">0%</span></label>
+        <input type="range" id="concentration" min="0" max="30" step="1" value="0">
+        <div style="display:flex; justify-content:space-between; font-size:0.7rem; color:#7b8fa3;"><span>0%</span><span>+30%</span></div>
+      </div>
+      <div class="sim-results" id="creditSimResults">
+        <!-- populated by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Lower Grid: Portfolio & Asset Quality -->
+  <div class="lower-grid">
+    <!-- Portfolio Holdings -->
+    <div class="card">
+      <h3><i class="fas fa-briefcase"></i> Portfolio Holdings & Performance</h3>
+      <table class="portfolio-table">
+        <thead>
+          <tr>
+            <th>Segment</th>
+            <th>Exposure (M)</th>
+            <th>PMF Category</th>
+            <th>Risk Grade</th>
+            <th>Yield</th>
+            <th>NPL %</th>
+            <th>Target</th>
+          </tr>
+        </thead>
+        <tbody id="portfolioBody">
+          <!-- populated by JS -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Asset Quality & KPI Tracking -->
+    <div class="card">
+      <h3><i class="fas fa-clipboard-check"></i> Asset Quality & PMF Tracking</h3>
+      <div id="assetQualityList" style="display: flex; flex-direction: column; gap: 4px;">
+        <!-- populated by JS -->
+      </div>
+      <div style="margin-top: 14px; border-top: 1px solid #edf2f8; padding-top: 14px;">
+        <div style="display: flex; justify-content: space-between; font-size: 0.8rem; color: #4a627a; margin-bottom: 8px;">
+          <span><i class="fas fa-flag-checkered"></i> PMF KPI Performance</span>
+          <span>Current vs Target</span>
+        </div>
+        <div id="kpiTrackingList" style="display: flex; flex-direction: column; gap: 10px;">
+          <!-- populated by JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Control Buttons -->
+  <div style="display: flex; justify-content: flex-end; gap: 14px; margin-top: 12px;">
+    <button class="btn btn-outline" id="resetSimBtn"><i class="fas fa-undo-alt"></i> Reset All Simulations</button>
+    <button class="btn" id="applySimBtn"><i class="fas fa-calculator"></i> Apply Scenario & Recalculate</button>
+  </div>
+</div>
+
+<script>
+  // ============================================================
+  // BASE DATA — DFI Portfolio with BNM PMF Integration
+  // ============================================================
+  const baseData = {
+    totalPortfolio: 1240.5,
+    revenue: 82.4,
+    netProfit: 34.2,
+    nplRatio: 1.8,
+    roe: 14.6,
+    costIncome: 48.2,
+    cet1Ratio: 13.4,
+    lcr: 142,
+    // Asset quality metrics
+    nplAmount: 22.3,
+    coverageRatio: 78.5,
+    restructuredRatio: 2.1,
+    watchlistRatio: 4.3,
+    // ============================================================
+    // BNM PMF METRICS
+    // ============================================================
+    pmf: {
+      // Subsidy Dependence Index (SDI) - lower is better
+      sdi: 18.5, // percentage
+      sdiTarget: 15.0,
+      sdiTrend: 'improving',
+      // Mandate Index (MI) - 0 to 100
+      mandateIndex: 72.5,
+      mandateIndexTarget: 80.0,
+      // Output Score & Outreach Score components
+      outputScore: {
+        aspirational: 35,   // % of total output
+        developmental: 45,
+        nonDevelopmental: 20
+      },
+      outreachScore: {
+        aspirational: 28,   // % of total accounts
+        developmental: 52,
+        nonDevelopmental: 20
+      },
+      // Impact Multiplier - economic value per RM disbursed
+      impactMultiplier: 3.8,
+      impactMultiplierTarget: 4.0,
+      // Additionality metrics
+      financialAdditionality: {
+        aspirationalFinancing: 42.5, // % of total
+        developmentalFinancing: 38.2,
+        nonDevelopmentalFinancing: 19.3,
+        countercyclicalSupport: 18.5 // % of portfolio
+      },
+      designAdditionality: {
+        productsWithDesignFeatures: 12,
+        customersBenefiting: 4850,
+        avgResilienceImprovement: 22 // %
+      },
+      demonstrationAdditionality: {
+        successfulPrivateParticipation: 8,
+        securedPartnerships: 5,
+        informationalAwareness: 12
+      },
+      policyAdditionality: {
+        pioneeringPolicyOutput: 2,
+        policyOutputAchieved: 6,
+        activeInitiatives: 14,
+        passiveInitiatives: 8
+      },
+      // Social Impact
+      socialImpact: {
+        jobsCreated: 3250,
+        jobsSustained: 12400,
+        businessesFormalised: 680,
+        incomeGrowthAvg: 18.5 // % for beneficiaries
+      }
+    },
+    // Segments with PMF categorisation
+    segments: [
+      { name: 'Corporate Banking', exposure: 520.0, risk: 'Low', yield: 6.2, npl: 1.2, target: 7.0, progress: 88.5, pmfCategory: 'Developmental', rwa: 380 },
+      { name: 'Commercial Banking', exposure: 310.5, risk: 'Medium', yield: 7.8, npl: 2.5, target: 8.0, progress: 97.5, pmfCategory: 'Developmental', rwa: 280 },
+      { name: 'Wealth Management', exposure: 210.0, risk: 'Low', yield: 9.1, npl: 0.6, target: 8.5, progress: 107.0, pmfCategory: 'Non-developmental', rwa: 90 },
+      { name: 'Retail Banking', exposure: 150.0, risk: 'High', yield: 11.2, npl: 4.8, target: 10.0, progress: 112.0, pmfCategory: 'Aspirational', rwa: 120 },
+      { name: 'Treasury & Markets', exposure: 50.0, risk: 'Medium', yield: 4.5, npl: 0.1, target: 5.0, progress: 90.0, pmfCategory: 'Non-developmental', rwa: 70 }
+    ],
+    monthlyTrend: [1180, 1195, 1205, 1220, 1235, 1240.5],
+    riskDistribution: [45, 30, 15, 10],
+    marketRiskVar: 18.4,
+    creditVar: 24.7,
+    expectedLoss: 12.8,
+    unexpectedLoss: 36.2
+  };
+
+  let currentData = JSON.parse(JSON.stringify(baseData));
+  let selectedAdditionality = 'financial';
+
+  // ============================================================
+  // RENDER FUNCTIONS
+  // ============================================================
+
+  function renderHeader(data) {
+    // Portfolio pill: format in $B once over 1000M, otherwise $M — was hardcoded before
+    const pv = data.totalPortfolio;
+    const portfolioLabel = pv >= 1000 ? `$${(pv / 1000).toFixed(2)}B` : `$${pv.toFixed(1)}M`;
+    document.getElementById('portfolioPill').innerHTML =
+      `<i class="fas fa-chart-line"></i> Portfolio: ${portfolioLabel}`;
+
+    // PMF status pill: derived from the three PMF headline metrics instead of a fixed label
+    const pmf = data.pmf;
+    const pmfOnTrack = pmf.sdi <= pmf.sdiTarget && pmf.mandateIndex >= pmf.mandateIndexTarget && pmf.impactMultiplier >= pmf.impactMultiplierTarget;
+    const pmfPartial = !pmfOnTrack && (pmf.sdi <= pmf.sdiTarget * 1.25 || pmf.mandateIndex >= pmf.mandateIndexTarget * 0.85 || pmf.impactMultiplier >= pmf.impactMultiplierTarget * 0.85);
+    const pmfPill = document.getElementById('pmfStatusPill');
+    const pmfLabel = pmfOnTrack ? 'On Track' : (pmfPartial ? 'Needs Attention' : 'Below Target');
+    pmfPill.classList.toggle('alert', !pmfOnTrack);
+    pmfPill.classList.toggle('pmf', pmfOnTrack);
+    pmfPill.innerHTML = `<i class="fas fa-award"></i> PMF Status: ${pmfLabel}`;
+
+    // Watchlist pill: count segments actually flagged Medium/High/Critical instead of a static "3"
+    const watchlistCount = data.segments.filter(s => s.risk === 'Medium' || s.risk === 'High' || s.risk === 'Critical').length;
+    document.getElementById('watchlistPill').innerHTML =
+      `<i class="fas fa-exclamation-triangle"></i> Watchlist: ${watchlistCount} account${watchlistCount === 1 ? '' : 's'}`;
+  }
+
+  function renderKPIs(data) {
+    const kpiGrid = document.getElementById('kpiGrid');
+    const nplChange = data.nplRatio - baseData.nplRatio;
+    const profitChange = ((data.netProfit - baseData.netProfit) / baseData.netProfit * 100).toFixed(1);
+    const revenueChange = ((data.revenue - baseData.revenue) / baseData.revenue * 100).toFixed(1);
+    const portfolioChange = ((data.totalPortfolio - baseData.totalPortfolio) / baseData.totalPortfolio * 100).toFixed(1);
+    const cet1Change = data.cet1Ratio - baseData.cet1Ratio;
+
+    const kpis = [
+      { label: 'Total Portfolio', value: `$${data.totalPortfolio.toFixed(1)}M`, sub: `${portfolioChange >= 0 ? '+' : ''}${portfolioChange}% vs base`, trend: portfolioChange >= 0 ? 'up' : 'down', pmf: false },
+      { label: 'Net Profit', value: `$${data.netProfit.toFixed(1)}M`, sub: `${profitChange >= 0 ? '+' : ''}${profitChange}% vs base`, trend: profitChange >= 0 ? 'up' : 'down', pmf: false },
+      { label: 'Revenue', value: `$${data.revenue.toFixed(1)}M`, sub: `${revenueChange >= 0 ? '+' : ''}${revenueChange}% vs base`, trend: revenueChange >= 0 ? 'up' : 'down', pmf: false },
+      { label: 'NPL Ratio', value: `${data.nplRatio.toFixed(2)}%`, sub: `${nplChange >= 0 ? '+' : ''}${nplChange.toFixed(2)}pp vs base`, trend: nplChange <= 0 ? 'up' : 'down', pmf: false },
+      { label: 'ROE', value: `${data.roe.toFixed(1)}%`, sub: `${(data.roe - baseData.roe).toFixed(2)}pp`, trend: data.roe >= baseData.roe ? 'up' : 'down', pmf: false },
+      { label: 'CET1 Ratio', value: `${data.cet1Ratio.toFixed(1)}%`, sub: `${cet1Change >= 0 ? '+' : ''}${cet1Change.toFixed(2)}pp`, trend: cet1Change >= 0 ? 'up' : 'down', pmf: false },
+      { label: 'Cost/Income', value: `${data.costIncome.toFixed(1)}%`, sub: `${(data.costIncome - baseData.costIncome).toFixed(2)}pp`, trend: data.costIncome <= baseData.costIncome ? 'up' : 'down', pmf: false }
+    ];
+
+    kpiGrid.innerHTML = kpis.map(kpi => `
+      <div class="kpi-card ${kpi.pmf ? 'pmf-card' : ''}">
+        <div class="kpi-label">${kpi.label} <i class="fas fa-info-circle" style="color:#b8cde0; font-size:0.7rem;"></i></div>
+        <div class="kpi-value">${kpi.value}</div>
+        <div class="kpi-sub">
+          <i class="fas fa-arrow-${kpi.trend === 'up' ? 'up' : 'down'} ${kpi.trend === 'up' ? 'trend-up' : 'trend-down'}"></i>
+          ${kpi.sub}
+        </div>
+      </div>
+    `).join('');
+  }
+
+  function renderPMF(data) {
+    const pmfGrid = document.getElementById('pmfGrid');
+    const pmf = data.pmf;
+
+    const sdiProgress = Math.min((pmf.sdiTarget / pmf.sdi) * 100, 100);
+    const miProgress = Math.min((pmf.mandateIndex / pmf.mandateIndexTarget) * 100, 100);
+    const imProgress = Math.min((pmf.impactMultiplier / pmf.impactMultiplierTarget) * 100, 100);
+
+    const sdiStatus = pmf.sdi <= pmf.sdiTarget ? 'On Track' : 'Needs Improvement';
+    const sdiBadge = pmf.sdi <= pmf.sdiTarget ? 'badge-green' : 'badge-amber';
+
+    const miStatus = pmf.mandateIndex >= pmf.mandateIndexTarget ? 'On Track' : 'Below Target';
+    const miBadge = pmf.mandateIndex >= pmf.mandateIndexTarget ? 'badge-green' : 'badge-amber';
+
+    const imStatus = pmf.impactMultiplier >= pmf.impactMultiplierTarget ? 'On Track' : 'Below Target';
+    const imBadge = pmf.impactMultiplier >= pmf.impactMultiplierTarget ? 'badge-green' : 'badge-amber';
+
+    pmfGrid.innerHTML = `
+      <div class="pmf-item">
+        <div class="pmf-item-header">
+          <span class="pmf-item-title">Subsidy Dependence Index</span>
+          <span class="pmf-badge-status ${sdiBadge}">${sdiStatus}</span>
+        </div>
+        <div class="pmf-item-value">${pmf.sdi.toFixed(1)}%</div>
+        <div class="pmf-item-sub">Target: ≤${pmf.sdiTarget}% · Lower is better</div>
+        <div class="pmf-progress"><div class="pmf-progress-fill" style="width:${sdiProgress}%; background:${pmf.sdi <= pmf.sdiTarget ? '#0e8a5e' : '#b45309'};"></div></div>
+      </div>
+      <div class="pmf-item">
+        <div class="pmf-item-header">
+          <span class="pmf-item-title">Mandate Index</span>
+          <span class="pmf-badge-status ${miBadge}">${miStatus}</span>
+        </div>
+        <div class="pmf-item-value">${pmf.mandateIndex.toFixed(1)}</div>
+        <div class="pmf-item-sub">Target: ${pmf.mandateIndexTarget} · Scale: 0-100</div>
+        <div class="pmf-progress"><div class="pmf-progress-fill" style="width:${miProgress}%; background:${pmf.mandateIndex >= pmf.mandateIndexTarget ? '#0e8a5e' : '#1e6f9f'};"></div></div>
+      </div>
+      <div class="pmf-item">
+        <div class="pmf-item-header">
+          <span class="pmf-item-title">Impact Multiplier</span>
+          <span class="pmf-badge-status ${imBadge}">${imStatus}</span>
+        </div>
+        <div class="pmf-item-value">${pmf.impactMultiplier.toFixed(1)}x</div>
+        <div class="pmf-item-sub">Target: ${pmf.impactMultiplierTarget}x · Economic value per RM</div>
+        <div class="pmf-progress"><div class="pmf-progress-fill" style="width:${imProgress}%; background:${pmf.impactMultiplier >= pmf.impactMultiplierTarget ? '#0e8a5e' : '#1e6f9f'};"></div></div>
+      </div>
+      <div class="pmf-item">
+        <div class="pmf-item-header">
+          <span class="pmf-item-title">Aspirational Financing</span>
+          <span class="pmf-badge-status badge-blue">Priority</span>
+        </div>
+        <div class="pmf-item-value">${pmf.financialAdditionality.aspirationalFinancing.toFixed(1)}%</div>
+        <div class="pmf-item-sub">Of total financing output</div>
+        <div class="pmf-progress"><div class="pmf-progress-fill" style="width:${pmf.financialAdditionality.aspirationalFinancing}%; background:#1e6f9f;"></div></div>
+      </div>
+      <div class="pmf-item">
+        <div class="pmf-item-header">
+          <span class="pmf-item-title">Social Impact</span>
+          <span class="pmf-badge-status badge-green">Active</span>
+        </div>
+        <div class="pmf-item-value">${pmf.socialImpact.jobsCreated.toLocaleString()}</div>
+        <div class="pmf-item-sub">Jobs created · ${pmf.socialImpact.jobsSustained.toLocaleString()} sustained</div>
+      </div>
+      <div class="pmf-item">
+        <div class="pmf-item-header">
+          <span class="pmf-item-title">Design Additionality</span>
+          <span class="pmf-badge-status badge-green">Active</span>
+        </div>
+        <div class="pmf-item-value">${pmf.designAdditionality.productsWithDesignFeatures}</div>
+        <div class="pmf-item-sub">Products · ${pmf.designAdditionality.customersBenefiting.toLocaleString()} customers</div>
+      </div>
+    `;
+
+    // Render Additionality Cards
+    const addGrid = document.getElementById('additionalityGrid');
+    const additionalityData = {
+      financial: {
+        title: 'Financial Additionality',
+        value: `${pmf.financialAdditionality.aspirationalFinancing}%`,
+        sub: 'Aspirational financing',
+        badge: 'badge-blue'
+      },
+      design: {
+        title: 'Design Additionality',
+        value: `${pmf.designAdditionality.customersBenefiting.toLocaleString()}`,
+        sub: 'Customers benefiting',
+        badge: 'badge-green'
+      },
+      demonstration: {
+        title: 'Demonstration Additionality',
+        value: `${pmf.demonstrationAdditionality.successfulPrivateParticipation}`,
+        sub: 'Private sector engagements',
+        badge: 'badge-green'
+      },
+      policy: {
+        title: 'Policy Additionality',
+        value: `${pmf.policyAdditionality.policyOutputAchieved}`,
+        sub: 'Policy outputs achieved',
+        badge: 'badge-blue'
+      }
+    };
+
+    addGrid.innerHTML = Object.entries(additionalityData).map(([key, val]) => `
+      <div class="add-card ${selectedAdditionality === key ? 'active' : ''}" data-add="${key}">
+        <div class="add-card-title">${val.title}</div>
+        <div class="add-card-value">${val.value}</div>
+        <div class="add-card-sub">${val.sub}</div>
+      </div>
+    `).join('');
+
+    // Add click listeners
+    document.querySelectorAll('.add-card').forEach(card => {
+      card.addEventListener('click', () => {
+        selectedAdditionality = card.dataset.add;
+        renderPMF(currentData);
+      });
+    });
+
+    // Detail panel: previously the sub-metrics inside each additionality object
+    // (developmental/non-developmental financing, secured partnerships, policy
+    // initiatives, resilience improvement, etc.) were never shown anywhere.
+    renderAdditionalityDetail(pmf);
+  }
+
+  function renderAdditionalityDetail(pmf) {
+    const detail = document.getElementById('additionalityDetail');
+    let title, metrics;
+
+    if (selectedAdditionality === 'financial') {
+      const fa = pmf.financialAdditionality;
+      title = 'Financial Additionality — full breakdown';
+      metrics = [
+        { label: 'Aspirational financing', value: `${fa.aspirationalFinancing.toFixed(1)}%` },
+        { label: 'Developmental financing', value: `${fa.developmentalFinancing.toFixed(1)}%` },
+        { label: 'Non-developmental financing', value: `${fa.nonDevelopmentalFinancing.toFixed(1)}%` },
+        { label: 'Countercyclical support', value: `${fa.countercyclicalSupport.toFixed(1)}% of portfolio` }
+      ];
+    } else if (selectedAdditionality === 'design') {
+      const da = pmf.designAdditionality;
+      title = 'Design Additionality — full breakdown';
+      metrics = [
+        { label: 'Products with design features', value: da.productsWithDesignFeatures },
+        { label: 'Customers benefiting', value: da.customersBenefiting.toLocaleString() },
+        { label: 'Avg. resilience improvement', value: `${da.avgResilienceImprovement}%` }
+      ];
+    } else if (selectedAdditionality === 'demonstration') {
+      const de = pmf.demonstrationAdditionality;
+      title = 'Demonstration Additionality — full breakdown';
+      metrics = [
+        { label: 'Successful private participation', value: de.successfulPrivateParticipation },
+        { label: 'Secured partnerships', value: de.securedPartnerships },
+        { label: 'Informational / awareness activities', value: de.informationalAwareness }
+      ];
+    } else {
+      const po = pmf.policyAdditionality;
+      title = 'Policy Additionality — full breakdown';
+      metrics = [
+        { label: 'Pioneering policy output', value: po.pioneeringPolicyOutput },
+        { label: 'Policy output achieved', value: po.policyOutputAchieved },
+        { label: 'Active initiatives', value: po.activeInitiatives },
+        { label: 'Passive initiatives', value: po.passiveInitiatives }
+      ];
+    }
+
+    detail.innerHTML = `
+      <div class="add-detail-title">${title}</div>
+      <div class="add-detail-grid">
+        ${metrics.map(m => `
+          <div class="add-detail-metric">
+            <div class="add-detail-value">${m.value}</div>
+            <div class="add-detail-label">${m.label}</div>
+          </div>
+        `).join('')}
+      </div>
+    `;
+  }
+
+  function renderPortfolioTable(data) {
+    const tbody = document.getElementById('portfolioBody');
+    tbody.innerHTML = data.segments.map(seg => {
+      let riskClass = 'risk-low';
+      if (seg.risk === 'Medium') riskClass = 'risk-med';
+      else if (seg.risk === 'High') riskClass = 'risk-high';
+      else if (seg.risk === 'Critical') riskClass = 'risk-critical';
+
+      let pmfClass = 'badge-blue';
+      if (seg.pmfCategory === 'Aspirational') pmfClass = 'badge-green';
+      else if (seg.pmfCategory === 'Non-developmental') pmfClass = 'badge-amber';
+
+      const nplColor = seg.npl > 4 ? '#b91c1c' : (seg.npl > 2.5 ? '#b45309' : '#0e8a5e');
+      return `
+        <tr>
+          <td><strong>${seg.name}</strong></td>
+          <td>$${seg.exposure.toFixed(1)}M</td>
+          <td><span class="aq-badge ${pmfClass}">${seg.pmfCategory}</span></td>
+          <td><span class="${riskClass}">${seg.risk}</span></td>
+          <td>${seg.yield.toFixed(1)}%</td>
+          <td style="color:${nplColor}; font-weight:600;">${seg.npl.toFixed(2)}%</td>
+          <td>
+            <div style="display:flex; justify-content:space-between; font-size:0.72rem;">
+              <span>${seg.progress.toFixed(1)}%</span>
+              <span style="color:#7b8fa3;">${seg.target.toFixed(1)}%</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" style="width:${Math.min(seg.progress, 100)}%; background: ${seg.progress >= seg.target ? '#0e8a5e' : '#1e6f9f'};"></div></div>
+          </td>
+        </tr>
+      `;
+    }).join('');
+  }
+
+  function renderAssetQuality(data) {
+    const container = document.getElementById('assetQualityList');
+    const items = [
+      { label: 'NPL Amount', value: `$${data.nplAmount.toFixed(1)}M`, badge: data.nplAmount > 25 ? 'badge-red' : 'badge-green', badgeText: data.nplAmount > 25 ? 'Elevated' : 'Stable' },
+      { label: 'Coverage Ratio', value: `${data.coverageRatio.toFixed(1)}%`, badge: data.coverageRatio < 70 ? 'badge-red' : 'badge-green', badgeText: data.coverageRatio < 70 ? 'Low' : 'Adequate' },
+      { label: 'Restructured Ratio', value: `${data.restructuredRatio.toFixed(1)}%`, badge: data.restructuredRatio > 3 ? 'badge-amber' : 'badge-green', badgeText: data.restructuredRatio > 3 ? 'Watch' : 'Normal' },
+      { label: 'Watchlist Ratio', value: `${data.watchlistRatio.toFixed(1)}%`, badge: data.watchlistRatio > 5 ? 'badge-red' : 'badge-amber', badgeText: data.watchlistRatio > 5 ? 'High' : 'Monitor' },
+      { label: 'Expected Loss', value: `$${data.expectedLoss.toFixed(1)}M`, badge: 'badge-amber', badgeText: 'EL' },
+      { label: 'Unexpected Loss', value: `$${data.unexpectedLoss.toFixed(1)}M`, badge: 'badge-amber', badgeText: 'UL' }
+    ];
+
+    container.innerHTML = items.map(item => `
+      <div class="asset-quality-item">
+        <span class="aq-label">${item.label} <span class="aq-badge ${item.badge}">${item.badgeText}</span></span>
+        <span class="aq-value">${item.value}</span>
+      </div>
+    `).join('');
+  }
+
+  function renderKpiTracking(data) {
+    const container = document.getElementById('kpiTrackingList');
+    const items = [
+      { name: 'NPL Ratio (PMF)', current: data.nplRatio, target: 2.5, unit: '%', lowerBetter: true },
+      { name: 'ROE (PMF)', current: data.roe, target: 15.0, unit: '%', lowerBetter: false },
+      { name: 'Cost/Income (PMF)', current: data.costIncome, target: 45.0, unit: '%', lowerBetter: true },
+      { name: 'CET1 Ratio', current: data.cet1Ratio, target: 12.0, unit: '%', lowerBetter: false },
+      { name: 'LCR', current: data.lcr, target: 130, unit: '%', lowerBetter: false }
+    ];
+
+    container.innerHTML = items.map(item => {
+      let statusColor = '#1e6f9f';
+      let statusText = 'On Track';
+      if (item.lowerBetter) {
+        if (item.current <= item.target) { statusColor = '#0e8a5e'; statusText = 'On Track'; }
+        else { statusColor = '#b91c1c'; statusText = 'Above Target'; }
+      } else {
+        if (item.current >= item.target) { statusColor = '#0e8a5e'; statusText = 'On Track'; }
+        else { statusColor = '#b91c1c'; statusText = 'Below Target'; }
+      }
+      const progress = item.lowerBetter
+        ? Math.min((item.target / item.current) * 100, 100)
+        : Math.min((item.current / item.target) * 100, 100);
+      return `
+        <div>
+          <div style="display:flex; justify-content:space-between; font-size:0.8rem; font-weight:500;">
+            <span>${item.name}</span>
+            <span style="color:${statusColor};">${statusText}</span>
+          </div>
+          <div style="display:flex; justify-content:space-between; align-items:baseline; margin-top:3px;">
+            <span style="font-size:1.1rem; font-weight:700; color:#0b2b4b;">${item.current.toFixed(1)}${item.unit}</span>
+            <span style="font-size:0.75rem; color:#7b8fa3;">Target: ${item.target.toFixed(1)}${item.unit}</span>
+          </div>
+          <div class="progress-bar" style="margin-top:5px;"><div class="progress-fill" style="width:${progress}%; background:${statusColor};"></div></div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  function renderMarketSimResults(data) {
+    const container = document.getElementById('marketSimResults');
+    const base = baseData;
+    const varDiff = data.marketRiskVar - base.marketRiskVar;
+    const profitDiff = data.netProfit - base.netProfit;
+    const cet1Diff = data.cet1Ratio - base.cet1Ratio;
+
+    container.innerHTML = `
+      <div class="result-item">
+        <span class="result-label">Market Risk VaR</span>
+        <span class="result-value">$${data.marketRiskVar.toFixed(1)}M</span>
+        <span class="result-diff ${varDiff <= 0 ? 'trend-up' : 'trend-down'}">
+          <i class="fas fa-arrow-${varDiff <= 0 ? 'down' : 'up'}"></i> ${varDiff >= 0 ? '+' : ''}${varDiff.toFixed(2)}M
+        </span>
+      </div>
+      <div class="result-item">
+        <span class="result-label">Net Profit Impact</span>
+        <span class="result-value">$${data.netProfit.toFixed(1)}M</span>
+        <span class="result-diff ${profitDiff >= 0 ? 'trend-up' : 'trend-down'}">
+          <i class="fas fa-arrow-${profitDiff >= 0 ? 'up' : 'down'}"></i> ${profitDiff >= 0 ? '+' : ''}${profitDiff.toFixed(2)}M
+        </span>
+      </div>
+      <div class="result-item">
+        <span class="result-label">CET1 Ratio</span>
+        <span class="result-value">${data.cet1Ratio.toFixed(1)}%</span>
+        <span class="result-diff ${cet1Diff >= 0 ? 'trend-up' : 'trend-down'}">
+          <i class="fas fa-arrow-${cet1Diff >= 0 ? 'up' : 'down'}"></i> ${cet1Diff >= 0 ? '+' : ''}${cet1Diff.toFixed(2)}pp
+        </span>
+      </div>
+      <div class="result-item">
+        <span class="result-label">ROE</span>
+        <span class="result-value">${data.roe.toFixed(1)}%</span>
+        <span class="result-diff ${data.roe >= base.roe ? 'trend-up' : 'trend-down'}">
+          <i class="fas fa-arrow-${data.roe >= base.roe ? 'up' : 'down'}"></i> ${(data.roe - base.roe).toFixed(2)}pp
+        </span>
+      </div>
+    `;
+  }
+
+  function renderCreditSimResults(data) {
+    const container = document.getElementById('creditSimResults');
+    const base = baseData;
+    const nplDiff = data.nplRatio - base.nplRatio;
+    const coverageDiff = data.coverageRatio - base.coverageRatio;
+    const elDiff = data.expectedLoss - base.expectedLoss;
+    const miDiff = data.pmf.mandateIndex - base.pmf.mandateIndex;
+
+    container.innerHTML = `
+      <div class="result-item">
+        <span class="result-label">NPL Ratio</span>
+        <span class="result-value">${data.nplRatio.toFixed(2)}%</span>
+        <span class="result-diff ${nplDiff <= 0 ? 'trend-up' : 'trend-down'}">
+          <i class="fas fa-arrow-${nplDiff <= 0 ? 'down' : 'up'}"></i> ${nplDiff >= 0 ? '+' : ''}${nplDiff.toFixed(2)}pp
+        </span>
+      </div>
+      <div class="result-item">
+        <span class="result-label">Coverage Ratio</span>
+        <span class="result-value">${data.coverageRatio.toFixed(1)}%</span>
+        <span class="result-diff ${coverageDiff >= 0 ? 'trend-up' : 'trend-down'}">
+          <i class="fas fa-arrow-${coverageDiff >= 0 ? 'up' : 'down'}"></i> ${coverageDiff >= 0 ? '+' : ''}${coverageDiff.toFixed(2)}pp
+        </span>
+      </div>
+      <div class="result-item">
+        <span class="result-label">Mandate Index</span>
+        <span class="result-value">${data.pmf.mandateIndex.toFixed(1)}</span>
+        <span class="result-diff ${miDiff >= 0 ? 'trend-up' : 'trend-down'}">
+          <i class="fas fa-arrow-${miDiff >= 0 ? 'up' : 'down'}"></i> ${miDiff >= 0 ? '+' : ''}${miDiff.toFixed(2)}
+        </span>
+      </div>
+      <div class="result-item">
+        <span class="result-label">Cost of Risk</span>
+        <span class="result-value">${(data.expectedLoss / data.totalPortfolio * 100).toFixed(2)}%</span>
+        <span class="result-diff ${data.expectedLoss <= base.expectedLoss ? 'trend-up' : 'trend-down'}">
+          <i class="fas fa-arrow-${data.expectedLoss <= base.expectedLoss ? 'down' : 'up'}"></i> ${(data.expectedLoss - base.expectedLoss).toFixed(2)}M
+        </span>
+      </div>
+    `;
+  }
+
+  // ============================================================
+  // UPDATE ALL UI
+  // ============================================================
+  function updateUI(data) {
+    renderHeader(data);
+    renderKPIs(data);
+    renderPMF(data);
+    renderPortfolioTable(data);
+    renderAssetQuality(data);
+    renderKpiTracking(data);
+    renderMarketSimResults(data);
+    renderCreditSimResults(data);
+    updateTrendChart([...baseData.monthlyTrend.slice(0, 5), data.totalPortfolio]);
+    updateRiskChart(data);
+  }
+
+  // ============================================================
+  // SIMULATION ENGINE
+  // ============================================================
+
+  // Risk-weight multipliers used to translate a segment's risk-grade
+  // migration into an actual RWA change (previously each segment's `rwa`
+  // field was set once and never used again by any calculation).
+  const RISK_WEIGHT_FACTOR = { Low: 0.85, Medium: 1.0, High: 1.35, Critical: 1.75 };
+
+  function findBaseSegment(name) {
+    return baseData.segments.find(s => s.name === name);
+  }
+
+  function applySimulation() {
+    const rateShockBps = parseFloat(document.getElementById('rateShock').value);
+    const equityShockPct = parseFloat(document.getElementById('equityShock').value) / 100;
+    const fxShockPct = parseFloat(document.getElementById('fxShock').value) / 100;
+    const defaultShockPp = parseFloat(document.getElementById('defaultShock').value);
+    const recoveryShockPct = parseFloat(document.getElementById('recoveryShock').value) / 100;
+    const concentrationPct = parseFloat(document.getElementById('concentration').value) / 100;
+
+    const sim = JSON.parse(JSON.stringify(baseData));
+
+    // Market Risk Impact
+    const rateImpactRevenue = rateShockBps * 0.08;
+    sim.revenue = baseData.revenue + rateImpactRevenue;
+    const equityImpact = equityShockPct * 12.5;
+    sim.revenue += equityImpact;
+    const fxImpact = fxShockPct * 4.2;
+    sim.revenue += fxImpact;
+
+    sim.marketRiskVar = baseData.marketRiskVar * (1 + Math.abs(equityShockPct) * 2.5 + fxShockPct * 1.8 + Math.abs(rateShockBps) / 100 * 0.6);
+
+    const baseCosts = baseData.revenue * 0.482;
+    sim.netProfit = sim.revenue - baseCosts - sim.expectedLoss;
+
+    // Credit Risk Impact
+    sim.nplRatio = baseData.nplRatio + defaultShockPp * 0.9;
+    sim.coverageRatio = baseData.coverageRatio - (recoveryShockPct * 100) * 0.8;
+    sim.nplRatio += concentrationPct * 3.5;
+    sim.nplRatio = Math.min(sim.nplRatio, 15);
+    sim.nplAmount = sim.totalPortfolio * (sim.nplRatio / 100);
+    sim.expectedLoss = baseData.expectedLoss * (1 + defaultShockPp * 0.35 - recoveryShockPct * 0.5 + concentrationPct * 0.6);
+    sim.expectedLoss = Math.max(sim.expectedLoss, 4);
+    sim.unexpectedLoss = baseData.unexpectedLoss * (1 + concentrationPct * 0.8 + defaultShockPp * 0.25);
+    sim.coverageRatio = Math.min(Math.max(sim.coverageRatio, 45), 95);
+    sim.watchlistRatio = baseData.watchlistRatio + defaultShockPp * 1.2 + concentrationPct * 2;
+    sim.restructuredRatio = baseData.restructuredRatio + defaultShockPp * 0.6;
+
+    sim.netProfit -= (sim.expectedLoss - baseData.expectedLoss) * 0.9;
+    sim.netProfit = Math.max(sim.netProfit, 5);
+
+    sim.roe = (sim.netProfit / (sim.totalPortfolio * 0.12)) * 100;
+    sim.roe = Math.min(Math.max(sim.roe, 2), 25);
+
+    sim.costIncome = baseData.costIncome + (baseCosts - sim.revenue * 0.482) / sim.revenue * 100;
+    sim.costIncome = Math.min(Math.max(sim.costIncome, 30), 70);
+
+    sim.lcr = baseData.lcr - Math.abs(equityShockPct) * 40 - fxShockPct * 25 + rateShockBps / 100 * 5;
+    sim.lcr = Math.min(Math.max(sim.lcr, 90), 200);
+
+    // Update segments (risk grade, yield, NPL) before RWA/CET1/portfolio value,
+    // since those now depend on the post-shock risk grade of each segment.
+    sim.segments.forEach((seg, idx) => {
+      const baseSeg = baseData.segments[idx];
+      const sensitivity = seg.name === 'Retail Banking' ? 1.4 : (seg.name === 'Corporate Banking' ? 0.6 : 1.0);
+      seg.yield = baseSeg.yield + (rateShockBps / 100) * sensitivity - defaultShockPp * 0.15;
+
+      const nplSensitivity = seg.name === 'Retail Banking' ? 1.8 : (seg.name === 'Commercial Banking' ? 1.3 : 0.8);
+      seg.npl = baseSeg.npl + defaultShockPp * nplSensitivity + concentrationPct * 2;
+
+      seg.risk = baseSeg.risk;
+      if (seg.npl > 6 || (baseSeg.risk === 'High' && defaultShockPp > 3)) seg.risk = 'Critical';
+      else if (seg.npl > 3.5 && baseSeg.risk === 'Low') seg.risk = 'Medium';
+      else if (seg.npl > 3.5 && baseSeg.risk === 'Medium') seg.risk = 'High';
+
+      seg.progress = (seg.yield / seg.target) * 100;
+
+      // Wire the previously-unused `rwa` field into an actual stressed RWA:
+      // a risk-grade migration (e.g. Low -> Medium) scales that segment's
+      // risk-weighted assets by the ratio of the new/old weight factors.
+      seg.rwa = baseSeg.rwa * (RISK_WEIGHT_FACTOR[seg.risk] / RISK_WEIGHT_FACTOR[baseSeg.risk]);
+    });
+
+    // CET1 ratio: previously computed with a hardcoded "totalPortfolio * 0.12"
+    // stand-in for RWA, which doesn't match the real RWA data on the segments
+    // (sum ≈ 940M, i.e. ~76% of exposure, not 12%). Now derive implied CET1
+    // capital from the base case and re-apply it against actual stressed RWA.
+    const baseRWA = baseData.segments.reduce((sum, s) => sum + s.rwa, 0);
+    const impliedCapital = (baseData.cet1Ratio / 100) * baseRWA;
+    const stressedRWA = sim.segments.reduce((sum, s) => sum + s.rwa, 0);
+    const retainedEarningsImpact = (sim.netProfit - baseData.netProfit) * 0.5; // ~50% retention assumption
+    const stressedCapital = impliedCapital + retainedEarningsImpact;
+    sim.cet1Ratio = (stressedCapital / stressedRWA) * 100;
+    sim.cet1Ratio = Math.min(Math.max(sim.cet1Ratio, 6), 22);
+
+    // Total Portfolio value: previously never changed under any scenario, so
+    // the headline KPI and the trend chart's final point were static no
+    // matter how severe the shock. Now mark-to-market / write-down the book:
+    //  - rate shock hits the duration-sensitive book (Treasury + fixed-rate loans)
+    //  - equity shock hits the equity-linked book (Wealth Management + Treasury)
+    //  - FX shock drags a modest FX-denominated share of the whole book
+    //  - credit stress writes down value beyond what's captured in expected loss
+    const rateSensitiveBook = baseData.totalPortfolio * 0.35;
+    const rateDuration = 3.2;
+    const ratePortfolioImpact = -(rateShockBps / 10000) * rateDuration * rateSensitiveBook;
+
+    const equitySensitiveBook = (findBaseSegment('Wealth Management').exposure + findBaseSegment('Treasury & Markets').exposure) * 0.6;
+    const equityPortfolioImpact = equityShockPct * equitySensitiveBook;
+
+    const fxSensitiveBook = baseData.totalPortfolio * 0.12;
+    const fxPortfolioImpact = -fxShockPct * fxSensitiveBook * 0.4;
+
+    const creditWriteDown = -(defaultShockPp * 0.01) * baseData.totalPortfolio * 0.5
+      - concentrationPct * baseData.totalPortfolio * 0.15;
+
+    sim.totalPortfolio = baseData.totalPortfolio + ratePortfolioImpact + equityPortfolioImpact + fxPortfolioImpact + creditWriteDown;
+    sim.totalPortfolio = Math.max(sim.totalPortfolio, baseData.totalPortfolio * 0.7);
+
+    // PMF Impact - Credit stress affects Mandate Index (less capacity for aspirational)
+    sim.pmf.mandateIndex = baseData.pmf.mandateIndex * (1 - defaultShockPp * 0.03 - concentrationPct * 0.1);
+    sim.pmf.mandateIndex = Math.min(Math.max(sim.pmf.mandateIndex, 40), 95);
+
+    // SDI increases with stress (more subsidy dependence)
+    sim.pmf.sdi = baseData.pmf.sdi * (1 + defaultShockPp * 0.04 + concentrationPct * 0.08);
+    sim.pmf.sdi = Math.min(sim.pmf.sdi, 35);
+
+    // Impact Multiplier decreases with stress
+    sim.pmf.impactMultiplier = baseData.pmf.impactMultiplier * (1 - defaultShockPp * 0.02 - concentrationPct * 0.05);
+    sim.pmf.impactMultiplier = Math.max(sim.pmf.impactMultiplier, 2);
+
+    // Financial Additionality - aspirational financing may decrease under stress
+    sim.pmf.financialAdditionality.aspirationalFinancing = baseData.pmf.financialAdditionality.aspirationalFinancing * (1 - defaultShockPp * 0.02);
+    sim.pmf.financialAdditionality.aspirationalFinancing = Math.max(sim.pmf.financialAdditionality.aspirationalFinancing, 20);
+
+    currentData = sim;
+    updateUI(sim);
+  }
+
+  // ============================================================
+  // RESET SIMULATION
+  // ============================================================
+  function resetSimulation() {
+    document.getElementById('rateShock').value = 0;
+    document.getElementById('equityShock').value = 0;
+    document.getElementById('fxShock').value = 0;
+    document.getElementById('defaultShock').value = 0;
+    document.getElementById('recoveryShock').value = 0;
+    document.getElementById('concentration').value = 0;
+
+    document.getElementById('rateShockVal').textContent = '0 bps';
+    document.getElementById('equityShockVal').textContent = '0%';
+    document.getElementById('fxShockVal').textContent = '0%';
+    document.getElementById('defaultShockVal').textContent = '0.0 pp';
+    document.getElementById('recoveryShockVal').textContent = '0%';
+    document.getElementById('concentrationVal').textContent = '0%';
+
+    currentData = JSON.parse(JSON.stringify(baseData));
+    updateUI(currentData);
+  }
+
+  // ============================================================
+  // CHARTS
+  // ============================================================
+  let trendChart, riskChart;
+
+  function initCharts() {
+    const ctxTrend = document.getElementById('trendChart').getContext('2d');
+    trendChart = new Chart(ctxTrend, {
+      type: 'line',
+      data: {
+        labels: ['Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+        datasets: [{
+          label: 'Portfolio Value (M)',
+          data: baseData.monthlyTrend,
+          borderColor: '#1e6f9f',
+          backgroundColor: 'rgba(30, 111, 159, 0.06)',
+          tension: 0.3,
+          fill: true,
+          pointBackgroundColor: '#1e6f9f',
+          pointBorderColor: 'white',
+          borderWidth: 2,
+          pointRadius: 3,
+          pointHoverRadius: 5
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { label: (ctx) => `$${ctx.raw.toFixed ? ctx.raw.toFixed(1) : ctx.raw}M` } }
+        },
+        scales: {
+          y: { beginAtZero: false, grid: { color: '#e6edf6' }, ticks: { callback: (val) => `$${val}M`, font: { size: 10 } } },
+          x: { grid: { display: false }, ticks: { font: { size: 10 } } }
+        }
+      }
+    });
+
+    const ctxRisk = document.getElementById('riskChart').getContext('2d');
+    riskChart = new Chart(ctxRisk, {
+      type: 'doughnut',
+      data: {
+        labels: ['Credit Risk', 'Market Risk', 'Operational Risk', 'Other'],
+        datasets: [{
+          data: baseData.riskDistribution,
+          backgroundColor: ['#1e6f9f', '#3b8fc2', '#7fb2d9', '#b8d4e9'],
+          borderWidth: 0
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        cutout: '65%',
+        plugins: {
+          legend: { position: 'bottom', labels: { boxWidth: 10, padding: 10, font: { size: 10 } } }
+        }
+      }
+    });
+  }
+
+  function updateTrendChart(newData) {
+    if (trendChart) {
+      trendChart.data.datasets[0].data = newData;
+      trendChart.update();
+    }
+  }
+
+  // Risk composition doughnut: previously frozen at the base [45,30,15,10]
+  // split forever, even while the stress sliders were being used. Now the
+  // Credit and Market slices shift with the actual shock inputs and the
+  // whole set is renormalised back to 100%.
+  function updateRiskChart(data) {
+    if (!riskChart) return;
+
+    const base = baseData.riskDistribution; // [Credit, Market, Op, Other]
+    const rateShockBps = parseFloat(document.getElementById('rateShock')?.value || 0);
+    const equityShockPct = parseFloat(document.getElementById('equityShock')?.value || 0) / 100;
+    const fxShockPct = parseFloat(document.getElementById('fxShock')?.value || 0) / 100;
+    const defaultShockPp = parseFloat(document.getElementById('defaultShock')?.value || 0);
+    const concentrationPct = parseFloat(document.getElementById('concentration')?.value || 0) / 100;
+
+    const creditAdj = defaultShockPp * 1.5 + concentrationPct * 100 * 0.3;
+    const marketAdj = Math.abs(rateShockBps) / 10 + Math.abs(equityShockPct) * 100 * 0.3 + fxShockPct * 100 * 0.2;
+
+    const raw = [
+      Math.max(base[0] + creditAdj, 5),
+      Math.max(base[1] + marketAdj, 5),
+      base[2],
+      base[3]
+    ];
+    const total = raw.reduce((a, b) => a + b, 0);
+    const normalised = raw.map(v => +(v / total * 100).toFixed(1));
+
+    riskChart.data.datasets[0].data = normalised;
+    riskChart.update();
+  }
+
+  // ============================================================
+  // EVENT LISTENERS
+  // ============================================================
+  document.addEventListener('DOMContentLoaded', () => {
+    initCharts();
+    updateUI(baseData);
+
+    document.getElementById('rateShock').addEventListener('input', (e) => {
+      document.getElementById('rateShockVal').textContent = `${parseFloat(e.target.value).toFixed(0)} bps`;
+    });
+    document.getElementById('equityShock').addEventListener('input', (e) => {
+      document.getElementById('equityShockVal').textContent = `${parseFloat(e.target.value).toFixed(1)}%`;
+    });
+    document.getElementById('fxShock').addEventListener('input', (e) => {
+      document.getElementById('fxShockVal').textContent = `${parseFloat(e.target.value).toFixed(1)}%`;
+    });
+    document.getElementById('defaultShock').addEventListener('input', (e) => {
+      document.getElementById('defaultShockVal').textContent = `${parseFloat(e.target.value).toFixed(1)} pp`;
+    });
+    document.getElementById('recoveryShock').addEventListener('input', (e) => {
+      document.getElementById('recoveryShockVal').textContent = `${parseFloat(e.target.value).toFixed(1)}%`;
+    });
+    document.getElementById('concentration').addEventListener('input', (e) => {
+      document.getElementById('concentrationVal').textContent = `${parseFloat(e.target.value).toFixed(1)}%`;
+    });
+
+    document.getElementById('applySimBtn').addEventListener('click', applySimulation);
+    document.getElementById('resetSimBtn').addEventListener('click', resetSimulation);
+  });
+</script>
+</body>
+</html>

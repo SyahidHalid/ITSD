@@ -1,0 +1,3482 @@
+[
+    {
+        "CEDAR":"3 KYODAI STALL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"A&F AUTOMOTIVE SERVICES",
+        "Matched_with_DMS":"A&D BROTHERS AUTOMOTIVE SERVICES",
+        "Fuzz_Ratio":90.4761904762
+    },
+    {
+        "CEDAR":"A.C.M.E LIXIS ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"A.U.S.S. CRAVINGS ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AAISYAZRA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AAR MIX FOOD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AARA ENTERPRISE",
+        "Matched_with_DMS":"ATJARA ENTERPRISE",
+        "Fuzz_Ratio":93.75
+    },
+    {
+        "CEDAR":"ABDUL HALIM RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ABIB MAJU SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ABRYON TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ABSAH ENTERPRISE",
+        "Matched_with_DMS":"ASMAH ENTERPRISE",
+        "Fuzz_Ratio":93.75
+    },
+    {
+        "CEDAR":"ACESS SERVICES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ACTYVATE LIFESTYLE EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ADEL STAR EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ADINDA 988 ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AF DKITCHENS EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AFAZ CREATIVE DESIGN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AFFLUENCE EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AFIDA BASRI RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AGRIFOOD VENTURES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AGRONIAGA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AHLAMI BATHRISHA RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AHMAD SYAMIL BIN MOHAMED",
+        "Matched_with_DMS":"SYAMIL FAHIM BIN MOHAMED FAHIM",
+        "Fuzz_Ratio":91.6666666667
+    },
+    {
+        "CEDAR":"AHZUNI ENTERPRISE",
+        "Matched_with_DMS":"WAZNI ENTERPRISE",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "CEDAR":"AIDIL ENTERPRISE",
+        "Matched_with_DMS":"AIDIL ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"AIEN SINAR ENTERPRISE",
+        "Matched_with_DMS":"ARI SINAR ENTERPRISE",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "CEDAR":"AIFA HARDWARE & ELECTRICAL ENTERPRISE",
+        "Matched_with_DMS":"FS ELECTRICAL ENTERPRISE",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "CEDAR":"AINAA FOODS ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AINISYA RESOURCES",
+        "Matched_with_DMS":"AINIEY RESOURCES",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "CEDAR":"AJUJU DS ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AKADEMI FISIOTERAPI GENQI",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AKADEMI GAHARA BESTARI",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AL AMIN EDU OASIS SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ALAL ENTERPRISE",
+        "Matched_with_DMS":"AKMAL ENTERPRISE",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"ALDAM BIN HAMJA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ALESHA JANJI CAFE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ALIA FATYSHA BINTI AMINUDDIN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ALIA VENTURES COMPANY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ALIAS BIN HARUN",
+        "Matched_with_DMS":"MD ALIAS BIN HARUN",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"ALIN ENTERPRISE",
+        "Matched_with_DMS":"MALIN ENTERPRISE",
+        "Fuzz_Ratio":96.7741935484
+    },
+    {
+        "CEDAR":"ALISHA MF ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ALMAHRYA SERVICE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ALMUMINUN CONSULTANCY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ALYZA GOJES ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AMALEEN DIYANI RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AMIES PROPS RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AMIN AIZAT ARCHITECT",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AMIRAH RIZQI ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AMJ TECHNIQUE SDN BHD",
+        "Matched_with_DMS":"AMJ TECHNIQUE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"AMORE FRESCO WELLNESS & CENTRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AMPANGAN CATERER",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AMRA FN RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AMZ FUTURE SOLUTION",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ANA IJAT ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ANNIE ENTERPRISE",
+        "Matched_with_DMS":"DANZIE ENTERPRISE",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "CEDAR":"AQRUS HAYZA SOLUTIONS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AR GREEN LEGACY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AREYOUM PRODUCTION STUDIO",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ARFA CATERING & BAKING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ARIEMA ENTERPRISE",
+        "Matched_with_DMS":"ARMA ENTERPRISE",
+        "Fuzz_Ratio":93.75
+    },
+    {
+        "CEDAR":"ARRAY GLOBAL ENTERPRISE",
+        "Matched_with_DMS":"AD GLOBAL ENTERPRISE",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "CEDAR":"ARRUMAISYA BEAUTY & WELLNESS",
+        "Matched_with_DMS":"JX BEAUTY WELLNESS",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "CEDAR":"ARTLYN ENTERPRISE",
+        "Matched_with_DMS":"ARYAN ENTERPRISE",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "CEDAR":"ARZA DELIGHT & ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AS EMPIRE ENTERPRISE",
+        "Matched_with_DMS":"A&Z EMPIRE FAMILY ENTERPRISE",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "CEDAR":"AS JITU RESOURCES",
+        "Matched_with_DMS":"NADI JITU RESOURCES",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"AS NE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ASA DESA ENTERPRISE",
+        "Matched_with_DMS":"DESA NADIA ENTERPRISE",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "CEDAR":"ASIA BV TRANSPORT SERVICES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ASIAH MILAH ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ASMARA KIRANA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ASRADA ENTERPRISE",
+        "Matched_with_DMS":"NASADIA ENTERPRISE",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "CEDAR":"ASSIDA ENTERPRISE",
+        "Matched_with_DMS":"AIDA ENTERPRISE",
+        "Fuzz_Ratio":93.75
+    },
+    {
+        "CEDAR":"ATMA ACADEMY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ATRA GLOBAL ENTERPRISE",
+        "Matched_with_DMS":"TERA GLOBAL ENTERPRISE",
+        "Fuzz_Ratio":95.4545454545
+    },
+    {
+        "CEDAR":"ATZ MAJU ENTERPRISE",
+        "Matched_with_DMS":"AZA MAJU ENTERPRISE",
+        "Fuzz_Ratio":94.7368421053
+    },
+    {
+        "CEDAR":"AUGMENTED SKILL ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AURA NIED RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AURORA GLOBAL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AUS 99 ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AVS TRAVEL SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AWAN BERSATU ENTERPRISE",
+        "Matched_with_DMS":"AGR BERSATU ENTERPRISE",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "CEDAR":"AWAN LARAT WARISAN INDERAPURA ENTERPRISE",
+        "Matched_with_DMS":"WARISAN HN ENTERPRISE",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "CEDAR":"AWIEN ENTERPRISE",
+        "Matched_with_DMS":"AFIENA ENTERPRISE",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "CEDAR":"AYAM GUNTING SUNGAI KELAMAH",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AYU KARTINI BEAUTY N SPA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AYUNDA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AZ CONTINENTAL CENTRE SDN. BHD.",
+        "Matched_with_DMS":"I CONTINENTAL CENTRE",
+        "Fuzz_Ratio":94.7368421053
+    },
+    {
+        "CEDAR":"AZ MASTER TRADING",
+        "Matched_with_DMS":"GOOD MASTER TRADING",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"AZ WOODWORKS LEGACY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AZ-ZUMAR ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AZIANA EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AZIEDA ENTERPRISE",
+        "Matched_with_DMS":"AIDA ENTERPRISE",
+        "Fuzz_Ratio":93.75
+    },
+    {
+        "CEDAR":"AZIEMAR ENTERPRISE",
+        "Matched_with_DMS":"AZIMAH ENTERPRISE",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "CEDAR":"AZIZA SHAHIBI ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AZIZAH AZHAR TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"AZURA PURNAMA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"B.A. EMPIRE & TRANSPORT",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"BADS ENTERPRISE",
+        "Matched_with_DMS":"BARD ENTERPRISE",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "CEDAR":"BAHTERA 28 EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"BANGDAM VENTURE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"BELGIUM COKLAT BY SHAA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"BENANG HIJAU KUNING ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"BERENJUT JAYA ENTERPRISE",
+        "Matched_with_DMS":"JAYA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"BERIWAN HIJAU SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"BERKAT BAKERY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"BEYOND INFINITY ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"BIGCUBE DIGITAL ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"BILLION ELITE RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"BINTANGSUE TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"BLS REAL COMMUNICATION",
+        "Matched_with_DMS":"REAL BRIGHT COMMUNICATION",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "CEDAR":"BMG CAPITAL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"BONS EXCELL ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"BORNEO DICTIONARY MIRI",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"BOYPIKA MAJU ENTERPRISE",
+        "Matched_with_DMS":"JP MAJU ENTERPRISE",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "CEDAR":"BULAT STORE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"BUMI SERIBIJAYA TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"BUSHRO FASHION ENTERPRISE",
+        "Matched_with_DMS":"DZZ FASHION ENTERPRISE",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "CEDAR":"BYTEHOUSE TECHNOLOGY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"C&M COMPANY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CAHAYA ARTY ENTERPRISE",
+        "Matched_with_DMS":"CAHAYA IB ENTERPRISE",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "CEDAR":"CAHAYA JAYA TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CAHAYA NURZARA ENTERPRISE",
+        "Matched_with_DMS":"CAHAYA IB ENTERPRISE",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "CEDAR":"CANGKIR EMAS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CHA CHA ENTERPRISE",
+        "Matched_with_DMS":"C.A ENTERPRISE",
+        "Fuzz_Ratio":92.8571428571
+    },
+    {
+        "CEDAR":"CHARMS & COLORS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CHE LAS TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CHE P HOUZ",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CHELLO DESIGNS & TAILORING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CHERISH BEAUTY STUDIO",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CHIEQA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CHILL STALL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CIKFA EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CIKLONG EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CINSI RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CIRCLELIOUS ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CITRABIZ STALL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CITYRENO BEAUTY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CKIENZ BEAUTY & RELAX CENTRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CLOUDSIDE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"COMBINE ROPNY SDN BHD",
+        "Matched_with_DMS":"COMBINE ROPNY SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"CONSORTIUM AKI PLANNER",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CRUNTIZ",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CYNCHI D ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"CYNTA NUR ENTERPRISE",
+        "Matched_with_DMS":"AN NUR ENTERPRISE",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"D ROSE TEXTILES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"D RZKY MAMA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"D'AFIAT CENTRE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"D'FARAH ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"D'YNI SOFTENER",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"D.M.T ENTERPRISE",
+        "Matched_with_DMS":"M.M. ENTERPRISE",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"DAPORENNEY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DAPUR 5A",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DAPUR IDA GOPENG",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DAPUR ILYASA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DAPUR RIZQI",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DARFISYA LEGACY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DARMYLLA BOUTIQUE & TAILOR",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DARWISY ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DASPA WELLNESS N CONFINEMENT",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DAUN PELANGI ENTERPRISE",
+        "Matched_with_DMS":"ARDANA PELANGI ENTERPRISE",
+        "Fuzz_Ratio":91.6666666667
+    },
+    {
+        "CEDAR":"DAYA KAF AGROFARM",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DAYANG MISIAH ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DE ANGGUN SPA & BEAUTY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DE'LAINIS ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DECOLORS OFFICIAL RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DEEALISS EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DELIHANA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DELIMA MAJU VENTURES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DEMN ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DERAZZ BIZZ RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DEWA GROUP VENTURE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DEWI ALAM EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DHIYATECH VENTURES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DHUSNA KITCHEN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DIBAWAH BAYU",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DIDA BARU ENT",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DNIQ NUBIH SYNERGY INDUSTRI",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DOBOT ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DOUBLED DFAM ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"DS ANGGUN ENTERPRISE",
+        "Matched_with_DMS":"ANGGUN BERGAYA ENTERPRISE",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "CEDAR":"DUNIA AURA GLOBAL RESOURCES",
+        "Matched_with_DMS":"JY GLOBAL RESOURCES",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "CEDAR":"DZA NUR IMAN TRADING",
+        "Matched_with_DMS":"NUR TRADING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"D\u2019PURNAMA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"EA BIZZ ENTERPRISE",
+        "Matched_with_DMS":"MIND BIZZ ENTERPRISE",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "CEDAR":"EDS GLOBAL VENTURES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"EIGHTYSEVEN SUPPLIES & SERVICES (M) SDN BHD",
+        "Matched_with_DMS":"FT SERVICES SDN BHD",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "CEDAR":"EIMAN AUTO WORLD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"EKSPORT DAGANGAN STRATEGIK",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"EKYNRICH ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ELLY HOUSE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ELLYSYA BOUQUET SHOP",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ELNAIZ EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ELYZA AZIZ RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"EMMA HEARTS RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"EMPAYAR TAMAN RAUDHAH",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"EMPIKEY SOLUTION",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ENAEM UNIVERSAL OUTLET",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ENSON KASIH GLOBAL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ERLANZARA SIGNATURE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ERNEE 5S ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ESWAI MARKETING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"EVOLUSI JAYA ENTERPRISE",
+        "Matched_with_DMS":"JAYA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"F&A GEMILANG TRADING",
+        "Matched_with_DMS":"GEMILANG TRADING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"FADYZE WORLDSTAR PLT",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FAIRAH ZAILA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FAIZAH BINTI FAUZI",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FAJR EXCLUSIVE EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FANACITRA RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FANSS TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FAQISMAN BERSATU ENTERPRISE",
+        "Matched_with_DMS":"AGR BERSATU ENTERPRISE",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "CEDAR":"FAR RICH RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FARAH VVC OPTOMETRIST PLT",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FARIDA BINTI YUSOFF",
+        "Matched_with_DMS":"NARAIDA BINTI YUSOFF",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "CEDAR":"FARIDSHA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FARIZH ENTERPRISE",
+        "Matched_with_DMS":"ARAIZ ENTERPRISE",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "CEDAR":"FARREZ RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FAZ BIZZ ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FAZ MAJU TRADING",
+        "Matched_with_DMS":"DA MAJU TRADING",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"FFAR MANAGEMENT & SERVICES",
+        "Matched_with_DMS":"CL MANAGEMENT SERVICES",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "CEDAR":"FGW EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FIERZA ENTERPRISE",
+        "Matched_with_DMS":"FIEZA ENTERPRISE",
+        "Fuzz_Ratio":96.9696969697
+    },
+    {
+        "CEDAR":"FILZAH ENTERPRISE",
+        "Matched_with_DMS":"FIEZA ENTERPRISE",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "CEDAR":"FIR GLOBAL RESOURCES",
+        "Matched_with_DMS":"JY GLOBAL RESOURCES",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "CEDAR":"FIRROS ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FITRYZ LEGACY ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FIZA BAKERY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FIZZ CHAUDHARY GLOBAL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FLY GLOBAL ENTERPRISE",
+        "Matched_with_DMS":"AD GLOBAL ENTERPRISE",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "CEDAR":"FMF DYNAMICS GLOBAL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FNK EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FORIQA RICH TRADING",
+        "Matched_with_DMS":"FORIQA RICH TRADING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"FRISHA RICH EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"FS MANIS ENTERPRISE",
+        "Matched_with_DMS":"MANIS ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"FT SURIA ENTERPRISE",
+        "Matched_with_DMS":"SURIA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"GANDA JUTA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"GARA INTERNATIONAL SDN BHD",
+        "Matched_with_DMS":"MRA INTERNATIONAL SDN BHD",
+        "Fuzz_Ratio":94.1176470588
+    },
+    {
+        "CEDAR":"GEBOO KITCHEN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"GENIUS AULAD INTERNATIONAL GROUP SDN BHD",
+        "Matched_with_DMS":"GENIUS AULAD INTERNATIONAL GROUP SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"GERAI BISKITA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"GERAI J & Z",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"GERAI KAK MASRIAH",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"GERAI MAKAN MUHIBBAH MENUMBOK",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"GEROBOK MYRA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"GETNOW SOLUTION",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"GIEDA ROSE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"GIG VENTURE SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"GLOBAL INFINITE WEALTH RESOURCES",
+        "Matched_with_DMS":"JY GLOBAL RESOURCES",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "CEDAR":"GLOCAL GROUP SOLUTION & CONSULTANCY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"GM MAJU TRADING",
+        "Matched_with_DMS":"MRN MAJU TRADING",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"GOOD TOUCH VENTURE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"GREEN BORNEO TRADING REPAIR & SUPPLY",
+        "Matched_with_DMS":"1 BORNEO TRADING",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "CEDAR":"GRENOVA VENTURES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"GROW DEEP COMPANY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"GT FOOD ASIA SDN BHD",
+        "Matched_with_DMS":"ASIA FOOD CATERER SDN BHD",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "CEDAR":"GUDANG TUJUH ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"GV SUPPLY AND SERVICES",
+        "Matched_with_DMS":"AMAR SUPPLY AND SERVICES",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "CEDAR":"H.I GLOBAL IMPIAN SERVICES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HAAN\u2019S COLLECTION",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HAFNA & SONS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HALA SYNERGY RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HALIMAH BATIK & SONGKET",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HAMCORP ENGINEERING & SERVICES",
+        "Matched_with_DMS":"NF ENGINEERING & SERVICES",
+        "Fuzz_Ratio":93.6170212766
+    },
+    {
+        "CEDAR":"HAMIDAH BERKAT ENTERPRISE",
+        "Matched_with_DMS":"FF BERKAT ENTERPRISE",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "CEDAR":"HAMSAH BERKAT RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HANI SWEET ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HANIATY ENTERPRISE",
+        "Matched_with_DMS":"HANA ENTERPRISE",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "CEDAR":"HANNISA RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HANS DYNAMIC ENTERPRISE",
+        "Matched_with_DMS":"SJ DYNAMIC ENTERPRISE",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "CEDAR":"HARLYN BEAUTY HOUSE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HASSAN BIN MOHAMAD NASIR",
+        "Matched_with_DMS":"MOHAMAD ALI BIN HASSAN",
+        "Fuzz_Ratio":91.3043478261
+    },
+    {
+        "CEDAR":"HAWA ADAM",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HAZIQLILY ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HAZWANI BINTI JAAFAR",
+        "Matched_with_DMS":"HAWA BINTI JAAFAR",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "CEDAR":"HD DETAILING SPECIALIST SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HEJA RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HEZRIS ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HIDAYAH DELIGHT",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HKR KASRINA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HMAMU SUCCESS EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HPI FOOD SOLUTION",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HRM ENTERPRISE",
+        "Matched_with_DMS":"HR ENTERPRISE",
+        "Fuzz_Ratio":96.2962962963
+    },
+    {
+        "CEDAR":"HS HAFISYA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HUMAIRAH RIZKKI AMENA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"HUSIN & AMH VENTURE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"IFFA & IRFAN ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"IFFAH SUHAIMI FOOD INDUSTRY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"IHF ENTERPERISE",
+        "Matched_with_DMS":"HF ENTERPRISE",
+        "Fuzz_Ratio":92.8571428571
+    },
+    {
+        "CEDAR":"IKATAN MUTIARA KASIH ENTERPRISE",
+        "Matched_with_DMS":"MUTIARA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"IKKI EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ILHAM NISHAYU ENTERPRISE",
+        "Matched_with_DMS":"D ILHAM ENTERPRISE",
+        "Fuzz_Ratio":94.1176470588
+    },
+    {
+        "CEDAR":"IMAN AURA EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"IMORA RICH EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"INDAHIMAGE CONSULTANT AND TRAINING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"INSAN TADAU ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"INSYIRAH FAMILY ENTERPRISE",
+        "Matched_with_DMS":"AJ FAMILY ENTERPRISE",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "CEDAR":"INTERSOFT COMPUTER TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ISMAJU VENTURES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"IZZATI ZAFIRAH BINTI MURUSSLIM",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"JAH MAKHZUM KTJ EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"JAI ENTERPRISE",
+        "Matched_with_DMS":"JAI JR ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"JAT SUCCESS RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"JAYJARS BARBERSHOP",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"JAZZMIE MARKETING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"JCMJ SUPPLIER & SERVICES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"JE HARMONI ENTERPRISE",
+        "Matched_with_DMS":"HARMONI BERSATU ENTERPRISE",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "CEDAR":"JEMARI HALUS ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"JIHAD IMPIAN ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"JIJASA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"JIWA TEKAD ENTERPRISE",
+        "Matched_with_DMS":"TEKAD ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"JJ ADLIAAKIF ENTERPRISE",
+        "Matched_with_DMS":"JJ 2 ENTERPRISE",
+        "Fuzz_Ratio":92.8571428571
+    },
+    {
+        "CEDAR":"JOY ENTERPRISE",
+        "Matched_with_DMS":"JMY ENTERPRISE",
+        "Fuzz_Ratio":92.8571428571
+    },
+    {
+        "CEDAR":"JR RICH MARKETING",
+        "Matched_with_DMS":"MARYUS RICH MARKETING",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"JUEHUSNA COLLECTION",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"JULIANA BINTI RAZAK",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"JUMAIN AGENCY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"JURUKUR NIK HISHAM DAN TUNG SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"JZ77 ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KAK ROSE BAKERI",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KEBUN KITA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KEDAI HADIAH ONLINEKU",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KEDAI MAKAN D MIEZA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KEDAI RUNCIT KAMPUNG",
+        "Matched_with_DMS":"KEDAI RUNCIT KAMPUNG KIJANG",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"KEDAI RUNCIT REMUNA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KEJURUTERAAN RIZZQI SDN BHD",
+        "Matched_with_DMS":"KEJURUTERAAN KK SDN BHD",
+        "Fuzz_Ratio":93.023255814
+    },
+    {
+        "CEDAR":"KEK LAPIS KARLIESYA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KHAIRANI ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KHATY AINI ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KKC STATION",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KLINIK MINDA SPA IQ",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KMDAYANA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KOLEKSI DEEYA BATIK",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KOPERASI AGRO TERNAK PERAK BERHAD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KOPERASI KOMUNITI BONGGIE KUDAT BERHAD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KOPERASI PEMBANGUNAN DESA SARADAN TENGHILAN BERHAD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KOPITENA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"KURNIA SHOP ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LAGENDA OPTOMETRIST CENTRE SDN BHD",
+        "Matched_with_DMS":"GI CENTRE SDN BHD",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"LAILA SUNAN ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LD RICH LEGACY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LEADER MIND ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LEEZA TAILOR",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LEGASI ALQARNY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LEMBAYUNG RAWANA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LIERA EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LITTLE ABQARI JUNIOR CHILDCARE CENTRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LIYANA SUCCESS RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LIZA ISHAK ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LIZA SINAR ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LONG MARCH SEVEN ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LOPO MANGAN ENTEPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LOQMAN IZZAT ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LR CLEANING SOLUTION",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LUNATIC ROOM TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LYNDAM ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"LZ SUCCESS ENTERPRISE",
+        "Matched_with_DMS":"YKL SUCCESS ENTERPRISE",
+        "Fuzz_Ratio":93.023255814
+    },
+    {
+        "CEDAR":"MA LEGACY BABY SHOP",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MABO PETROLEUM SDN BHD",
+        "Matched_with_DMS":"MAZ PETROLEUM SDN BHD",
+        "Fuzz_Ratio":93.023255814
+    },
+    {
+        "CEDAR":"MACQUEEN & SON ENTERPRISE",
+        "Matched_with_DMS":"MY SON ENTERPRISE",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"MADAH VENTURE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MAFIZ REZQI ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MAHN ENTERPRISE",
+        "Matched_with_DMS":"AMAN ENTERPRISE",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "CEDAR":"MAIZA FASHION",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MAMA SITI MOTEL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MAMA TRIPLE A EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MAMAK ANYUI ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MANNA WASSALWA SERVICES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MARDZEE EMPIRE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MARFAR JAYA ENTERPRISE",
+        "Matched_with_DMS":"JAYA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"MARHAN BINTI ABDULLAH",
+        "Matched_with_DMS":"MAHANI BINTI ABDULLAH",
+        "Fuzz_Ratio":95.2380952381
+    },
+    {
+        "CEDAR":"MARNIZA BINTI JAMAL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MARUL AUTO GARAGE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MARZUKI MARZUAN TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MASLINA ASTNAIN ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MASNAH BINTI ABDUL HAMID",
+        "Matched_with_DMS":"HASNAH BINTI ABDUL HAMID",
+        "Fuzz_Ratio":95.8333333333
+    },
+    {
+        "CEDAR":"MASTER HONG TRADITIONAL TREATMENT CENTER",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MASTURA BINTI ABDUL MALIK",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MATSALEH BARBER",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MAWARKU ENTERPRISE",
+        "Matched_with_DMS":"MAZWAR ENTERPRISE",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "CEDAR":"MECK HOME SPA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MENYUKE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MFM BERKAT TRADING",
+        "Matched_with_DMS":"RR BERKAT TRADING",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"MHH AUTO PARTS ENTERPRISE",
+        "Matched_with_DMS":"MK AUTO PARTS ENTERPRISE",
+        "Fuzz_Ratio":93.8775510204
+    },
+    {
+        "CEDAR":"MILLIEN TASTE EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MIRA CATERING & SERVICES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MIRA MIRLIA BINTI MOHD RAMLI",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MJ MAJU GEMILANG ENTERPRISE",
+        "Matched_with_DMS":"GEMILANG ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"MJN PRO RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MJR RIZQAH RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MK SHUKRI ENTERPRISE",
+        "Matched_with_DMS":"MK ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"MODLY SS GLOBAL MARKETING",
+        "Matched_with_DMS":"YK GLOBAL MARKETING",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "CEDAR":"MOFA BILLIONAIRE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MOFA TECHNIQUE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MOHAMAD NAZRIN BIN ZAINON ABIDIN",
+        "Matched_with_DMS":"ZAINON BIN MOHAMAD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"MOHAMAD ZAIDI BIN ABDUL AZIZ",
+        "Matched_with_DMS":"AZIZ ABDUL AZIZ",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"MOHAMMAD SHAHIZAR BIN SHAHARUDDIN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MOHD RASHID BIN MAN",
+        "Matched_with_DMS":"HAMDAN BIN MOHD RASHID",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "CEDAR":"MOKNAALIENA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MOMMY NA CONFINEMENT CARE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MOMMYROSS HOMEMADE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MONEY AND LIFE ACADEMY SDN BHD",
+        "Matched_with_DMS":"VI ACADEMY SDN BHD",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "CEDAR":"MOON DE PETALS ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MSF UNIVERSAL RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MSH TRANSPORTER & TRADING SDN. BHD.",
+        "Matched_with_DMS":"HC TRADING SDN. BHD.",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "CEDAR":"MSZ KASIH ENTERPRISE",
+        "Matched_with_DMS":"ABM KASIH ENTERPRISE",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "CEDAR":"MUEEZA RICH ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MUHAMMAD FARIS AMIN BIN ZAINIZI",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MUHAMMAD HAFIZ BIN MOHAMAD",
+        "Matched_with_DMS":"MOHAMAD HAFIZ BIN MOHAMAD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"MUMIEKA KITCHEN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MUMMY IRA SHOP",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MUMMYLENYS BEAUTY HAIRSTYLES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MUMSHEAVEN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MUSNIE BATIK RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MY OUTREC ACADEMY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MYH MAJU TRADING",
+        "Matched_with_DMS":"NY MAJU TRADING",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"MYJAI ENTERPRISE",
+        "Matched_with_DMS":"MYRAIS ENTERPRISE",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "CEDAR":"MYONE SUCCESS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MYRA BITES BAKERY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MYSMARTGOLD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MYSURISHOP SOLUTION",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"MELLA HOUSE GLOBAL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"N.L.E CONTRUCTOR",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NAAINA ENTERPRISE",
+        "Matched_with_DMS":"NAZANA ENTERPRISE",
+        "Fuzz_Ratio":94.1176470588
+    },
+    {
+        "CEDAR":"NADAYU BEAUTY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NADDY CREATIONS ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NADI BASHA RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NANN TRIGONA BEE INDUSTRIES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NAPUNGGOK HOMESTAY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NASI LEMAK GURU BESAR",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NAST NIZA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NATASHARUSZI ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NBB WELNESS SOLUTIONS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NDBR ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NERACA JAYA ENTERPRISE",
+        "Matched_with_DMS":"JAYA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"NH MANAGEMENT SERVICES",
+        "Matched_with_DMS":"AZTECH MANAGEMENT & SERVICES",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "CEDAR":"NHJ MEGA INTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NIA DHANIE HOMEMADE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NIENA 95 EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NIEZRIL ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NIF FOOD AND DRINK INTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NIJANNAH LESTARI",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NIJANNAH RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NINIE HONEY LEGACY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NK CROP ASIA SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NMN LEYZA EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NN DIRECTION ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NONA GEMILANG ENTERPRISE",
+        "Matched_with_DMS":"GEMILANG ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"NONARICH GLOBAL RESOURCES",
+        "Matched_with_DMS":"JY GLOBAL RESOURCES",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "CEDAR":"NONI GOJES EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NOOR AZMAN BIN KHOLIM",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NOORHALIZAWATI BINTI MOHD ARIF",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NOORULHAZIMAH BINTI MUHAMMAD JUNAIDI",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NOR HABEEZA BTE MD.RASALI",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NOR HAYATI BINTI ZAINAL ABIDIN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NOR SUZANA BINTI ISMAIL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NORABIATUL ADAWIYAH BINTI ISMAIL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NORAFIDAH RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NORAFZAINIZAN BINTI MUSTALIB",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NORAINI, AYNIE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NORASIKIN TALIB ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NORAZIAH BINTI ASID",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NORAZLINA BINTI CHE DIN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NORSUHADA BINTI MOHD ROSDI",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NORSYANAZ ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NORYATI BINTI SAHABUDDIN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NORZANA JAYA ENTERPRISE",
+        "Matched_with_DMS":"JAYA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"NSA TYRE RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NSL DELIMA NIAGA",
+        "Matched_with_DMS":"NSL DELIMA NIAGA",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"NUR AIDA ENTERPRISE",
+        "Matched_with_DMS":"AIDA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"NUR AYDITH ENTERPRISE",
+        "Matched_with_DMS":"AN NUR ENTERPRISE",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"NUR AZLIN BINTI CHE AMID",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NUR BISMILLAH ENTERPRISE",
+        "Matched_with_DMS":"AN NUR ENTERPRISE",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"NUR SHAHZAD ENTERPRISE",
+        "Matched_with_DMS":"AN NUR ENTERPRISE",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"NUR SHAZRIANA FAZIERA BINTI ABDULLAH",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NURALISA BINTI MOHD AMIN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NURRICH AL NUR RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NURUL AKMAWATI BINTI MOHD YASIN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NURZIMAHNUR ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NV ABADI ENTERPRISE",
+        "Matched_with_DMS":"ANR ABADI ENTERPRISE",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "CEDAR":"NW HEALTHCARE SDN BHD",
+        "Matched_with_DMS":"ADVANCED HEALTHCARE PRODUCTS SDN BHD",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "CEDAR":"NZ EMBUN EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"NZ TEGUH MAJU ENTERPRISE",
+        "Matched_with_DMS":"MAJU TEGUH ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"OMIILA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ONE BLOOD LINE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ONE SIX SERVICE SOLUTIONS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ONE ZEK JAMEELA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ONEGATE SDN BHD",
+        "Matched_with_DMS":"NEXAGATE SDN BHD",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"OPTOM MOBILE (M) SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"OSIC SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"PARUJAH EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"PASAR MINI LAN ALI MAJU",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"PAZ INDUSTRIES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"PEKAN DARAT ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"PEKASAM HAZAKU OSEM",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"PERMIT SEMENTARA - MIRI BINTI ASSAN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"PERNIAGAAN NATIKA (M) SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"PERSISTRA TAX CONSULTANT",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"PERSONA DYNAMIC COMMUNICATIONS",
+        "Matched_with_DMS":"TM COMMUNICATIONS",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"PERUSAHAAN IQBAL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"PETIKITA (M) SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"PILUSSAM ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"PRO FIT PLANET SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"PT ASHIMIE EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"PUMPKIN BROTHERS AUTO PARTS & ACCESSORIES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"PUSAT TUISYEN INSPIRASI MILLENIA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"Q'SUNARTI ENTEPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"Q-TALK MANAGEMENT SERVICES",
+        "Matched_with_DMS":"CL MANAGEMENT SERVICES",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "CEDAR":"QADEESYA EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"QAIREEN AMANDA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"QAMSAN ENT",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"QASEH EASTMA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"QASEH SURIYA TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"QASEHUMMI GLOBAL RESOURCES",
+        "Matched_with_DMS":"JY GLOBAL RESOURCES",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "CEDAR":"QIAS CEMERLANG INTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"QIMUMIADA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"QOKJA SPA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"QSPIRE VOICE SOLUTIONS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"RAFA KITCHEN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"RAFFLESIA HARMONI VENTURE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"RANIE RAISA EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"RANTARI VENTURES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"RAR DSHOPPE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"REPUBLIQUE ZEENC FOODS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"RESTORAN CILI HIJAU",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"REZEKI ORGANIK RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"REZEKI SINA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"REZEKI SYA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"REZQY MNADZ ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"RIEYAZ REZKI MULIA EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"RINA ENTERPRISE",
+        "Matched_with_DMS":"INA ENTERPRISE",
+        "Fuzz_Ratio":96.5517241379
+    },
+    {
+        "CEDAR":"RITA GARAGE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"RITZ SHANAZ RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"RIZQI SALBINA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"RNE ENTERPRISE",
+        "Matched_with_DMS":"ARINES ENTERPRISE",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"ROSEZ SAM KITCHEN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ROSITI KAKARUN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ROSMI BINTI SARING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ROSNIWATIAZMAR BINTI ABDULLAH",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"RTF LEGACY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"RUBY SPA & WELLNESS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"RUSAP ALAMI ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"RUZIEMAN LEGACY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"S&L MASHA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SAFFWANIE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SAKANI ENTERPRISE",
+        "Matched_with_DMS":"SAANIAH ENTERPRISE",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "CEDAR":"SALAM HIJAU",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SALANGAI NATYAM EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SALIZAH BINTI DOLMAT",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SAMIHA HANA ENTERPRISE",
+        "Matched_with_DMS":"HANA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"SANTIAWANG TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SARAH ZAKI KAZS VENTURE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SARAWAK CORNER",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SARIZ ENTERPRISE",
+        "Matched_with_DMS":"ARAIZ ENTERPRISE",
+        "Fuzz_Ratio":93.75
+    },
+    {
+        "CEDAR":"SAZ ENTERPRISE",
+        "Matched_with_DMS":"A.Z ENTERPRISE",
+        "Fuzz_Ratio":92.8571428571
+    },
+    {
+        "CEDAR":"SD BOUYGUES ACADEMY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SEE KAIZEN ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SENTUHAN RAIDA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SERA PRESTIGE RESOURCES",
+        "Matched_with_DMS":"PRESTIGE AS RESOURCES",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "CEDAR":"SERI ASHEK BINTI HAMID",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SERINA BINTI MOHD DAHLAN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SF FOOD INDUSTRIES",
+        "Matched_with_DMS":"SK FOOD INDUSTRIES",
+        "Fuzz_Ratio":94.4444444444
+    },
+    {
+        "CEDAR":"SH OUTLET",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SHAFEA EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SHAHMI AUTO SERVICE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SHAHUL TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SHAMSUL AZRI BIN ABDUL HAMID",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SHARTINA ENTERPRISE",
+        "Matched_with_DMS":"ARTINAS ENTERPRISE",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "CEDAR":"SHAZA FIVE AMD LEGACY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SHIBRHM ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SHJ PREMIUM SDN BHD",
+        "Matched_with_DMS":"MK PREMIUM SDN BHD",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "CEDAR":"SHUANG HOR ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SHUANG HOR ENTERPRISE (M) SDN BHD",
+        "Matched_with_DMS":"IEQ ENTERPRISE (M) SDN BHD",
+        "Fuzz_Ratio":91.6666666667
+    },
+    {
+        "CEDAR":"SIFA EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SIHHAT-AFIAT SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SIKA VENTURES (M) SDN BHD",
+        "Matched_with_DMS":"79 VENTURES SDN BHD",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "CEDAR":"SILVERWAVE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SINAR SURBAYA ENTERPRISE",
+        "Matched_with_DMS":"SINAR SURIA ENTERPRISE",
+        "Fuzz_Ratio":91.3043478261
+    },
+    {
+        "CEDAR":"SINGGAH RASA CAFE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SITI AISHAH BINTI HASHIM",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SITI MARDZIYAH BINTI MOHD ISMAIL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SITI NURAINI BT SAM",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SITI SALABIAH BINTI BUANG",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SITI ZULAIKHA BINTI ABDULLAH",
+        "Matched_with_DMS":"SITI NORZULAIKA BINTI ABDULLAH",
+        "Fuzz_Ratio":93.1034482759
+    },
+    {
+        "CEDAR":"SITINUR KAMALIA BINTI SENIN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SITTI HAWA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SMART EXCELLENCE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SMART LAVENDER ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SN SUB SERVICES SDN BHD",
+        "Matched_with_DMS":"FT SERVICES SDN BHD",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "CEDAR":"SNAP BUTTON DESIGN GLOBAL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SNM MUSLIMAH SALOON & BOUTIQUE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SOFTOUCH SPA THERAPHY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SOLO Q ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SOLUNSUG TRACY ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SR MAJU RODA ENTERPRISE",
+        "Matched_with_DMS":"JP MAJU ENTERPRISE",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "CEDAR":"SRI LAUNDRY",
+        "Matched_with_DMS":"SRI MUTIARA LAUNDRY",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"SS DHUHA ENTERPRISE",
+        "Matched_with_DMS":"BERKAT DHUHA ENTERPRISE",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "CEDAR":"SS ENTERPRISE",
+        "Matched_with_DMS":"MARK SS ENTERPRISE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"STAR GUIDE LEGACY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"STEER MASTER TECHNOLOGIES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SUE JELITA ENTERPRISE",
+        "Matched_with_DMS":"FB JELITA ENTERPRISE",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "CEDAR":"SUESHANTY BINTI LATIP",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SUFIAN BIN ALI",
+        "Matched_with_DMS":"MOHD SUFIAN BIN MD LIAQUAT ALI",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"SUMAYA ENTERPRISE",
+        "Matched_with_DMS":"MASMAYA ENTERPRISE",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "CEDAR":"SUN YUEN RUBBER MANUFACTURING CO. SDN. BHD.",
+        "Matched_with_DMS":"AW MANUFACTURING SDN. BHD.",
+        "Fuzz_Ratio":93.8775510204
+    },
+    {
+        "CEDAR":"SUNTAI SIDU",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SUWAIBAHAMZAH ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SWEET HEVA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SWEET IRIS DONUTS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SWEET LAZUARDI PLACE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SYA SHANAZZ TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SYAHFA ENTERPRISE",
+        "Matched_with_DMS":"SAFA ENTERPRISE",
+        "Fuzz_Ratio":93.75
+    },
+    {
+        "CEDAR":"SYAHIRAH A.A COMPANY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SYAHRINA GALAXY ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"SYARIKAT MOHD ABDULLAH",
+        "Matched_with_DMS":"SYARIKAT MOHD ABDULLAH",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"TADIKA CILIK CERIA PLT",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TAPAU REZEKI ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TARBUS RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TARTTEH KITCHEN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TASKA AR RAWDAH SRI ROTAN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TASKA SI CILIK BISTARI",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TEMPOYAK NDA RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TENGAYET MARIAM ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TERATAK BIZ ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TERROPHY TRADING AND SERVICES",
+        "Matched_with_DMS":"SNZ SERVICES AND TRADING",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "CEDAR":"TERTIB PUBLISHING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TERUNA DARA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"THE FANA LEGACY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"THREE NINE GLOBAL TRADING",
+        "Matched_with_DMS":"ZM GLOBAL TRADING",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"THUMB'S UP ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TIARA EMAS ENGINEERING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TIE BEAUTY SPARICH",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TRIO N ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TRUE IDEA MANAGEMENT SERVICES",
+        "Matched_with_DMS":"CL MANAGEMENT SERVICES",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "CEDAR":"TRUEWELLNESS ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TS MEGA ALUMGLASS",
+        "Matched_with_DMS":"MEGA ALUMGLASS",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"TSUKASA TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TUAH BIZ ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TUAH REHAZZ ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TUAN FARA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TUKUGHO CHAR KUEY TEOW",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TUSKS AND TREATS VENTURES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TUTEH TAILOR",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TWIN SPROUTS VENTURES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TWIST PUFF TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"TZAFFWANI LEGACY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"UMJ MULTI SERVICES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"UMMI AGRO INDUSTRY SDN BHD",
+        "Matched_with_DMS":"UMMI AGRO INDUSTRY SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"UMMIE M.S.L COMPANY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"UMMIE-QQ TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"UPIQUE UNIQUE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"USAHA JAYA HJR ENTERPRISE",
+        "Matched_with_DMS":"JAYA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"USAHASAMA KZ EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"VINOV MARKETING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"VISTA KOTA NIAGA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"WAJA NABAHAN FARM",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"WAMAZ ENTERPRISE",
+        "Matched_with_DMS":"WARMA ENTERPRISE",
+        "Fuzz_Ratio":93.75
+    },
+    {
+        "CEDAR":"WANI SPINECARE CHIROPRACTIC CENTRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"WANNISCO ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"WANYDEKITCHEN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"WARISAN AL WASI SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"WARISAN AURA DELISHA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"WARISAN INDI NETWORK",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"WARUNG UMIE MAMIE MAGGIEE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"WC TRADING",
+        "Matched_with_DMS":"CK TRADING",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "CEDAR":"WHB CONSULTANCY TRAINING AND SERVICES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"WKP AUTO PARTS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"WMH AUTO SERVICES",
+        "Matched_with_DMS":"MNH AUTO SERVICES",
+        "Fuzz_Ratio":94.1176470588
+    },
+    {
+        "CEDAR":"YANA NORDIN ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"YAT RICCO COMPANY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"YAUMIL NOVA COMPANY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"YAYANG JH ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"YENIS ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"YUTIEY AYUTIE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"YUZEEQ ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"YZ TUAH MARKETING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZAH MEDIC SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZAINORWATI BINTI ITHNAIN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZAITUN MIEMY EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZAMOZA GROUP SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZAMZURINA BINTI RAMLI ENTERPRISE",
+        "Matched_with_DMS":"RAMLI ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "CEDAR":"ZAN PAI TEE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZANARITA BINTI MOHD NAPIAH",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZARA AISYA RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZARIYATI ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZAZILAH BINTI MAHMUD",
+        "Matched_with_DMS":"ZAIDAH BINTI MAHMUD",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "CEDAR":"ZCKEY MIRACLE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZIE MUHIBBAH ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZIERICH RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZIFS INDUSTRIES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZN TIMUR UTARA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZNZ BIDADARI ENTERPRISE",
+        "Matched_with_DMS":"ZNZ 2U ENTERPRISE",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "CEDAR":"ZULAILA ABDULLAH ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZULRA EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZURA MATAHARI ENT",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZURALICIOUS HOMEBAKERS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "CEDAR":"ZURHA EMPIRE SDN BHD",
+        "Matched_with_DMS":"G4 EMPIRE SDN BHD",
+        "Fuzz_Ratio":90.3225806452
+    }
+]

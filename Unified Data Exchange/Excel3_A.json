@@ -1,0 +1,4057 @@
+[
+    {
+        "EPC":"8892 DR TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"A & A DIAPERS",
+        "Matched_with_DMS":"A & A DIAPERS",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"A & SETIA MARKETING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"A.R.T. USAHA DAGANG SDN. BHD.",
+        "Matched_with_DMS":"A.R.T. USAHA DAGANG SDN BHD",
+        "Fuzz_Ratio":96.4285714286
+    },
+    {
+        "EPC":"AA TEGUH FOOD DISTRIBUTORS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AA TEGUH SDN BHD",
+        "Matched_with_DMS":"AA TEGUH SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"AAA ICE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AAZ-BINA KEJURUTERAAN & PEMBEKAL SDN BHD",
+        "Matched_with_DMS":"AAZ-BINA KEJURUTERAAN & PEMBEKAL SDN. BHD.",
+        "Fuzz_Ratio":97.5609756098
+    },
+    {
+        "EPC":"AB GREEN SOLUTIONS",
+        "Matched_with_DMS":"IDEAL GREEN SOLUTIONS",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"ABA MANUFACTURING SDN BHD",
+        "Matched_with_DMS":"SABIRA MANUFACTURING SDN BHD",
+        "Fuzz_Ratio":94.3396226415
+    },
+    {
+        "EPC":"ABB TRADING SDB BHD",
+        "Matched_with_DMS":"ABB TRADING SDN. BHD.",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "EPC":"ABB TRADING SDN BHD",
+        "Matched_with_DMS":"ABB TRADING SDN. BHD.",
+        "Fuzz_Ratio":95.0
+    },
+    {
+        "EPC":"ABD HALIM MOHD",
+        "Matched_with_DMS":"ABD HALIM BIN MOHD AFANDI",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ABDUL LATIF BIN SARUJI ABDUL LATIF BIN SARUJI",
+        "Matched_with_DMS":"ABDUL LATIF BIN SAHARI",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"ABDUL MUTALIB BIN ABDULLAH  (RUMAH)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ABUAIN KITCHEN STUDIO",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ACS 20 SUPPLY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ADIN MARKETING GROUP SDN. BHD.",
+        "Matched_with_DMS":"ADIN MARKETING GROUP SDN BHD",
+        "Fuzz_Ratio":96.5517241379
+    },
+    {
+        "EPC":"ADVANCE VALLEY SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AFCL BIOSCIENCE SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AFY HANIFF BENA & BEKAL",
+        "Matched_with_DMS":"AFY HANIFF BENA & BEKAL",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"AG MAJU ENTERPRISE",
+        "Matched_with_DMS":"AZA MAJU ENTERPRISE",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"AGIP SOLUTION",
+        "Matched_with_DMS":"AGIP SOLUTIONS",
+        "Fuzz_Ratio":96.2962962963
+    },
+    {
+        "EPC":"AGRO GREEN INDUSTRIES SDN. BHD.",
+        "Matched_with_DMS":"AGRO 19 INDUSTRIES SDN. BHD.",
+        "Fuzz_Ratio":94.3396226415
+    },
+    {
+        "EPC":"AGROTECH SOLUTIONS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AGUS FOOD INDUSTRIES SDN BHD",
+        "Matched_with_DMS":"AGUS FOOD INDUSTRIES SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"AH BASRI SATAY MENUFACTURING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AHMAD KENEDI SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AIRWASTEWATER MANAGEMENT SDN. BHD.",
+        "Matched_with_DMS":"AIRWASTEWATER MANAGEMENT SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"AISHAH FOOD INDUSTRIES SDN BHD",
+        "Matched_with_DMS":"AISHAH FOOD INDUSTRIES SDN. BHD.",
+        "Fuzz_Ratio":96.7741935484
+    },
+    {
+        "EPC":"AISYA INDUSTRIES SDN BHD",
+        "Matched_with_DMS":"AISYA INDUSTRIES SDN. BHD.",
+        "Fuzz_Ratio":96.0
+    },
+    {
+        "EPC":"AJ PETROLEUM SDN. BHD.",
+        "Matched_with_DMS":"AJ PETROLEUM SDN BHD",
+        "Fuzz_Ratio":95.2380952381
+    },
+    {
+        "EPC":"AJ SINECURE SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AK DYNAMIC MANUFACTURING SDN BHD",
+        "Matched_with_DMS":"AK DYNAMIC MANUFACTURING SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"AKADEMI BATERIKU SDN. BHD",
+        "Matched_with_DMS":"AKADEMI BATERIKU SDN. BHD.",
+        "Fuzz_Ratio":98.0392156863
+    },
+    {
+        "EPC":"AKADEMI BINAAN MALAYSIA (SELANGOR) SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AKMAL DECORATION",
+        "Matched_with_DMS":"AKMAL DECORATION & TRADING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"AKTIF BESTARI SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AL ZAWAWI IND. SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AL- HADDAD INDUSTRIES (M) SDN. BHD.",
+        "Matched_with_DMS":"AL HADDAD INDUSTRIES (M) SDN BHD",
+        "Fuzz_Ratio":95.5223880597
+    },
+    {
+        "EPC":"AL-AMEEN SERVE HOLDING SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AL-AMEEN SERVE HOLDINGS SDN. BHD.",
+        "Matched_with_DMS":"WB HOLDINGS SDN. BHD.",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "EPC":"AL-JANNAH BIOTECH SB",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AL-JAZEERA ICE CREAM SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ALAF CEKAL SDN. BHD.",
+        "Matched_with_DMS":"ALAF CEKAL SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ALAM ABJAD SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ALAM MESRA VENTURES",
+        "Matched_with_DMS":"ALAM MESRA VENTURES SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ALFA MEGA TECHNOLOGY SDN. BHD.",
+        "Matched_with_DMS":"HA MEGAH TECHNOLOGY SDN. BHD.",
+        "Fuzz_Ratio":91.5254237288
+    },
+    {
+        "EPC":"ALGA PRIMA SDN BHD",
+        "Matched_with_DMS":"ALGA PRIMA SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ALIVE PLASTIC INDUSTRY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ALIVE UNIVERSAL SDN BHD",
+        "Matched_with_DMS":"ALIVE UNIVERSAL SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ALKANZ COSMETIC SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ALKMAAR EDAR SDN BHD",
+        "Matched_with_DMS":"ALKMAAR EDAR SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ALLIANCE TECHNOLOGY RESOURCES SDN BHD",
+        "Matched_with_DMS":"GEO TECHNOLOGY RESOURCES SDN BHD",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "EPC":"ALPHA JAYA SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ALPHA MARSBATCH SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ALRIZQ ENGINEERING SERVICES",
+        "Matched_with_DMS":"EG ENGINEERING SERVICES",
+        "Fuzz_Ratio":93.023255814
+    },
+    {
+        "EPC":"AMAT SINAR SDN BHD",
+        "Matched_with_DMS":"AMAT SINAR (SARAWAK) SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"AMBANG IDEAL SDN. BHD.",
+        "Matched_with_DMS":"AMBANG IDEAL SDN BHD",
+        "Fuzz_Ratio":95.2380952381
+    },
+    {
+        "EPC":"AMBANG KARISMA SDN BHD",
+        "Matched_with_DMS":"AMBANG KARISMA SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"AMG SYNERGY SDN. BHD.",
+        "Matched_with_DMS":"AZYM SYNERGY SDN. BHD.",
+        "Fuzz_Ratio":93.023255814
+    },
+    {
+        "EPC":"AMSA ENGINEERING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ANGGREK RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ANGGUN PESONA",
+        "Matched_with_DMS":"ANGGUN PESONA",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ANGKATAN HASIL BUMI HIJAU SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ANITA FRAGRANCE COSMETIC",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ANJUNG SKINCARE SOLUTION SDN. BHD.",
+        "Matched_with_DMS":"IJ SOLUTION SDN. BHD.",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "EPC":"ANZ CREATIVE GLOBAL ENTERPRISE",
+        "Matched_with_DMS":"AD GLOBAL ENTERPRISE",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"ANZECO GENSET MANUFACTURER SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"APS MASYHUR SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AQUA MIX INDUSTRIES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ARAH RIANG MANUFACTURING SDN BHD",
+        "Matched_with_DMS":"GTG MANUFACTURING SDN BHD",
+        "Fuzz_Ratio":91.3043478261
+    },
+    {
+        "EPC":"ARIESTAR CREATIONS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ARIF ELEKTRIK",
+        "Matched_with_DMS":"ARIF ELEKTRIK",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"AROMEXS ENTERPRISE",
+        "Matched_with_DMS":"AROMAXS ENTERPRISE",
+        "Fuzz_Ratio":94.4444444444
+    },
+    {
+        "EPC":"ARRIXON SYNERGY SDN. BHD.",
+        "Matched_with_DMS":"FM SYNERGY  SDN. BHD.",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"ARZ RESOURCES SDN. BHD.",
+        "Matched_with_DMS":"NJ RESOURCES SDN. BHD.",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "EPC":"ASA PAPER INDUSTRY TRADING",
+        "Matched_with_DMS":"ASA PAPER INDUSTRY TRADING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ASAL ENTERPRISE",
+        "Matched_with_DMS":"ASTA ENTERPRISE",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "EPC":"ASI GLOBAL VENTURE",
+        "Matched_with_DMS":"MH GLOBAL VENTURE",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "EPC":"ASMANA SDN BHD",
+        "Matched_with_DMS":"ASMANA SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ASP SHAMSUDIN ABAS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ASTRA SIMFONI SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ASWAN ENGINEERING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AURAFINE FMCG SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AUTOZONE SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AWAN PACKAGING SDN BHD",
+        "Matched_with_DMS":"AWAN PACKAGING SDN. BHD.",
+        "Fuzz_Ratio":95.652173913
+    },
+    {
+        "EPC":"AZ ONE INDUSTRY SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"AZARO' AAWANA SDN. BHD.",
+        "Matched_with_DMS":"AZARO 'AAWANA SDN BHD",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"AZHAR LONDON INDUSTRIES SDN. BHD.",
+        "Matched_with_DMS":"ACC INDUSTRIES SDN. BHD.",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"AZLA MANAGEMENT SDN BHD",
+        "Matched_with_DMS":"AZLA MANAGEMENT SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"AZRA FRESH RESOURCES",
+        "Matched_with_DMS":"AZRA FRESH RESOURCES",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"BAHAGIA BUDI ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BAHTERA JAYA RESOURCES",
+        "Matched_with_DMS":"MN JAYA RESOURCES",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "EPC":"BAKAL SEJATI SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BAKTI INDUK SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BARAKNA TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BATERIKU (M) SDN BHD",
+        "Matched_with_DMS":"BATERIKU (M) SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"BATU GILING ENTERPRISE",
+        "Matched_with_DMS":"BATU GILING ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"BAYU DIMENSI ENTERPRISE",
+        "Matched_with_DMS":"BAYU DIMENSI ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"BBA FOOD INDUSTRIES (M) SDN. BHD.",
+        "Matched_with_DMS":"LD INDUSTRIES (M) SDN. BHD.",
+        "Fuzz_Ratio":94.1176470588
+    },
+    {
+        "EPC":"BEE FORTY ONE AGROTECH SDN BHD",
+        "Matched_with_DMS":"BEE FORTY ONE AGROTECH SDN. BHD.",
+        "Fuzz_Ratio":96.7741935484
+    },
+    {
+        "EPC":"BEKALTEK SDN BHD",
+        "Matched_with_DMS":"BEKALTEK SDN. BHD.",
+        "Fuzz_Ratio":94.1176470588
+    },
+    {
+        "EPC":"BELIKEK.COM ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BENTLEYTEL (MALAYSIA) SDN BHD",
+        "Matched_with_DMS":"ZA (MALAYSIA) SDN BHD",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "EPC":"BERJAYA GLASSWARE SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BERKAT FURNITURE AND CONSTRUCTION",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BERKAT GLOBAL MAKMUR ENTERPRISE",
+        "Matched_with_DMS":"AD GLOBAL ENTERPRISE",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"BERKAT MAHIR ENTERPRISE",
+        "Matched_with_DMS":"FF BERKAT ENTERPRISE",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"BESTLAB SUPERVISION SDN BHD",
+        "Matched_with_DMS":"BESTLAB SUPERVISION SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"BESUT MANUFACTURING (M) SDN. BHD",
+        "Matched_with_DMS":"NES MANUFACTURING (M) SDN BHD",
+        "Fuzz_Ratio":91.8032786885
+    },
+    {
+        "EPC":"BETA ENGINEERING SERVICES SDN BHD",
+        "Matched_with_DMS":"PENTA ENGINEERING SERVICES SDN BHD",
+        "Fuzz_Ratio":95.5223880597
+    },
+    {
+        "EPC":"BHF MULTIBINA (M) SDN BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BI GLOBAL RESOURCES",
+        "Matched_with_DMS":"MTI GLOBAL RESOURCES",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "EPC":"BIDADARI JAYA ENTERPRISE",
+        "Matched_with_DMS":"JAYA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"BIFORST LOGISTICS SDN BHD",
+        "Matched_with_DMS":"BIFORST LOGISTICS SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"BIFORST SYNERGY SDN. BHD.",
+        "Matched_with_DMS":"FM SYNERGY  SDN. BHD.",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"BIG ADAM SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BINA EKSLUSIF ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BIONIC TECHNOLOGY SDN. BHD.",
+        "Matched_with_DMS":"VEONIC TECHNOLOGY SDN. BHD.",
+        "Fuzz_Ratio":92.5925925926
+    },
+    {
+        "EPC":"BORNEO VIRGIN COCONUT OIL",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BP SANTAN ENTERPRISE (BP ICE ENTERPRISE)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BS FITNESS NUTRITION (M) SDN. BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BS GLOBAL MANUFACTURING (M) SDN. BHD.",
+        "Matched_with_DMS":"AW MANUFACTURING SDN. BHD.",
+        "Fuzz_Ratio":93.8775510204
+    },
+    {
+        "EPC":"BSMART SYSTEMS SOLUTIONS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BUCIDA ENGINEERING & CONSULTANCY SDN. BHD.",
+        "Matched_with_DMS":"BUCIDA ENGINEERING & CONSULTANCY SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"BUILTECPRO SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BULLISH AIM SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BUMI ALIVE KB ENTERPRISE",
+        "Matched_with_DMS":"KZ BUMI ENTERPRISE",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"BUMI AMAN WIRA CORP SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BUMI BEST ENTERPRISE",
+        "Matched_with_DMS":"KZ BUMI ENTERPRISE",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"BUMI PROSPER NIAGA SDN. BHD.",
+        "Matched_with_DMS":"SP BUMI SDN. BHD.",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "EPC":"BUMICITA ELECTRIC ACC. MFG SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"BUNIAN OIL INDUSTRY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"CAHAYA GEMERLAPAN SDN BHD",
+        "Matched_with_DMS":"CAHAYA GEMERLAPAN SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"CAJ ENGINEERING SDN. BHD.",
+        "Matched_with_DMS":"CAJ ENGINEERING SDN BHD",
+        "Fuzz_Ratio":95.8333333333
+    },
+    {
+        "EPC":"CALLSIGN BRAVO ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"CAMBRIDGE BIOTEK SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"CEMARA CINDAI ENTEPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"CENSERV SDN BHD",
+        "Matched_with_DMS":"CENSERV SOLUTIONS SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"CENSERV SOLUTIONS SDN BHD",
+        "Matched_with_DMS":"CENSERV SOLUTIONS SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"CHEMXPERT SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"CHF ENGINEERING",
+        "Matched_with_DMS":"CHF ENGINEERING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"CIPTA SUCCESS MARKETING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"CK TGF ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"COFFEE CLASSIC (M) SDN. BHD.",
+        "Matched_with_DMS":"COFFEE CLASSIC (M) SDN BHD",
+        "Fuzz_Ratio":96.2962962963
+    },
+    {
+        "EPC":"COFFEE OMEGA (M) SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"COMFORT LAUNDRY",
+        "Matched_with_DMS":"COMFORT LAUNDRY",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"COMFORT TWO",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"CREATIVE PEARL (M) SDN BHD",
+        "Matched_with_DMS":"CREATIVE PEARL (M) SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"CROWN LUBRICANTS SDN. BHD.",
+        "Matched_with_DMS":"CROWN LUBRICANTS SDN BHD",
+        "Fuzz_Ratio":96.0
+    },
+    {
+        "EPC":"CSM DAIRY INDUSTRIES SDN BHD",
+        "Matched_with_DMS":"N2 INDUSTRIES SDN BHD",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "EPC":"CSM DAIRY PRODUCT SDN BHD CSM DAIRY PRODUCT SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"CSM DAIRY SUCCESS SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"D BIRD HOUSE SUPPLY & SERVICES",
+        "Matched_with_DMS":"D BIRD HOUSE SUPPLY & SERVICES",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"D KURMA RESOURCES",
+        "Matched_with_DMS":"D KURMA RESOURCES",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"DADFAA BERKAT ENT.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"DAKU DELITE ENTERPRISE",
+        "Matched_with_DMS":"DAKU DELITE ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"DAMAI BEKAL SB",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"DARUL EHSAN CITY FARM SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"DAY CATERING AND SERVICES SDN BHD",
+        "Matched_with_DMS":"FT SERVICES SDN BHD",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"DAYA MAJU BINTANG ENTERPRISE",
+        "Matched_with_DMS":"BINTANG",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"DAYA QURBAN MATEL ENG. SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"DAYA QURBAN METAL SAINTIFIK SDN BHD",
+        "Matched_with_DMS":"DAYA QURBAN SAINTIFIK SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"DDAPUR GLOBAL SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"DE AMANS SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"DEEZA KATERING & CANOPY (KILANG & KANTIN)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"DEJED MALINDO (M) SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"DELIMA MASTIARA EDAR (KL) SDN. BHD.",
+        "Matched_with_DMS":"DELIMA MASTIARA EDAR (KL) SDN BHD",
+        "Fuzz_Ratio":97.0588235294
+    },
+    {
+        "EPC":"DELIMA MASTIARA EDAR (PAHANG) SDN BHD",
+        "Matched_with_DMS":"DELIMA MASTIARA EDAR (KL) SDN BHD",
+        "Fuzz_Ratio":91.8032786885
+    },
+    {
+        "EPC":"DETIK EVOLUSI SDN BHD",
+        "Matched_with_DMS":"DETIK EVOLUSI SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"DEWA MASTER RESOURCES",
+        "Matched_with_DMS":"DEWA MASTER RESOURCES",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"DEWA PERSADA SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"DEWY RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"DH MEGA ENTERPRISE -PERTUBUHAN PELADANG KAW. BKT MERTAJAM",
+        "Matched_with_DMS":"DH MEGA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"DHIYA PETS WORLD SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"DHK PLASTIK (M) SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"DHUHA INDUSTRIES (M) SDN BHD",
+        "Matched_with_DMS":"N2 INDUSTRIES SDN BHD",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "EPC":"DIAMOND GEO SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"DIAMOND SUCCESS ENTERPRISE",
+        "Matched_with_DMS":"FY SUCCESS ENTERPRISE",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "EPC":"DIETEC CHEMICAL RESOURCES",
+        "Matched_with_DMS":"DIETEC CHEMICAL RESOURCES",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"DIN PAPER RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"DINAMIK WIRAJAYA",
+        "Matched_with_DMS":"DINAMIK WIRAJAYA",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"DKAWI CHOCOLATE HUT",
+        "Matched_with_DMS":"DKAWI CHOCOLATE HUT",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"DMB OCEAN SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"DOBI D SUCI",
+        "Matched_with_DMS":"DOBI D SUCI",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"DOL CUBE ICE SDN BHD",
+        "Matched_with_DMS":"DOL CUBE ICE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"DOL TWO INDUSTRIES SDN. BHD.",
+        "Matched_with_DMS":"ACC INDUSTRIES SDN. BHD.",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"DONUT XPRESS SDN BHD",
+        "Matched_with_DMS":"DONUT XPRESS SDN. BHD.",
+        "Fuzz_Ratio":95.2380952381
+    },
+    {
+        "EPC":"DS BINAILMU RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"DULANG EMAS GROUP SDN. BHD.",
+        "Matched_with_DMS":"DULANG EMAS GROUP SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"DUNIA HERBS SALES & MARKETING",
+        "Matched_with_DMS":"DUNIA HERBS SALES AND MARKETING SDN.BHD.",
+        "Fuzz_Ratio":96.4285714286
+    },
+    {
+        "EPC":"DYMAS WARISAN SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"D\u2019HARMONI TELCO INFRA SDN BHD",
+        "Matched_with_DMS":"D'HARMONI TELCO INFRA SDN BHD",
+        "Fuzz_Ratio":96.5517241379
+    },
+    {
+        "EPC":"D\u2019OR RUE SDN. BHD",
+        "Matched_with_DMS":"D'OR RUE SDN. BHD.",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"EBUNDA SDN BHD",
+        "Matched_with_DMS":"EBUNDA SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"EIY RESOURCES (KL) SDN BHD",
+        "Matched_with_DMS":"EIY RESOURCES (KL) SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"EKAPAKSI SDN. BHD.",
+        "Matched_with_DMS":"EKAPAKSI SDN BHD",
+        "Fuzz_Ratio":94.1176470588
+    },
+    {
+        "EPC":"EKOTEN SDN BHD",
+        "Matched_with_DMS":"EKOTEN SDN. BHD.",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "EPC":"ELEKTRIK BENTRAS",
+        "Matched_with_DMS":"ELEKTRIK BENTRAS",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ELISA FOOD TRADING",
+        "Matched_with_DMS":"ELISA FOOD TRADING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ELLHAJJ PRODUCTS SDN. BHD.",
+        "Matched_with_DMS":"ELHAJJ PRODUCTS SDN BHD",
+        "Fuzz_Ratio":93.8775510204
+    },
+    {
+        "EPC":"EMAS RINTIK SDN. BHD.",
+        "Matched_with_DMS":"EMAS RINTIK SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"EMB MANUFACTURING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"EMSTECH ENGINERING (M) SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"EMZAC SDN. BHD.",
+        "Matched_with_DMS":"EMZAC SDN BHD",
+        "Fuzz_Ratio":92.8571428571
+    },
+    {
+        "EPC":"ENERGY BUILDER NETWORK SDN. BHD.",
+        "Matched_with_DMS":"GO ENERGY  SDN. BHD.",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"ENNA FOOD INDUSTRIES SDN BHD",
+        "Matched_with_DMS":"AJ FOOD INDUSTRIES SDN BHD",
+        "Fuzz_Ratio":93.8775510204
+    },
+    {
+        "EPC":"ENW FOOD SERVICES SDN. BHD.",
+        "Matched_with_DMS":"ENW FOOD SERVICES SDN BHD",
+        "Fuzz_Ratio":96.1538461538
+    },
+    {
+        "EPC":"EPRILIA MOTION PICTURES SDN BHD",
+        "Matched_with_DMS":"FJ PICTURES SDN BHD",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"ERA FABRIQUE",
+        "Matched_with_DMS":"ERA FABRIQUE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ERIN COOKIES & SNACKS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ERP 21 TECH & INNOVATIONS SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ESSENTIAL CORP (M) S\/B",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ETANI SDN. BHD. (MYHARDWARE TRADING)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ETHNO RESOURCES SDN BHD",
+        "Matched_with_DMS":"THO RESOURCES SDN BHD",
+        "Fuzz_Ratio":95.4545454545
+    },
+    {
+        "EPC":"EVOTECH INDUSTRIAL ENGINEERING SDN. BHD.",
+        "Matched_with_DMS":"EQ ENGINEERING SDN. BHD.",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "EPC":"EXCELPACT CORPORATION SDN. BHD.",
+        "Matched_with_DMS":"WB CORPORATION SDN. BHD.",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "EPC":"EXTRA BUILT STAMPING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"EXTRA-BUILT (M) SDN BHD",
+        "Matched_with_DMS":"EXTRA-BUILT (M) SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"EZIETEC RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"EZY CLASSIC PRODUCTS (M) SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"F. C TECHNOLOGY (M) SDN BHD",
+        "Matched_with_DMS":"CG TECHNOLOGY SDN BHD",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "EPC":"FADHILAT HERBS ENTERPRISE",
+        "Matched_with_DMS":"FADHILAT HERBS ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"FADHILAT URUS SDN BHD",
+        "Matched_with_DMS":"FADHILAT URUS SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"FAIZA FOOD INDUSTRIES SDN. BHD.",
+        "Matched_with_DMS":"FAIZA FOOD INDUSTRIES SDN BHD",
+        "Fuzz_Ratio":96.6666666667
+    },
+    {
+        "EPC":"FAIZA MARKETING SDN BHD",
+        "Matched_with_DMS":"FAIZA MARKETING SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"FAMILDIZU SDN BHD",
+        "Matched_with_DMS":"FAMILDIZU SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"FARRA SECRET BEAUTY",
+        "Matched_with_DMS":"FARRA SECRET BEAUTY SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"FATHA MARKETING",
+        "Matched_with_DMS":"FATHA MARKETING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"FIAVEL ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"FIDAH SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"FIDELITY TEAM SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"FIELDMAN BORNEO SDN BHD FIELDMAN BORNEO SDN BHD",
+        "Matched_with_DMS":"FIELDMAN SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"FIELDMAN SDN BHD FIELDMAN SDN BHD",
+        "Matched_with_DMS":"FIELDMAN SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"FIKRISZ (M) SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"FINE MARGIN SDN BHD",
+        "Matched_with_DMS":"FINE MARGIN SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"FINETOP INDUSTRIES SDN. BHD. NOTIS",
+        "Matched_with_DMS":"ACC INDUSTRIES SDN. BHD.",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"FIRDAUS SL ENTERPRISE",
+        "Matched_with_DMS":"AN FIRDAUS ENTERPRISE",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "EPC":"FIRDAUZ PATISSERIE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"FIRMI TRADING",
+        "Matched_with_DMS":"FIRMI TRADING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"FITNESS PLUS BEVERAGES SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"FIXTURE WORLD DESIGN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"FK NUSARAYA SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"FNZ BERKAT (M) SDN BHD",
+        "Matched_with_DMS":"BERKAT SEMPURNA (M) SDN BHD",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "EPC":"FOKUS DARMA SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"FREESKILLS ENGINEERING",
+        "Matched_with_DMS":"FREESKILLS ENGINEERING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"FRP PRESTIGE SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"FULLE TECHNIK SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"FZRB MARKETING & INDUSTRIES SDN BHD",
+        "Matched_with_DMS":"N2 INDUSTRIES SDN BHD",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "EPC":"GALA HIJABISTA SDN. BHD.",
+        "Matched_with_DMS":"GALA HIJABISTA SDN BHD",
+        "Fuzz_Ratio":95.652173913
+    },
+    {
+        "EPC":"GALAXY VILLE",
+        "Matched_with_DMS":"GALAXY VILLE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"GAR WORK (M) SDN BHD",
+        "Matched_with_DMS":"GARAGE WORK (M) SDN BHD",
+        "Fuzz_Ratio":93.023255814
+    },
+    {
+        "EPC":"GISB TRADE & MARKETING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"GLIDE TECHNOLOGY SDN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"GLOBAL FACTOR SDN BHD",
+        "Matched_with_DMS":"GLOBAL FACTOR SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"GOLDEN REPUBLIC SDN. BHD.",
+        "Matched_with_DMS":"GOLDEN MB SDN. BHD.",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"GRAPHIC ART & DESIGN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"GREAT CLASS SDN BHD",
+        "Matched_with_DMS":"GREAT CLASS SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"GREENBANKS ENVIRONMENT ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"GRIFFIN SOLUTION",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"GRN INDUSTRIES SDN. BHD.",
+        "Matched_with_DMS":"MGV INDUSTRIES SDN. BHD.",
+        "Fuzz_Ratio":91.6666666667
+    },
+    {
+        "EPC":"GROUNDWATER SOLUTION SDN. BHD.",
+        "Matched_with_DMS":"GROUNDWATER SOLUTIONS SDN BHD",
+        "Fuzz_Ratio":94.9152542373
+    },
+    {
+        "EPC":"GTHERB INDUSTRIES SDN BHD",
+        "Matched_with_DMS":"GTHERB INDUSTRIES SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"H&H FOOD INDUSTRIES",
+        "Matched_with_DMS":"AM FOOD INDUSTRIES",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"HABIBI EDIBLE PRODUCTS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HADIYAWA (M) SDN BHD",
+        "Matched_with_DMS":"HADIYAWA (M) SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HAFIZ FARM SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HAJAH YANONG FROZEN FOOD ENTERPRISE",
+        "Matched_with_DMS":"FB FROZEN ENTERPRISE",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"HAJI ZAINOL FOOD INDUSTRIES SDN. BHD.",
+        "Matched_with_DMS":"EJH FOOD INDUSTRIES SDN. BHD.",
+        "Fuzz_Ratio":92.5925925926
+    },
+    {
+        "EPC":"HALTER ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HAMRO LABEL ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HAMRO LABEL SDN BHD",
+        "Matched_with_DMS":"HAMRO LABEL SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HANIF MUTIARA ENTERPRISE",
+        "Matched_with_DMS":"MUTIARA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HANNY BAKERS DELIGHT",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HAPPO FOAM ENTERPRISE",
+        "Matched_with_DMS":"HAPPO FOAM ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HAPPY ICE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HARAMAIN RESOURCES SDN BHD",
+        "Matched_with_DMS":"HARAMAIN RESOURCES SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HARD HATS ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HARMONY TECH",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HARTINI TRADING SDN BHD",
+        "Matched_with_DMS":"HARTINI TRADING SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HAS BINA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HASRIFF ENTERPRISE SDN BHD",
+        "Matched_with_DMS":"HASRIFF ENTERPRISE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HASRIFF ENTERPRISE SDN BHD (TUKAR LOT PEJABAT HASRIFF WATER)",
+        "Matched_with_DMS":"HASRIFF ENTERPRISE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HASRIFF ICE SDN BHD",
+        "Matched_with_DMS":"HASRIFF ICE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HASRIFF ICE SDN BHD   (RUMAH)",
+        "Matched_with_DMS":"HASRIFF ICE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HASRIFF WATER SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HASRIFF WATER SDN. BHD. (PEJABAT)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HASRIFF WATER SDN. BHD. (RUMAH)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HATRIK ENGINEERING SDN BHD",
+        "Matched_with_DMS":"DR ENGINEERING SDN BHD",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "EPC":"HATRIK MULTIRICH TRADING",
+        "Matched_with_DMS":"HATRIK MULTIRICH TRADING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HAURA LEGACY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HEALTHY ICE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HEERA ENTERPRISE",
+        "Matched_with_DMS":"HEERA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HERITAGE BIOTECH (M) SDN BHD",
+        "Matched_with_DMS":"JF HERITAGE SDN BHD",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"HFI MAJU ENTERPRISE",
+        "Matched_with_DMS":"HFI MAJU ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HG MEDIC SDN. BHD.",
+        "Matched_with_DMS":"MAHA MAS MEDIC SERVICES SDN. BHD.",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"HIJRAH ICE TUBE ENTERPRISE",
+        "Matched_with_DMS":"HIJRAH ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HIRAQ MARKETING & TRADING (M) SDN. BHD.",
+        "Matched_with_DMS":"TGG MARKETING (M) SDN. BHD.",
+        "Fuzz_Ratio":92.0
+    },
+    {
+        "EPC":"HMRT KALIBER SDN. BHD. (HATRIK MULTIRICH TRADING)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HN GLOBAL INDUSTRIES PLT",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HORNBILL PRECISION & TECHNICAL SERVICES SDN BHD",
+        "Matched_with_DMS":"HORNBILL PRECISION & TECHNICAL SERVICES SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HOT PERFUMES & AIR FRESHENERS SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HPA INDUSTRIES SDN BHD",
+        "Matched_with_DMS":"HPA INDUSTRIES SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HR MAJU JAYA TRADING",
+        "Matched_with_DMS":"HR MAJU JAYA TRADING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HR MAJU JAYA TRADING (RUMAH)",
+        "Matched_with_DMS":"HR MAJU JAYA TRADING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"HR MAJU PLASTIC SUPPLIER",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"HR MANUFACTURING SDN. BHD.",
+        "Matched_with_DMS":"ANCIENT PEWTER MANUFACTURING SDN. BHD.",
+        "Fuzz_Ratio":93.8775510204
+    },
+    {
+        "EPC":"I MEDIKEL PHARMACETICAL SDN BHD",
+        "Matched_with_DMS":"I MEDIKEL PHARMACEUTICAL SDN. BHD.",
+        "Fuzz_Ratio":95.3846153846
+    },
+    {
+        "EPC":"I-ILHAM CORPORATION SDN. BHD.",
+        "Matched_with_DMS":"I-ILHAM CORPORATION SDN BHD",
+        "Fuzz_Ratio":96.4285714286
+    },
+    {
+        "EPC":"I-NAI VENTURE HOLDING SDN. BHD.",
+        "Matched_with_DMS":"I-NAI VENTURE HOLDINGS SDN. BHD.",
+        "Fuzz_Ratio":98.4126984127
+    },
+    {
+        "EPC":"I.T INDUSTRIES SDN BHD(BLM DIKOSONGKAN)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"IBADAH ROHANI SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"IBNU KHALDUN MANUFACTURING SDN BHD",
+        "Matched_with_DMS":"IBNU KHALDUN MANUFACTURING SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"IBNU KHALDUN MANUFACTURING SDN BHD",
+        "Matched_with_DMS":"IBNU KHALDUN MANUFACTURING SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ICON ENTERPRISES SDN BHD",
+        "Matched_with_DMS":"ICON ENTERPRISES SDN. BHD.",
+        "Fuzz_Ratio":96.0
+    },
+    {
+        "EPC":"ICON ENTERPRISES SDN. BHD.",
+        "Matched_with_DMS":"ICON ENTERPRISES SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"IDAMAN BAKERY",
+        "Matched_with_DMS":"IDAMAN BAKERY",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"IITSON VENTURES IITSON VENTURES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"IKIRA SDN. BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"IL PURA MARKETING IL PURA MARKETING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"IMPIAN ADIL ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"INFINITY CHANNEL SDN. BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"INFINITY TARGET MARKETING SDN. BHD.",
+        "Matched_with_DMS":"MGV MARKETING SDN. BHD.",
+        "Fuzz_Ratio":90.4761904762
+    },
+    {
+        "EPC":"INGENIOUS E-BIZ SOLUTIONS SDN. BHD.",
+        "Matched_with_DMS":"INGENIOUS E-BIZ SOLUTIONS SDN BHD",
+        "Fuzz_Ratio":97.0588235294
+    },
+    {
+        "EPC":"INNO BIOLOGIC SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"INNOWAC ASIA PACIFIC (M) SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"INOPACK ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"INSENTRADE ENTERPRISE",
+        "Matched_with_DMS":"INSENTRADE ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"INTEGRASI GLOBAL SDN. BHD.",
+        "Matched_with_DMS":"INTEGRASI GLOBAL SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"INTELEK EDARAN (M) SDN. BHD.",
+        "Matched_with_DMS":"INTELEK EDARAN (M) SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"INTERACT SIGN MAKER SDN. BHD. - NOTIS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"IRAS MEKAR SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ISMA INDAH VENTURE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"IWANI FROZEN FOOD SDN. BHD.",
+        "Matched_with_DMS":"EB FROZEN FOOD SDN. BHD.",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "EPC":"IZARA COOKIES SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"IZUMIA ENTERPRISE",
+        "Matched_with_DMS":"IZUMIA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"IZUMIA OIL INDUSTRIES SDN BHD",
+        "Matched_with_DMS":"IZUMIA OIL INDUSTRIES SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"JABI RICE MILL SDN. BHD.",
+        "Matched_with_DMS":"JABI RICE MILL SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"JADE SERVICES & SUPPLY SDN. BHD.",
+        "Matched_with_DMS":"EXA SUPPLY & SERVICES SDN. BHD.",
+        "Fuzz_Ratio":93.1034482759
+    },
+    {
+        "EPC":"JAMAIAH WEALTH SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"JAMIN PERKASA SDN BHD",
+        "Matched_with_DMS":"JAMIN PERKASA SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"JANDA PRODUCT MARKETING",
+        "Matched_with_DMS":"JANDA PRODUCT MARKETING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"JARIZ TECHNOLOGIES SDN. BHD.",
+        "Matched_with_DMS":"JARIZ TECHNOLOGIES SDN BHD",
+        "Fuzz_Ratio":96.2962962963
+    },
+    {
+        "EPC":"JATI BERINGIN SDN BHD",
+        "Matched_with_DMS":"JATI BERINGIN SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"JATIMAS UTARA ENTERPRISE",
+        "Matched_with_DMS":"JATIMAS UTARA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"JAZBAH ENTERPRISE SDN BHD",
+        "Matched_with_DMS":"JAZBAH ENTERPRISE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"JELANG JAYA (NS) SDN. BHD.",
+        "Matched_with_DMS":"JELANG JAYA (NS) SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"JELANG JAYA SDN. BHD.",
+        "Matched_with_DMS":"JELANG JAYA (NS) SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"JELANG MAJU TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"JEPARA MARKETING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"JJ TERATAI MAKMUR ENTERPRISE",
+        "Matched_with_DMS":"JJ TERATAI MAKMUR ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"JNE DISTRIBUTIONS SDN BHD",
+        "Matched_with_DMS":"JNE DISTRIBUTIONS SDN. BHD.",
+        "Fuzz_Ratio":96.1538461538
+    },
+    {
+        "EPC":"JPB INDUSTRIES SDN. BHD.",
+        "Matched_with_DMS":"JPB INDUSTRIES SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"JT BIOMED INDUSTRIES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"JULIANA SONGKET",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"JURUTERA UJITATAH SB",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"JUSLIN FOOD INDUSTRIES",
+        "Matched_with_DMS":"AM FOOD INDUSTRIES",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"JUTA ABADI VENTURES SDN BHD",
+        "Matched_with_DMS":"79 VENTURES SDN BHD",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"KAISER ENGINEERING SDN BHD",
+        "Matched_with_DMS":"KAISER ENGINEERING SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"KAIZEN DESIGN SOLUTION",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"KAK SU GLOBAL RESOURCES",
+        "Matched_with_DMS":"JY GLOBAL RESOURCES",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"KAMA BINA ENTERPRISE",
+        "Matched_with_DMS":"KAMA BINA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"KASIH NAS EMA  ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"KASTURI GARMENT SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"KB PACK MFG SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"KCG SOURCE TECHNOLOGY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"KDC-LINK SDN BHD",
+        "Matched_with_DMS":"KDC-LINK SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"KEJURUTERAAN CAHAYA ABADI",
+        "Matched_with_DMS":"KEJURUTERAAN CAHAYA ABADI",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"KEJURUTERAAN CHENOR JATI",
+        "Matched_with_DMS":"KEJURUTERAAN CHENOR JATI",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"KEJURUTERAAN TAHIR",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"KEKAL BAROKAH RESOURCES SDN. BHD.",
+        "Matched_with_DMS":"NJ RESOURCES SDN. BHD.",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "EPC":"KEL SPICE INDUSTRIES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"KELUARGA IBU ENTERPRISE",
+        "Matched_with_DMS":"KELUARGA IBU ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"KEMUDI MUTIARA SDN. BHD.",
+        "Matched_with_DMS":"KEMUDI MUTIARA SDN BHD",
+        "Fuzz_Ratio":95.652173913
+    },
+    {
+        "EPC":"KENCANA BAIDURI RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"KHALIDAH ISMAWI ENTEPRISE",
+        "Matched_with_DMS":"KHALIDAH ISMAWI ENTERPRISE",
+        "Fuzz_Ratio":98.0392156863
+    },
+    {
+        "EPC":"KHAZANAH ALAM",
+        "Matched_with_DMS":"KHAZANAH ALAM SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"KHIDMAT KREATIF SDN BHD",
+        "Matched_with_DMS":"EZ KREATIF SDN BHD",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"KHM FOOD INDUSTRIES SDN BHD",
+        "Matched_with_DMS":"KHM FOOD INDUSTRIES SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"KITA GLOKAL PLT",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"KITARAN POTENSI SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"KNC MASTER ENGINEERING",
+        "Matched_with_DMS":"CROSSING MASTER ENGINEERING SDN BHD",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "EPC":"KOPA GROUP SDN. BHD.",
+        "Matched_with_DMS":"KOPA GROUP SDN BHD",
+        "Fuzz_Ratio":94.7368421053
+    },
+    {
+        "EPC":"KOPERASI USAHAWAN MELAYU SABAH BERHAD",
+        "Matched_with_DMS":"KOPERASI USAHAWAN TANI BERHAD",
+        "Fuzz_Ratio":90.5660377358
+    },
+    {
+        "EPC":"KP BESTARI ENTERPRISE",
+        "Matched_with_DMS":"HARAPAN BESTARI ENTERPRISE",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "EPC":"KP BESTARI ENTERPRISE 2  (RUMAH)",
+        "Matched_with_DMS":"SYA BESTARI ENTERPRISE",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "EPC":"KRAI D\u2019SIGN SDN. BHD.",
+        "Matched_with_DMS":"KRAI DSIGN SDN BHD",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "EPC":"KRS TECHNOLOGY SDN. BHD.",
+        "Matched_with_DMS":"NRM TECHNOLOGY SDN. BHD.",
+        "Fuzz_Ratio":91.6666666667
+    },
+    {
+        "EPC":"KS RICH VENTURES SDN. BHD.",
+        "Matched_with_DMS":"KS RICH VENTURES SDN BHD",
+        "Fuzz_Ratio":96.0
+    },
+    {
+        "EPC":"KUALITI MEKAR SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"KULLA FOOD & BEVERAGE PRODUCTS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"KV RESOURCES SDN BHD",
+        "Matched_with_DMS":"KV RESOURCES SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"LAKSANA CERGAS SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"LAMINAR ENGINEERING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"LARAS MARKETING SDN. BHD.",
+        "Matched_with_DMS":"MGV MARKETING SDN. BHD.",
+        "Fuzz_Ratio":90.4761904762
+    },
+    {
+        "EPC":"LE CHEMARA FABRICS & GIFTS SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"LIEOS TECHNOLOGY SDN. BHD.",
+        "Matched_with_DMS":"LIEOS TECHNOLOGY SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"LIMAYO FOOD SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"LITTLE CASH (M) SDN. BHD.",
+        "Matched_with_DMS":"LITTLE CASH (M) SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"LOCAL ENGINEERING SDN. BHD.",
+        "Matched_with_DMS":"EQ ENGINEERING SDN. BHD.",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "EPC":"M&E FACILITIES MANAGEMENT SDN BHD",
+        "Matched_with_DMS":"M&E FACILITIES MANAGEMENT SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"M. RASIP ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"M.S. BISCOTTI ENTERPRISE",
+        "Matched_with_DMS":"M.S. BISCOTTI ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"M.S. THOYYIBA SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"M2W ENGINEERING SDN. BHD.",
+        "Matched_with_DMS":"EQ ENGINEERING SDN. BHD.",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "EPC":"MA CANVAS SDN BHD",
+        "Matched_with_DMS":"OH BROTHERS CANVAS SDN BHD",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "EPC":"MADINAH FOOD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MADINAH FOOD INDUSTRIES SDN. BHD.",
+        "Matched_with_DMS":"EJH FOOD INDUSTRIES SDN. BHD.",
+        "Fuzz_Ratio":92.5925925926
+    },
+    {
+        "EPC":"MADURA INDUSTRIES SDN BHD",
+        "Matched_with_DMS":"N2 INDUSTRIES SDN BHD",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "EPC":"MAHIRBINA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MAHLIGAI INSPIRASI ENTERPRISE",
+        "Matched_with_DMS":"NUR INSPIRASI ENTERPRISE",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"MAJI ENTERPRISE",
+        "Matched_with_DMS":"DAMAI ENTERPRISE",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "EPC":"MAJU KICAP",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MAKIN MARAK SB",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MAKTABAH DARUL IMAN ENTERPRISE",
+        "Matched_with_DMS":"NZ IMAN ENTERPRISE",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"MALAYSIAN BIOSPICE CORPORATION SDN BHD",
+        "Matched_with_DMS":"HZ CORPORATION SDN BHD",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "EPC":"MALINJA DONER KEBAB & BAKERY SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MALINJA RICE SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MAMA BAKE",
+        "Matched_with_DMS":"MAMA BAKE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"MAPLE GLORY SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MARDONAL FOOD INDUSTRIES SDN. BHD.-NOTIS",
+        "Matched_with_DMS":"AM FOOD INDUSTRIES",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"MARRIE GARMENT SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MATRIX POWER SOLUTIONS SDN. BHD.",
+        "Matched_with_DMS":"RG SOLUTIONS SDN. BHD.",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "EPC":"MAXIMUM STRATEGY SDN BHD MAXIMUM STRATEGY SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MAXIS BROADBAND SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MAZCOM ENTERPRISE",
+        "Matched_with_DMS":"MAZCOM ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"MEDACENA RESOURCES SDN. BHD. NOTIS",
+        "Matched_with_DMS":"NJ RESOURCES SDN. BHD.",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "EPC":"MEDI TECH ENGINEERING",
+        "Matched_with_DMS":"MN TECH ENGINEERING",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"MEDISSEN SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MEGAZIZ INDUSTRIES SDN. BHD.",
+        "Matched_with_DMS":"ACC INDUSTRIES SDN. BHD.",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"MELBOURNE WEALTH SDN BHD",
+        "Matched_with_DMS":"MELBOURNE WEALTH SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"MELBOURNE WEALTH SDN. BHD.",
+        "Matched_with_DMS":"MELBOURNE WEALTH SDN BHD",
+        "Fuzz_Ratio":96.0
+    },
+    {
+        "EPC":"MERA S ENTERPRISE",
+        "Matched_with_DMS":"Q MEERA ENTERPRISE",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"MERDEKA MAKMUR TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MFAEZ BAKERY ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MFR ENGINEERING GROUP (M) SDN. BHD.",
+        "Matched_with_DMS":"MFR ENGINEERING GROUP (M)  SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"MH MAJU ENGINEERING SDN BHD",
+        "Matched_with_DMS":"HDZ MAJU ENGINEERING SDN BHD",
+        "Fuzz_Ratio":94.5454545455
+    },
+    {
+        "EPC":"MH PLYWOOD TRADING",
+        "Matched_with_DMS":"MH PLYWOOD TRADING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"MHI ENGINEERING",
+        "Matched_with_DMS":"MHI ENGINEERING ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"MI MURNI INDUSTRY SDN. BHD.",
+        "Matched_with_DMS":"MI MURNI INDUSTRY SDN BHD",
+        "Fuzz_Ratio":96.1538461538
+    },
+    {
+        "EPC":"MICRO ZASS SDN BHD",
+        "Matched_with_DMS":"MICRO ZASS SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"MIFF HOLDING MARKETING (M) SDN BHD",
+        "Matched_with_DMS":"MIFF HOLDING SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"MIFF MARKETING (M) SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MILK & MOKA MARKETING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MILLION STARS TRADING",
+        "Matched_with_DMS":"MILLION STARS TRADING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"MITRA FOOD INDUSTRIES SDN. BHD.",
+        "Matched_with_DMS":"EJH FOOD INDUSTRIES SDN. BHD.",
+        "Fuzz_Ratio":92.5925925926
+    },
+    {
+        "EPC":"MIX VENTURE MANUFACTURING SDN BHD",
+        "Matched_with_DMS":"GTG MANUFACTURING SDN BHD",
+        "Fuzz_Ratio":91.3043478261
+    },
+    {
+        "EPC":"MJM COSMETIC SDN BHD",
+        "Matched_with_DMS":"MM COSMETIC SDN. BHD.",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "EPC":"MKR GLOBAL NIAGA (M) SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MN FUEL SOLUTION SDN. BHD.",
+        "Matched_with_DMS":"IJ SOLUTION SDN. BHD.",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "EPC":"MO SUNGAI TEMAU MINES SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MOHD REJAB TRADING S\/B",
+        "Matched_with_DMS":"MOHD REJAB TRADING SDN. BHD.",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "EPC":"MR SMILE ENTERPRISE MR SMILE ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MRS GEMILANG ENTERPRISE",
+        "Matched_with_DMS":"GEMILANG ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"MSA SEGARIA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MSN FOOD BIOTECH INDUSTRY",
+        "Matched_with_DMS":"MSN FOOD BIOTECH INDUSTRY",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"MTK COMMUNICATION SDN. BHD.",
+        "Matched_with_DMS":"ITD COMMUNICATION SDN. BHD.",
+        "Fuzz_Ratio":92.5925925926
+    },
+    {
+        "EPC":"MTK COMMUNICATION SDN. BHD.(SBH)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MUHAMMAD HASYIM BIN KHALID  (RUMAH)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MULTI SUNRAY SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MUSKAS ENTERPRISE SDN BHD",
+        "Matched_with_DMS":"MUSTIKA ENTERPRISE SDN BHD",
+        "Fuzz_Ratio":94.1176470588
+    },
+    {
+        "EPC":"MUST READ SDN BHD",
+        "Matched_with_DMS":"MUST READ SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"MUTIARA FOOD SUPPLIER SDN BHD",
+        "Matched_with_DMS":"KP MUTIARA SDN BHD",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"MUTIARA JINGGA MARKETING",
+        "Matched_with_DMS":"MUTIARA JINGGA MARKETING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"MY HAIZ SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MY PLATINUM SDN. BHD.",
+        "Matched_with_DMS":"MB PLATINUM SDN BHD",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "EPC":"MY-SUTERA SDN BHD",
+        "Matched_with_DMS":"MY-SUTERA SALES & DISTRIBUTION SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"MYGERAK IMPORT EXPORT (M) SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"MYS CONVERSIONS SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"NAFAS TAQWA RESOURCES",
+        "Matched_with_DMS":"NAFAS TAQWA RESOURCES",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"NAHROINI EMPIRE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"NAN UNGGUL RESOURCES",
+        "Matched_with_DMS":"NAN UNGGUL RESOURCES",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"NAR UNITED RESOURCES",
+        "Matched_with_DMS":"NAR RESOURCES",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"NASIR SOYA HKP SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"NATURO MARKETING RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"NAWABEL COATING SDN BHD",
+        "Matched_with_DMS":"NAWABEL COATING SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"NF SUTERA MARKETING",
+        "Matched_with_DMS":"SUTERA UNGGU MARKETING SDN. BHD.",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"NFI FOOD INDUSTRY SDN. BHD. (NURIZ)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"NIMS ADELICIOUSZ SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"NISSEN TECHNOLOGY SDN. BHD.",
+        "Matched_with_DMS":"NISSEN TECHNOLOGY SDN BHD",
+        "Fuzz_Ratio":96.1538461538
+    },
+    {
+        "EPC":"NKI INDUSTRIES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"NORAZAHWATI BINTI ABDULLAH   (RUMAH)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"NORIS ISMA ENTERPRISE",
+        "Matched_with_DMS":"NORIS MJ ENTERPRISE",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"NORPLUS PRECISION ENG. SDN BHD",
+        "Matched_with_DMS":"I PRECISION SDN BHD",
+        "Fuzz_Ratio":94.4444444444
+    },
+    {
+        "EPC":"NOVEL AUTO SB",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"NQ GROUP ENTEPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"NRZ FOOD INDUSTRY & SUPPLIES",
+        "Matched_with_DMS":"NRZ FOOD INDUSTRY & SUPPLIES",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"NUFA ENGINEERING & CONSULTANCY SDN BHD",
+        "Matched_with_DMS":"JT ENGINEERING CONSULTANCY",
+        "Fuzz_Ratio":93.8775510204
+    },
+    {
+        "EPC":"NUR KHAIRUN SONGKET",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"NURANI BERKAT SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"NURHIDAYAH HEALTHCARE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"NURIZAT GLOBAL RESOURCES",
+        "Matched_with_DMS":"JY GLOBAL RESOURCES",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"NURIZAT MR FOOD MARKETING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"NURRI RICH ENTERPRISE  (RUMAH)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"NUTRAHERBS SDN. BHD.",
+        "Matched_with_DMS":"NUTRAHERBS SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"NYD MANUFACTURING SDN BHD",
+        "Matched_with_DMS":"VIN VIN MANUFACTURING SDN BHD",
+        "Fuzz_Ratio":92.0
+    },
+    {
+        "EPC":"NYIRU FOOD INDUSTRIES (KASWADA ENTERPRISE)",
+        "Matched_with_DMS":"AM FOOD INDUSTRIES",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"NZ EASY RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"NZ ENGINEERING & SERVICES",
+        "Matched_with_DMS":"NZ ENGINEERING & SERVICES",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"NZ FOOD SUPPLIER",
+        "Matched_with_DMS":"NZ FOOD SUPPLIER",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"NZ FROZEN IND. SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"OEM BRAND MANUFACTURING SDN. BHD.",
+        "Matched_with_DMS":"OEM BRAND MANUFACTURING SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"OEM VENTURES (SHARKCHOCO ENTERPRISE)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"OPTAPLUS SDN BHD",
+        "Matched_with_DMS":"OPTAPLUS SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"OREA TECHNOLOGIES SDN. BHD.",
+        "Matched_with_DMS":"3I TECHNOLOGIES SDN. BHD.",
+        "Fuzz_Ratio":93.6170212766
+    },
+    {
+        "EPC":"ORGANIC  GAIN SDN. BHD.",
+        "Matched_with_DMS":"ORGANIC GAIN SDN BHD",
+        "Fuzz_Ratio":95.2380952381
+    },
+    {
+        "EPC":"ORGANIC BITE MARKETING",
+        "Matched_with_DMS":"ORGANIC BITE MARKETING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ORYZA FOOD INDUSTRIES SDN BHD",
+        "Matched_with_DMS":"AJ FOOD INDUSTRIES SDN BHD",
+        "Fuzz_Ratio":93.8775510204
+    },
+    {
+        "EPC":"PADU'AN SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"PAHLAWAN MERAH FOOD & BEVERAGES (MALAYSIA) SDN. BHD.",
+        "Matched_with_DMS":"MKJ (MALAYSIA) SDN. BHD.",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"PAK TAM KATERING SDN. BHD.",
+        "Matched_with_DMS":"PAK TAM KATERING SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PAKARBINA ENGINEERING (M) SDN. BHD.",
+        "Matched_with_DMS":"SS ENGINEERING (M) SDN. BHD.",
+        "Fuzz_Ratio":94.3396226415
+    },
+    {
+        "EPC":"PAKMANSOR AGROMODERN SDN. BHD.",
+        "Matched_with_DMS":"PAKMANSOR AGROMODERN SDN BHD",
+        "Fuzz_Ratio":96.5517241379
+    },
+    {
+        "EPC":"PANELIGHT ELECTRICAL ENG. S\/B",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"PANTAS BATEK & ENTERPRISE",
+        "Matched_with_DMS":"PANTAS BATEK & ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PARALLEL SHEILD SDN BHD",
+        "Matched_with_DMS":"PARALLEL SHIELD SDN. BHD.",
+        "Fuzz_Ratio":91.6666666667
+    },
+    {
+        "EPC":"PATIN PASKAL ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"PAVILLION PLANET SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"PEDOMAN SUTERA (KANTIN)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"PELANTAR JAYA (M) SDN. BHD.",
+        "Matched_with_DMS":"PELANTAR JAYA (M) SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PEMBORONG AA TEGUH SDN. BHD.",
+        "Matched_with_DMS":"AE TEGUH SDN. BHD.",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"PERAK ENTREPRENEUR AND HUMAN RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"PERAK HALAL CORPORATION SDN BHD",
+        "Matched_with_DMS":"HZ CORPORATION SDN BHD",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "EPC":"PERCETAKAN AL-AMIN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"PERCETAKAN BUMI REKA SDN BDN",
+        "Matched_with_DMS":"PERCETAKAN BUMI REKA SDN BHD",
+        "Fuzz_Ratio":96.4285714286
+    },
+    {
+        "EPC":"PERINTIS MILLENIUM SDN. BHD.",
+        "Matched_with_DMS":"501 MILLENIUM SDN. BHD.",
+        "Fuzz_Ratio":90.4761904762
+    },
+    {
+        "EPC":"PERNIAGAAN AZIELA JAYA",
+        "Matched_with_DMS":"PERNIAGAAN AZIELA JAYA",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PERNIAGAAN DAN PERCETAKAN KOTA SELATAN",
+        "Matched_with_DMS":"PERNIAGAAN & PERCETAKAN KOTA SELATAN",
+        "Fuzz_Ratio":97.1428571429
+    },
+    {
+        "EPC":"PERNIAGAAN DAN RESTORAN DESA",
+        "Matched_with_DMS":"PERNIAGAAN DAN RESTORAN DESA",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PERNIAGAAN FAJARMAS SB",
+        "Matched_with_DMS":"PERNIAGAAN FAJARMAS SDN. BHD.",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "EPC":"PERNIAGAAN H.A. BERSATU",
+        "Matched_with_DMS":"PERNIAGAAN AMS BERSATU",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "EPC":"PERNIAGAAN HANEI",
+        "Matched_with_DMS":"PERNIAGAAN HANEI",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PERNIAGAAN NIK ADIB SDN BHD",
+        "Matched_with_DMS":"PERNIAGAAN NIK ADIB",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PERNIAGAAN NIK ADIB SDN. BHD.",
+        "Matched_with_DMS":"PERNIAGAAN NIK ADIB",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PERNIAGAAN NOORAZITA ISHAK",
+        "Matched_with_DMS":"PERNIAGAAN NOORAZITA BINTI ISHAK",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PERNIAGAAN NORWANA",
+        "Matched_with_DMS":"PERNIAGAAN NORWANA",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PERNIAGAAN WIRA TAHAN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"PERTUBUHAN PELADANG KAW. BKT MERTAJAM",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"PERUSAHAAN SERI HIKMAH SETIA",
+        "Matched_with_DMS":"PERUSAHAAN SERI HIKMAH SETIA",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PETROGAS RESOURCES SDN. BHD.",
+        "Matched_with_DMS":"PETROGAS RESOURCES SDN BHD",
+        "Fuzz_Ratio":96.2962962963
+    },
+    {
+        "EPC":"PETROLEUM CONSERVATION SDN BHD",
+        "Matched_with_DMS":"AJ PETROLEUM SDN BHD",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"PETROLIFE AERO SDN BHD",
+        "Matched_with_DMS":"PETROLIFE AERO SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PETROTECH SYNERGY SDN. BHD.",
+        "Matched_with_DMS":"FM SYNERGY  SDN. BHD.",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"PHL TRADE (M) S\/B",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"PHYTOFOLIA SDN BHD",
+        "Matched_with_DMS":"PHYTOFOLIA SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PJ HYTECH INDUSTRIES",
+        "Matched_with_DMS":"PJ HYTECH INDUSTRIES",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PJ HYTECH MARKETING",
+        "Matched_with_DMS":"PJ HYTECH MARKETING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PMA RICH (M) SDN. BHD.",
+        "Matched_with_DMS":"PMA RICH (M) SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PMI PETROLEUM HYDROELECTRIC SDN. BHD.",
+        "Matched_with_DMS":"WL PETROLEUM SDN. BHD.",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "EPC":"POINTRAY (MALAYSIA) SDN. BHD.",
+        "Matched_with_DMS":"MKJ (MALAYSIA) SDN. BHD.",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"POINTRAY DEVELOPMENT SDN. BHD.",
+        "Matched_with_DMS":"ANS DEVELOPMENT SDN. BHD.",
+        "Fuzz_Ratio":91.3043478261
+    },
+    {
+        "EPC":"POLYSAGE ENGINEERING SDN BHD",
+        "Matched_with_DMS":"POLYSAGE ENGINEERING SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"POPULAR RICE RYN'S SDN BHD (SEWA SEMANTARA)",
+        "Matched_with_DMS":"POPULAR RICE RYN'S SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"POWERCORE RESOURCES SDN BHD",
+        "Matched_with_DMS":"POWERCORE RESOURCES SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"POWERJOG (M) SDN BHD",
+        "Matched_with_DMS":"POWERJOG (M) SDN. BHD.",
+        "Fuzz_Ratio":95.2380952381
+    },
+    {
+        "EPC":"PPUB VENTURES SDN BHD",
+        "Matched_with_DMS":"PLB VENTURES SDN BHD",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "EPC":"PR VENTURE SDN. BHD.",
+        "Matched_with_DMS":"AI NIAGA VENTURE SDN. BHD.",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"PRECISE ALIGHT SDN BHD",
+        "Matched_with_DMS":"PRECISE ALIGHT SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PRESTASI TRADISI SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"PRINCIPAL GAS SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"PRO MULTI PACKAGING AND PLASTIC SDN BHD",
+        "Matched_with_DMS":"CJ PACKAGING SDN BHD",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"PRODUKSI NUR-JOHAN SDN BHD",
+        "Matched_with_DMS":"PRODUKSI NUR-JOHAN SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PROTECTION RIGGING ACCESS SERVICES SDN BHD",
+        "Matched_with_DMS":"PROTECTION RIGGING ACCESS SERVICES SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PROWHEELS DISTRIBUTOR (M) SDN BHD",
+        "Matched_with_DMS":"PROWHEELS (M) SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PTET RESOURCES SDN. BHD.",
+        "Matched_with_DMS":"PTET RESOURCES SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PU GLOBAL NETWORK",
+        "Matched_with_DMS":"GL GLOBAL NETWORK",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "EPC":"PUNCAK BAKTI SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"PUNCAK BARISAN (M) SDN. BHD.",
+        "Matched_with_DMS":"PUNCAK BARISAN (M) SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PURIWANGSA SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"PURNAMA MURNI SDN BHD",
+        "Matched_with_DMS":"PURNAMA MURNI SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PUSAKA PELANGI SDN. BHD.",
+        "Matched_with_DMS":"PUSAKA PELANGI (PG) SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"PUSAT SERVIS STOM",
+        "Matched_with_DMS":"PUSAT SERVIS STOM",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"QH SYNERGY SDN. BHD.",
+        "Matched_with_DMS":"ADVENTURE SYNERGY SDN. BHD.",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"QISTINA AVENUE SDN BHD",
+        "Matched_with_DMS":"QISTINA AVENUE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"QRISTAL FOOD RESOURCES SDN. BHD.",
+        "Matched_with_DMS":"QRISTAL FOOD RESOURCES SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"QRT TECHNOLOGY IND. S\/B",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RABANI MAJU FOOD INDUSTRY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RADIX INDUSTRIES S\/B",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RAHAMAH BINTI ISMAIL",
+        "Matched_with_DMS":"HAMIZAH BINTI ISMAIL",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "EPC":"RAKAN NUSA CORPORATION SDN BHD",
+        "Matched_with_DMS":"HZ CORPORATION SDN BHD",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "EPC":"RAMINA FOOD INDUSTRY SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RANGKAIAN PELANGI SB",
+        "Matched_with_DMS":"RANGKAIAN PELANGI SDN BHD",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"RASHWEALTH GROUP SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RAYYAN GROUP INDUSTRY (M) SDN. BHD.",
+        "Matched_with_DMS":"RAYYAN GROUP INDUSTRY (M)  SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"RC MACHINERY SDN. BHD.",
+        "Matched_with_DMS":"AEC MACHINERY (M) SDN. BHD.",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "EPC":"REACHWELLS TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RED PROFILE SDN BHD",
+        "Matched_with_DMS":"RED PROFILE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"RED SEA ENGINEERING SDN BHD",
+        "Matched_with_DMS":"DR ENGINEERING SDN BHD",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "EPC":"REDAJAYA SDN BHD",
+        "Matched_with_DMS":"REDAJAYA SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"REDANG DIGITAL SDN. BHD.",
+        "Matched_with_DMS":"YS DIGITAL SDN. BHD.",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"RELIANCE COMPOSITION",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RELTECH LAB SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RELTECH VENTURES SDN. BHD.",
+        "Matched_with_DMS":"FTW VENTURES SDN. BHD.",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "EPC":"RENZO VENTURES SDN. BHD.",
+        "Matched_with_DMS":"FTW VENTURES SDN. BHD.",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "EPC":"RF TEMS SDN BHD",
+        "Matched_with_DMS":"RF TEMS SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"RG SOLUTIONS SB",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RI RIZQ SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RICH ONE FOOD SDN. BHD.",
+        "Matched_with_DMS":"RICH ONE FOOD SDN BHD",
+        "Fuzz_Ratio":95.4545454545
+    },
+    {
+        "EPC":"RICHDAD GROUP SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RICHDAD VENTURES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RICHDAD VENTURES (RUMAH)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RIENA FOOD INDUSTRIES",
+        "Matched_with_DMS":"AM FOOD INDUSTRIES",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"RIENA MARKETING & SERVICES SDN BHD",
+        "Matched_with_DMS":"FT SERVICES SDN BHD",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"RINTIZ REZKY (M) SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RIRAINA INDUSTRIES SDN BHD",
+        "Matched_with_DMS":"RIRAINA INDUSTRIES SDN. BHD.",
+        "Fuzz_Ratio":96.2962962963
+    },
+    {
+        "EPC":"RISMA ABADI MARKETING & TRADING",
+        "Matched_with_DMS":"ABADI TRADING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"RKS FOOD INDUSTRIES SDN BHD",
+        "Matched_with_DMS":"DS FOOD INDUSTRIES SDN BHD",
+        "Fuzz_Ratio":94.3396226415
+    },
+    {
+        "EPC":"RM JAYA TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RNR ZA ENTERPRISE",
+        "Matched_with_DMS":"RNR ZA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ROCK HERBS IND SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RODIAH & MAT FOOD INDUSTRIES S\/B",
+        "Matched_with_DMS":"RODIAH & MAT FOOD INDUSTRIES SDN. BHD",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "EPC":"ROHBAN MARKETING (M) SDN. BHD. (ROHBAN TRADE SDN BHD)",
+        "Matched_with_DMS":"TGG MARKETING (M) SDN. BHD.",
+        "Fuzz_Ratio":92.0
+    },
+    {
+        "EPC":"ROSHAN JAAN SDN BHD",
+        "Matched_with_DMS":"ROSHAN JAAN SDN. BHD.",
+        "Fuzz_Ratio":95.0
+    },
+    {
+        "EPC":"ROSHAN JAAN SDN. BHD.",
+        "Matched_with_DMS":"ROSHAN JAAN SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ROSLAN FOOD INDUSTRIES SDN. BHD.",
+        "Matched_with_DMS":"ROSLAN FOOD INDUSTRIES SDN BHD",
+        "Fuzz_Ratio":96.7741935484
+    },
+    {
+        "EPC":"ROTATING EXPERT (M) SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ROTOCRAFT TECHNOLOGIES (M) S\/B",
+        "Matched_with_DMS":"ROTOCRAFT TECHNOLOGIES (M) SDN.BHD.",
+        "Fuzz_Ratio":92.8571428571
+    },
+    {
+        "EPC":"ROXXEL SERVICES SDN BHD (NURUL HIJRAH ENTERPRISE)",
+        "Matched_with_DMS":"FT SERVICES SDN BHD",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"RRM MUTIARA FOODS SDN BHD",
+        "Matched_with_DMS":"RRM MUTIARA FOODS SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"RS UNGGUL SDN BHD",
+        "Matched_with_DMS":"NS UNGGUL SDN BHD",
+        "Fuzz_Ratio":94.1176470588
+    },
+    {
+        "EPC":"RSD SYNERGY TECHNICAL SDN BHD",
+        "Matched_with_DMS":"AU SYNERGY SDN BHD",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"RSM BENA SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RUBY STAR ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RUBY STAR RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RUMAN INDUSTRY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"RWNA ENGINEERING SDN BHD",
+        "Matched_with_DMS":"RWNA ENGINEERING SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"RZ DUTA TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"S&I URBAN DESIGNERS SDN BHD",
+        "Matched_with_DMS":"S&I URBAN DESIGNERS SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"S.I.T. SCHIFFS & INDUS TECHNIK",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SADAQ HOLDING SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SAF ADVANCE TECH SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SAF ENGINEERING",
+        "Matched_with_DMS":"KAF ENGINEERING",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "EPC":"SAF ONE WATER DISPENSER SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SAHAINI BINTI MUSTAFA",
+        "Matched_with_DMS":"SAHAINI BINTI MUSTAFA",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SAIPUDDIN EMPIRE SDN BHD",
+        "Matched_with_DMS":"G4 EMPIRE SDN BHD",
+        "Fuzz_Ratio":90.3225806452
+    },
+    {
+        "EPC":"SAKO VENTURE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SANABIL MARKETING & SUPPLIERS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SANGGUL EVENT MANAGEMENT SDN BHD",
+        "Matched_with_DMS":"SANGGUL EVENT MANAGEMENT SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SAREL SWITCHGEAR SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SATE BAUNG SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SAYED E & M (GROUP) SDN BHD",
+        "Matched_with_DMS":"SAYED E & M (GROUP) SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SAZIDA GLOBAL (M) SDN BHD",
+        "Matched_with_DMS":"SAZIDA GLOBAL (M) SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SB NATURAL HERBS",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SEBARAU TECH. ENG & SERV. SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SEGI FOOD SERVICES SDN. BHD.",
+        "Matched_with_DMS":"SEAL FOOD SERVICES SDN. BHD.",
+        "Fuzz_Ratio":92.8571428571
+    },
+    {
+        "EPC":"SEGI SERI SDN BHD",
+        "Matched_with_DMS":"SEGI SERI SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SENI BINA ENGINEERING SDN BHD",
+        "Matched_with_DMS":"SENI BINA ENGINEERING SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SENTUA ALIRAN SDN BHD",
+        "Matched_with_DMS":"SENTUA ALIRAN SDN. BHD.",
+        "Fuzz_Ratio":95.4545454545
+    },
+    {
+        "EPC":"SERAYA FAJAR SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SERENE SUMMER SDN BHD",
+        "Matched_with_DMS":"SERENE SUMMER SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SERIBU GROUP DEVELOPMENT SDN. BHD.",
+        "Matched_with_DMS":"ANS DEVELOPMENT SDN. BHD.",
+        "Fuzz_Ratio":91.3043478261
+    },
+    {
+        "EPC":"SESCORE ENGINEERING & SUPPLY SDN. BHD.",
+        "Matched_with_DMS":"EQ ENGINEERING SDN. BHD.",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "EPC":"SFB NETWORK SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SHADINA ENTERPRISE",
+        "Matched_with_DMS":"ADINAH ENTERPRISE",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"SHAHRICH FOOD PROCESSING",
+        "Matched_with_DMS":"SHAHRICH FOOD PROCESSING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SHAMAWAR ELEKTRIKA SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SHAMAWAR MEDICARE SDN BHD",
+        "Matched_with_DMS":"SHAMAWAR MEDICARE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SHAMAWAR TECHNICA SDN BHD",
+        "Matched_with_DMS":"SHAMAWAR SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SHANEZ RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SHARIFAH MAZLINA CORPORATION SDN BHD",
+        "Matched_with_DMS":"HZ CORPORATION SDN BHD",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "EPC":"SHARMILA SDN BHD",
+        "Matched_with_DMS":"SHARMILA SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SHEKIN FOOD",
+        "Matched_with_DMS":"SHEKIN FOOD ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SHERB MANUFACTURING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SIDAM ENTERPRISE",
+        "Matched_with_DMS":"SIDAM ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SILMATRA JAYA SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SINCRO POWER SDN. BHD.",
+        "Matched_with_DMS":"ST POWER SDN. BHD.",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"SIREHMAS PHARMA SDN. BHD. (SIREH EMAS MARKETING SDN BHD)",
+        "Matched_with_DMS":"MGV MARKETING SDN. BHD.",
+        "Fuzz_Ratio":90.4761904762
+    },
+    {
+        "EPC":"SMART PRINT & STATIONER SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SMART TECH INNOVATIVE SDN. BHD.",
+        "Matched_with_DMS":"SMART TECH INNOVATIVE SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SMCORP ENGINEERING S\/B",
+        "Matched_with_DMS":"SMCORP ENGINEERING SDN. BHD.",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "EPC":"SNA ENERGY (M) SDN BHD",
+        "Matched_with_DMS":"SNA ENERGY (M) SDN. BHD.",
+        "Fuzz_Ratio":95.652173913
+    },
+    {
+        "EPC":"SNF GRANDTECH (M) SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SOFCOMM NETWORK",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SOLARTIF SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SP ENERGY SDN BHD",
+        "Matched_with_DMS":"SP ENERGY SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SPARK PRESTIGE SDN BHD",
+        "Matched_with_DMS":"SPARK PRESTIGE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SPE POWER SDN BHD",
+        "Matched_with_DMS":"SPE POWER SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SPE POWER SDN. BHD.",
+        "Matched_with_DMS":"SPE POWER SDN BHD",
+        "Fuzz_Ratio":94.4444444444
+    },
+    {
+        "EPC":"SPICE CLASSIC SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SPRING QUEST",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SQG USAHAWAN SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SR EXPRESS SDN. BHD.",
+        "Matched_with_DMS":"SBS EXPRESS SDN. BHD.",
+        "Fuzz_Ratio":92.6829268293
+    },
+    {
+        "EPC":"SRI CANGGIH GLOBAL SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SRI DE LARA TRADING SDN. BHD.",
+        "Matched_with_DMS":"HC TRADING SDN. BHD.",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"SRI LILY ENTERPRISE",
+        "Matched_with_DMS":"LILYS ENTERPRISE",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"SRI SAUJANA MARKETING",
+        "Matched_with_DMS":"SRI SAUJANA MARKETING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SSRV HOLDINGS SDN BHD",
+        "Matched_with_DMS":"SSRV HOLDINGS SDN. BHD.",
+        "Fuzz_Ratio":95.4545454545
+    },
+    {
+        "EPC":"STAR FRESH & FROZEN SDN BHD. STAR FRESH & FROZEN SDN BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"STE ENGINEERING SERVICES",
+        "Matched_with_DMS":"EG ENGINEERING SERVICES",
+        "Fuzz_Ratio":93.6170212766
+    },
+    {
+        "EPC":"STEAQ  HUB VENTURES",
+        "Matched_with_DMS":"STEAQ HUB VENTURES",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"STELLA GEN SDN BHD",
+        "Matched_with_DMS":"STELLA GEN SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"STRIVE EMPIRE SDN. BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SUBSEA EXPLORE SERVICES (M) SDN BHD",
+        "Matched_with_DMS":"FT SERVICES SDN BHD",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"SUBUR JAYA EDAR ENTERPRISE",
+        "Matched_with_DMS":"JAYA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SUKIMI LUBE (M) SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SULIA TEGUH ENTERPRISE",
+        "Matched_with_DMS":"SULIA TEGUH ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SUPREME PRIDE SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SURICO UNIVERSAL SDN. BHD. (AMG ORIENTED SDN. BHD.)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SYAMNA MARKETING",
+        "Matched_with_DMS":"SYAMNA MARKETING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SYARABA REVERSE OSMOSIS SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SYARIKAT BERAMAS JAYA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SYARIKAT ZALIKHA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SYAWAJA MARKETING ENTERPRISE S\/B",
+        "Matched_with_DMS":"SYAWAJA MARKETING ENTERPRISE SDN. BHD",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "EPC":"SYED MOHD. FOOD (M) S\/B",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SYED NAZIR & QING CONSULTANCY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"SYSTEMATIC AVIATION SERVICES SDN BHD",
+        "Matched_with_DMS":"SYSTEMATIC AVIATION SERVICES SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"SYUKRAN MARKETING SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"T.W. FOOD INDUSTRIAL SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TAJRIA SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TAMAM FOOD INDUSTRIES SDN. BHD.",
+        "Matched_with_DMS":"MAMA FOOD INDUSTRIES SDN. BHD.",
+        "Fuzz_Ratio":95.0819672131
+    },
+    {
+        "EPC":"TAMAR HOUSE (M) SDN.BHD.",
+        "Matched_with_DMS":"TAMAR HOUSE (M) SDN.BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"TAMAR OASIS SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TANJUNG CINDAI SDN. BHD.",
+        "Matched_with_DMS":"TANJUNG CINDAI SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"TECHFICIENT SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TECHNO MILLS  (M) SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TECHNO RADA SDN BHD",
+        "Matched_with_DMS":"TECHNO RADA SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"TECHNOGRESS SB",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TECHVALUE SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TECNICA JITU SDN. BHD.",
+        "Matched_with_DMS":"TECNICA JITU SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"TEGUH ABADI",
+        "Matched_with_DMS":"NW TEGUH ABADI  SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"TEKNOLOGI INOVASI SOLAR SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TELE-FLOW F&B SDN. BHD. (LAGENDA SINARJAYA SDN. BHD.)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TEMAN MAJU ENTERPRISE SDN BHD",
+        "Matched_with_DMS":"TEMAN MAJU ENTERPRISE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"TENISYS SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TERACOM SDN. BHD.",
+        "Matched_with_DMS":"TERACOM SDN BHD",
+        "Fuzz_Ratio":93.75
+    },
+    {
+        "EPC":"TERANG BULAN FOOD INDUSTRIES (M) SDN BHD",
+        "Matched_with_DMS":"TERANG BULAN FOOD INDUSTRIES (M) SDN. BHD.",
+        "Fuzz_Ratio":97.5609756098
+    },
+    {
+        "EPC":"TERAPUTICS SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TERENGGANU AGROTECH DEVELOPMENT CORP SB",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"THE A FOOD SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TIGA R RESOURCES",
+        "Matched_with_DMS":"TIGA R RESOURCES",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"TIJAN NETWORKS PARTNER SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TILAPIA HOUSE SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TIMURAYA TRADING SDN. BHD.",
+        "Matched_with_DMS":"TIMURAYA TRADING",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"TINTA DINAMIK SDN BHD",
+        "Matched_with_DMS":"TINTA DINAMIK SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"TLH PRODUCTS INDUSTRIES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TMI REZQINIAGA SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TMS ROTATING (M) SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TRANSENDENCE VENTURE (M) SDN. BHD.",
+        "Matched_with_DMS":"TRANSCENDENCE VENTURE (M) SDN BHD",
+        "Fuzz_Ratio":95.5223880597
+    },
+    {
+        "EPC":"TRAUMLAND SDN. BHD.",
+        "Matched_with_DMS":"TRAUMLAND SDN BHD",
+        "Fuzz_Ratio":94.4444444444
+    },
+    {
+        "EPC":"TREONE RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TRIEMACH (M) SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TUAH GEMBALA ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TUNJONG ENGINEERING & SERVICES",
+        "Matched_with_DMS":"NF ENGINEERING & SERVICES",
+        "Fuzz_Ratio":93.6170212766
+    },
+    {
+        "EPC":"TURATH SARWA JANNAH SDN. BHD.",
+        "Matched_with_DMS":"TURATH SARWA JANNAH SDN BHD",
+        "Fuzz_Ratio":96.4285714286
+    },
+    {
+        "EPC":"TYZO SDN. BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"TECHNO MATRIX RESOURCES SDN BHD- NOTIS",
+        "Matched_with_DMS":"TECHNO MATRIX RESOURCES SDN BHD",
+        "Fuzz_Ratio":93.1034482759
+    },
+    {
+        "EPC":"U-MEGA",
+        "Matched_with_DMS":"U-MEGA",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"UJONG CEMERLANG (M) SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ULTIMAXX HR SOLUTIONS SDN BHD",
+        "Matched_with_DMS":"KZ SOLUTIONS SDN BHD",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"UMBAI IMPIAN ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"UMMI AGRO INDUSTRY SDN. BHD.",
+        "Matched_with_DMS":"UMMI AGRO INDUSTRY SDN BHD",
+        "Fuzz_Ratio":96.2962962963
+    },
+    {
+        "EPC":"UMMI THAQIF (M) SDN. BHD.",
+        "Matched_with_DMS":"UMMI THAQIF (M) SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"UMMI THAQIF TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"UMP GREEN TECH. SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"UNICOCOMAS IND SDN BHD",
+        "Matched_with_DMS":"UNICOCOMAS INDUSTRIES SDN BHD",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "EPC":"UNIMAP",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"UNTUNG BERSAMA ENTERPRISE",
+        "Matched_with_DMS":"UNTUNG BERSAMA ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"UPE POWER SYSTEM SDN. BHD.",
+        "Matched_with_DMS":"ST POWER SDN. BHD.",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"URAZ CORPORATION SDN. BHD.",
+        "Matched_with_DMS":"WB CORPORATION SDN. BHD.",
+        "Fuzz_Ratio":93.3333333333
+    },
+    {
+        "EPC":"URBAN LEGACY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"URBAN VIEW HOLDING SDN. BHD.",
+        "Matched_with_DMS":"URBAN AD SDN. BHD.",
+        "Fuzz_Ratio":90.9090909091
+    },
+    {
+        "EPC":"V-PACK (M) SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"VAMP (M) SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"VCK VINTAGE CATERING & KITCHEN",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"VENTON PUBLISHING (M) SDN BHD",
+        "Matched_with_DMS":"VENTON PUBLISHING (M) SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"VENTRAMAX SDN BHD",
+        "Matched_with_DMS":"VENTRAMAX SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"VIDA BEAUTY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"VISI CENDERAWASIH SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"VISTAHOME AGRICULTURE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"VITAL GENIUS",
+        "Matched_with_DMS":"VITAL GENIUS SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"WAHID OMAR TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"WAHIDA INCORPORATED SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"WAJA PLASTIC IND (M) S\/B",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"WAN GREEN TECHNOLOGIES SDN. BHD.",
+        "Matched_with_DMS":"3I TECHNOLOGIES SDN. BHD.",
+        "Fuzz_Ratio":93.6170212766
+    },
+    {
+        "EPC":"WAN MALINJA FOOD INDUSTRIES SDN BHD",
+        "Matched_with_DMS":"WAN MALINJA FOOD INDUSTRIES SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"WARIS NOVE SDN. BHD.",
+        "Matched_with_DMS":"WARIS NOVE SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"WARISAN K&Z INDUSTRIES S\/B (KHAIRUDIN)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"WARISAN K&Z INDUSTRIES S\/B (ZULKIFLI)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"WARISAN NIK SAH ENTERPRISE",
+        "Matched_with_DMS":"WARISAN HN ENTERPRISE",
+        "Fuzz_Ratio":92.3076923077
+    },
+    {
+        "EPC":"WARISAN URAZ",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"WAU TRADISI ENTERPRISE",
+        "Matched_with_DMS":"WAU TRADISI ENTERPRISE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"WIDAYA",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"WINTECH INDUSTRY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"WOODBLOCK SDN BHD",
+        "Matched_with_DMS":"WOODBLOCK SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"WORLD CONTINENT RESOURCES",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"XPERT ENGINEERING SOLUTION SDN BHD",
+        "Matched_with_DMS":"XPERT ENGINEERING SOLUTION SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"YAYASAN TUANKU NURZAHIRAH",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"YIENIE RESOURCES SDN BHD",
+        "Matched_with_DMS":"YIENIE RESOURCES SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"YOUNG BEES SDN. BHD.",
+        "Matched_with_DMS":"YOUNG BEES SDN BHD",
+        "Fuzz_Ratio":94.7368421053
+    },
+    {
+        "EPC":"YULY GLOBAL INTERNATIONAL (JALINA RESOURCES MILLIONAIRE)",
+        "Matched_with_DMS":"JY GLOBAL RESOURCES",
+        "Fuzz_Ratio":91.4285714286
+    },
+    {
+        "EPC":"YUSRAN PUBLISHING HOUSE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ZAAR GEMILANG SDN BHD",
+        "Matched_with_DMS":"ZAAR GEMILANG SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ZAARA ULHAQ SUPPLY & TRADING",
+        "Matched_with_DMS":"D & D TRADING",
+        "Fuzz_Ratio":90.0
+    },
+    {
+        "EPC":"ZAIDAH SONGKET",
+        "Matched_with_DMS":"ZAIDAH SONGKET",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ZALIZA FOOD INDUSTRIES",
+        "Matched_with_DMS":"ZALIZA FOOD INDUSTRIES",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ZAMAN ICE TUBE SDN BHD",
+        "Matched_with_DMS":"ZAMAN ICE TUBE SDN BHD",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ZANS CONFECTIONERY",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ZATIKIMIA SDN BHD",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ZAZA TRADING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ZAZA TRADING (RUMAH)",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ZENLINE TRADING SDN. BHD.",
+        "Matched_with_DMS":"ZENLINE TRADING SDN BHD",
+        "Fuzz_Ratio":95.8333333333
+    },
+    {
+        "EPC":"ZERBINA ENGINEERING SDN. BHD.",
+        "Matched_with_DMS":"ZERBINA ENGINEERING SDN. BHD.",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ZHEO LAB ENTERPRISE",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ZIG ZAG PREMIER SDN. BHD.",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ZIQ BAKERY AND CAKE",
+        "Matched_with_DMS":"ZIQ BAKERY AND CAKE",
+        "Fuzz_Ratio":100.0
+    },
+    {
+        "EPC":"ZISHA SERI GUNA SDN BHD",
+        "Matched_with_DMS":"ZISHA SERI GUNA SDN. BHD.",
+        "Fuzz_Ratio":95.8333333333
+    },
+    {
+        "EPC":"ZL KREATIF SDN. BHD.",
+        "Matched_with_DMS":"DETIK KREATIF SDN. BHD.",
+        "Fuzz_Ratio":91.8918918919
+    },
+    {
+        "EPC":"ZM VISION ENTERPRISE",
+        "Matched_with_DMS":"MH VISION ENTERPRISE",
+        "Fuzz_Ratio":95.0
+    },
+    {
+        "EPC":"ZSK ELECTRICAL AND ENGINEERING",
+        "Matched_with_DMS":null,
+        "Fuzz_Ratio":null
+    },
+    {
+        "EPC":"ZULKEFLI SAAD TRADING SDN BHD",
+        "Matched_with_DMS":"ZULKEFLI SAAD TRADING SDN BHD",
+        "Fuzz_Ratio":100.0
+    }
+]
