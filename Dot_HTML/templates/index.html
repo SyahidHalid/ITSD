@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EXIM Bank System</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        /* Header */
+        .header {
+            height: 80px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 40px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .header h2 {
+            color: #333;
+        }
+
+        .logo {
+            height: 55px;
+            width: auto;
+        }
+
+        /* Main Content */
+        .container {
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .container h1 {
+            color: #333;
+        }
+
+        .container > p {
+            color: #777;
+            margin-bottom: 40px;
+        }
+
+        /* Menu */
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        /* Cards */
+        .card {
+            width: 250px;
+            padding: 35px 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            text-decoration: none;
+            color: #333;
+            transition: 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+        }
+
+        .card h2 {
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #777;
+            margin: 0;
+        }
+
+        .dashboard {
+            border-top: 5px solid #0078d4;
+        }
+
+        .ccpt {
+            border-top: 5px solid #28a745;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+
+        <h2>EXIM Bank</h2>
+
+        {{ url_for('static', filename='EXIM LOGO.png') }}
+
+    </div>
+
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <h1>Welcome</h1>
+        <p>Select a system below</p>
+
+        <div class="menu">
+
+            <!-- Dashboard -->
+            {{ url_for('dashboard') }}
+
+                <h2>Dashboard</h2>
+                <p>View MIS Dashboard</p>
+
+            </a>
+
+
+            <!-- CCPT -->
+             }}" class="card ccpt">
+
+                <h2>CCPT</h2>
+                <p>Access CCPT</p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

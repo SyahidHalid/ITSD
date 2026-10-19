@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-10-14T15:43:08.937224",
+  "confirmed_customer_source": "MIS4",
+  "lead_sources": [
+    "CBRS",
+    "ELSA",
+    "EPC",
+    "JOMXCESS"
+  ],
+  "training_sources": [
+    "CBRS",
+    "ELSA"
+  ],
+  "total_records": 420,
+  "matched_to_mis4": 400,
+  "not_matched_to_mis4": 20,
+  "model_trained": true,
+  "warning": null,
+  "training_records": 356,
+  "testing_records": 64,
+  "accuracy": 0.9375,
+  "precision": 0.9508196721311475,
+  "recall": 0.9830508474576272,
+  "f1_score": 0.9666666666666667,
+  "roc_auc": 0.911864406779661,
+  "pr_auc": 0.9920693166696606
+}

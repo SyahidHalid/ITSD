@@ -1,0 +1,26 @@
+{
+    "generated_at": "2026-10-14T15:27:03.425891",
+    "total_records": 320,
+    "matched_records": 300,
+    "unmatched_records": 20,
+    "model_trained": true,
+    "warning": null,
+    "training_records": 271,
+    "testing_records": 49,
+    "accuracy": 0.9795918367346939,
+    "precision": 0.9777777777777777,
+    "recall": 1.0,
+    "f1_score": 0.9887640449438202,
+    "confusion_matrix": [
+        [
+            4,
+            1
+        ],
+        [
+            0,
+            44
+        ]
+    ],
+    "roc_auc": 0.9681818181818183,
+    "pr_auc": 0.9962516650016648
+}

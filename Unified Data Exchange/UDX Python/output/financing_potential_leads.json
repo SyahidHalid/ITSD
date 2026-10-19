@@ -1,0 +1,1700 @@
+{
+  "UDX_VERSION": "1.0",
+  "GENERATED_BY": "UDX Financing Potential Lead Engine",
+  "GENERATED_AT": "2026-10-14T14:54:18+08:00",
+  "SOURCE_PRIORITY": "ELSA",
+  "LEAD_COUNT": 42,
+  "DISCLAIMER": "Candidate lead list only. Validate financing need, eligibility, consent and current application status before outreach or decisioning.",
+  "FINANCING_POTENTIAL_LEADS": [
+    {
+      "SME_ID": "MY-SB-EL6T8",
+      "BUSINESS_NAME": "WELWEL WELLS TRADING",
+      "SSM": null,
+      "PHONE": 88718123,
+      "EMAIL": "wellwell.trading@gmail.com",
+      "STATE": "SABAH",
+      "SECTOR": "MANUFACTURING",
+      "ANNUAL_REVENUE": null,
+      "FINANCING_STATUS": null,
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "ELSA"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-6C3X4",
+      "BUSINESS_NAME": "SUTERA HARBOR SDN BHD",
+      "SSM": null,
+      "PHONE": 60355101966,
+      "EMAIL": "info@mysutera-harbor.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "MANUFACTURING",
+      "ANNUAL_REVENUE": null,
+      "FINANCING_STATUS": null,
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "ELSA"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-9FW7R",
+      "BUSINESS_NAME": "HYPER-SMART FORMULA SDN BHD",
+      "SSM": null,
+      "PHONE": 136341234,
+      "EMAIL": "wanna.wam@gmail.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": null,
+      "FINANCING_STATUS": null,
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "ELSA"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-KD-WRGLH",
+      "BUSINESS_NAME": "ROY WORLD RESOURCES",
+      "SSM": null,
+      "PHONE": 124812222,
+      "EMAIL": "hhafisol1999@yahoo.com",
+      "STATE": "KEDAH",
+      "SECTOR": "MANUFACTURING",
+      "ANNUAL_REVENUE": null,
+      "FINANCING_STATUS": null,
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "ELSA"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-P8977",
+      "BUSINESS_NAME": "NUSA DIGITAL SDN BHD",
+      "SSM": "2019100137",
+      "PHONE": "0131007913",
+      "EMAIL": "info001@nusadigital.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 101,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-LL6SA",
+      "BUSINESS_NAME": "MEGAH RASA SDN BHD",
+      "SSM": "2020100274",
+      "PHONE": "0141015826",
+      "EMAIL": "info002@megahrasa.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 102,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-6VE4M",
+      "BUSINESS_NAME": "ORBITAL RESOURCES ENTERPRISE",
+      "SSM": "2021100411",
+      "PHONE": "0151023739",
+      "EMAIL": "info003@orbitalresources.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 103,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-PG4KP",
+      "BUSINESS_NAME": "MAJU ENGINEERING SDN BHD",
+      "SSM": "2022100548",
+      "PHONE": "0161031652",
+      "EMAIL": "info004@majuengineering.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "CONSTRUCTION",
+      "ANNUAL_REVENUE": 104,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-6ESHJ",
+      "BUSINESS_NAME": "KREATIF SERVICES SDN BHD",
+      "SSM": "2023100685",
+      "PHONE": "0171039565",
+      "EMAIL": "info005@kreatifservices.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "MANUFACTURING",
+      "ANNUAL_REVENUE": 105,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-X8UX6",
+      "BUSINESS_NAME": "SMART VENTURES RESOURCES",
+      "SSM": "2024100822",
+      "PHONE": "0181047478",
+      "EMAIL": "info006@smartventures.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "WHOLESALE",
+      "ANNUAL_REVENUE": 106,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-RTF6U",
+      "BUSINESS_NAME": "ALPHA MAJU SDN BHD",
+      "SSM": "2025100959",
+      "PHONE": "0121055391",
+      "EMAIL": "info007@alphamaju.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 107,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-6JU36",
+      "BUSINESS_NAME": "SERI GREEN SDN BHD",
+      "SSM": "2018101096",
+      "PHONE": "0131063304",
+      "EMAIL": "info008@serigreen.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 108,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-LUYZY",
+      "BUSINESS_NAME": "borneo tech enterprise",
+      "SSM": 109,
+      "PHONE": "0141071217",
+      "EMAIL": "info009@borneotech.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "AGRICULTURE",
+      "ANNUAL_REVENUE": 109,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-63PGG",
+      "BUSINESS_NAME": "SUNRISE SOLUTIONS SDN BHD",
+      "SSM": "2020101370",
+      "PHONE": "0151079130",
+      "EMAIL": "info010@sunrisesolutions.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "MANUFACTURING",
+      "ANNUAL_REVENUE": 130,
+      "FINANCING_STATUS": "CONVENTIONAL",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-FB3X9",
+      "BUSINESS_NAME": "NEXTGEN PACKAGING SDN BHD",
+      "SSM": "2021101507",
+      "PHONE": "0161087043",
+      "EMAIL": "info011@nextgenpackaging.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "RETAIL",
+      "ANNUAL_REVENUE": 111,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-PDP9T",
+      "BUSINESS_NAME": "KAMPUNG ENTERPRISE TRADING",
+      "SSM": "2022101644",
+      "PHONE": "0171094956",
+      "EMAIL": "info012@kampungenterprise.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 112,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-ZWPKQ",
+      "BUSINESS_NAME": "CEMERLANG LOGISTICS SDN. BHD.",
+      "SSM": "2023101781",
+      "PHONE": "0181102869",
+      "EMAIL": "info013@cemerlanglogistics.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 113,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-KWND4",
+      "BUSINESS_NAME": "PROGRESIF JAYA SDN BHD",
+      "SSM": "2024 101918",
+      "PHONE": "0121110782",
+      "EMAIL": "info014@progresifjaya.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 114,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-8WVR6",
+      "BUSINESS_NAME": "HARAPAN BINA SDN BHD",
+      "SSM": "2025102055",
+      "PHONE": "0131118695",
+      "EMAIL": "info015@harapanbina.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 115,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-CVW7Y",
+      "BUSINESS_NAME": "IMPIAN TRADING SDN BHD",
+      "SSM": "2018102192",
+      "PHONE": "0141126608",
+      "EMAIL": "info016@impiantrading.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "CONSTRUCTION",
+      "ANNUAL_REVENUE": 116,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-TKQQL",
+      "BUSINESS_NAME": "PRIMA FOODS SDN BHD",
+      "SSM": "2019102329",
+      "PHONE": "015-113-4521",
+      "EMAIL": "info017@primafoods.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "MANUFACTURING",
+      "ANNUAL_REVENUE": 117,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-WK2D9",
+      "BUSINESS_NAME": "dinamik academy sdn bhd",
+      "SSM": "2024105206",
+      "PHONE": "0161142434",
+      "EMAIL": "info018@dinamikacademy.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "WHOLESALE",
+      "ANNUAL_REVENUE": 118,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-AFNZU",
+      "BUSINESS_NAME": "GLOBAL HOLDINGS SDN BHD",
+      "SSM": "2021102603",
+      "PHONE": "+60171150347",
+      "EMAIL": "info019@globalholdings.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 119,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-ATYWD",
+      "BUSINESS_NAME": "SETIA SUPPLY SDN BHD",
+      "SSM": "2022102740",
+      "PHONE": "0181158260",
+      "EMAIL": "info020@setiasupply.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 190,
+      "FINANCING_STATUS": "ISLAMIC",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-BA638",
+      "BUSINESS_NAME": "NUSA DIGITAL RESOURCES",
+      "SSM": "2023102877",
+      "PHONE": "0121166173",
+      "EMAIL": "info021@nusadigital.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "AGRICULTURE",
+      "ANNUAL_REVENUE": 121,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-LTYJD",
+      "BUSINESS_NAME": "ORBITAL RESOURCES SDN BHD",
+      "SSM": "2025103151",
+      "PHONE": "0141181999",
+      "EMAIL": "INFO023@ORBITALRESOURCES.COM",
+      "STATE": "SARAWAK",
+      "SECTOR": "RETAIL",
+      "ANNUAL_REVENUE": 123,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-CM8V5",
+      "BUSINESS_NAME": "MAJU ENGINEERING RESOURCES",
+      "SSM": "2018103288",
+      "PHONE": "0151189912",
+      "EMAIL": "info024@majuengineering.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 124,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-ASRNZ",
+      "BUSINESS_NAME": "SMART VENTURES SDN. BHD.",
+      "SSM": "2020103562",
+      "PHONE": "0171205738",
+      "EMAIL": "info026@smartventures.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 126,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-D3J9P",
+      "BUSINESS_NAME": "BORNEO TECH SDN BHD",
+      "SSM": "2023103973-",
+      "PHONE": "0131229477",
+      "EMAIL": "info029@borneotech.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "MANUFACTURING",
+      "ANNUAL_REVENUE": 129,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-SXWYG",
+      "BUSINESS_NAME": "KAMPUNG ENTERPRISE SDN BHD",
+      "SSM": "2018104384",
+      "PHONE": "0161253216",
+      "EMAIL": "info032@kampungenterprise.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 132,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-G6GZ8",
+      "BUSINESS_NAME": "GLOBAL HOLDINGS ENTERPRISE",
+      "SSM": "2025105343",
+      "PHONE": "0161308607",
+      "EMAIL": "info039@globalholdings.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 139,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-VF59W",
+      "BUSINESS_NAME": "MEGAH RASA RESOURCES",
+      "SSM": "2020 105754",
+      "PHONE": "0121332346",
+      "EMAIL": "info042@megahrasa.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "WHOLESALE",
+      "ANNUAL_REVENUE": 142,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-ZV43W",
+      "BUSINESS_NAME": "kreatif services enterprise",
+      "SSM": 145,
+      "PHONE": "0151356085",
+      "EMAIL": "info045@kreatifservices.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "AGRICULTURE",
+      "ANNUAL_REVENUE": 145,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-5L9BD",
+      "BUSINESS_NAME": "NEXTGEN PACKAGING TRADING",
+      "SSM": "2021106987",
+      "PHONE": "014-140-3563",
+      "EMAIL": "info051@nextgenpackaging.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 151,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-NJSUT",
+      "BUSINESS_NAME": "PRIMA FOODS TRADING",
+      "SSM": "2019107809",
+      "PHONE": "+60131451041",
+      "EMAIL": "info057@primafoods.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "AGRICULTURE",
+      "ANNUAL_REVENUE": 157,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-FBM27",
+      "BUSINESS_NAME": "SETIA SUPPLY RESOURCES",
+      "SSM": "2022108220",
+      "PHONE": "0161474780",
+      "EMAIL": "info060@setiasupply.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 160,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-DXWHJ",
+      "BUSINESS_NAME": "SMART VENTURES TRADING",
+      "SSM": "2020109042",
+      "PHONE": "0151522258",
+      "EMAIL": "info066@smartventures.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "WHOLESALE",
+      "ANNUAL_REVENUE": null,
+      "FINANCING_STATUS": "CONVENTIONAL",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "MIS4"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-4H98B",
+      "BUSINESS_NAME": "NUSA DIGITAL TRADING",
+      "SSM": 171,
+      "PHONE": "0161640953",
+      "EMAIL": "info081@nusadigital.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "AGRICULTURE",
+      "ANNUAL_REVENUE": 171,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-SNLAV",
+      "BUSINESS_NAME": "MAJU ENGINEERING ENTERPRISE",
+      "SSM": "2022 111508",
+      "PHONE": "0121664692",
+      "EMAIL": "info084@majuengineering.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 174,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-GEZHV",
+      "BUSINESS_NAME": "ALPHA MAJU ENTERPRISE",
+      "SSM": "2025111919-",
+      "PHONE": "0151688431",
+      "EMAIL": "info087@alphamaju.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 177,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SW-YP9PZ",
+      "BUSINESS_NAME": "CEMERLANG LOGISTICS ENTERPRISE",
+      "SSM": "2023112741",
+      "PHONE": "0141735909",
+      "EMAIL": "info093@cemerlanglogistics.com",
+      "STATE": "SARAWAK",
+      "SECTOR": "AGRICULTURE",
+      "ANNUAL_REVENUE": 183,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS"
+      ],
+      "REVIEW_REQUIRED": true
+    },
+    {
+      "SME_ID": "MY-SL-PLPLV",
+      "BUSINESS_NAME": "IMPIAN TRADING ENTERPRISE",
+      "SSM": "2018113152",
+      "PHONE": "0171759648",
+      "EMAIL": "info096@impiantrading.com",
+      "STATE": "SELANGOR",
+      "SECTOR": "SERVICES",
+      "ANNUAL_REVENUE": 186,
+      "FINANCING_STATUS": "No / Tidak",
+      "FINANCING_NEED": null,
+      "LEAD_REASON": "LF questionnaire rule matched: Meningkatkan perolehan dengan meneroka pasaran baru (value=1); Pelaburan modal (dalam premis, mesin dll) (value=1); Membangunkan dan melancarkan produk/perkhidmatan baru (value=1)",
+      "LEAD_TYPE": "LF",
+      "LEAD_CRITERIA": [
+        {
+          "CRITERION": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Meningkatkan perolehan dengan meneroka pasaran baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Pelaburan modal (dalam premis, mesin dll)",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        },
+        {
+          "CRITERION": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_SYSTEM": "ELSA",
+          "SOURCE_FIELD": "Membangunkan dan melancarkan produk/perkhidmatan baru",
+          "SOURCE_VALUE": 1,
+          "RULE": "LF = YES when value = 1"
+        }
+      ],
+      "LEAD_SOURCE_PRIORITY": "ELSA",
+      "SOURCE_SYSTEMS": [
+        "CBRS",
+        "ELSA",
+        "JOMXCESS"
+      ],
+      "REVIEW_REQUIRED": true
+    }
+  ]
+}
