@@ -1,0 +1,4 @@
+1- Loan DB
+2- amik column approval authority, corporate status, syndicated, nature of account, facility, currency, sector, exposure, date approve, date disbruse, sum disbursement, outstanding
+3- logistic regression/ decision tree
+

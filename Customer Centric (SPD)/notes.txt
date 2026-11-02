@@ -1,0 +1,51 @@
+conclusion
+
+To reduce customer churn, we will implement the following strategies:
+•	Improve customer service: We will train our customer service representatives to provide better support to our customers. We will also make it easier for customers to contact us and get help when they need it.
+•	Increase innovation: We will invest in new products and services that meet the needs of our customers. We will also make it easier for customers to provide feedback on our products and services.
+•	Reduce prices: We will make our products and services more affordable to our customers. We will also offer loyalty programs and discounts to encourage customers to stay with us.
+
+We believe that these strategies will help us to reduce customer churn and improve the profitability of our business.
+
+how
+
+To write a recap on customer churn impaired in an executive summary, you should:
+1.	Summarize the problem of customer churn. Customer churn is the rate at which customers stop using a company's products or services. It is a major problem for businesses of all sizes, as it can lead to lost revenue and profits.
+2.	Explain the impact of customer churn on your business. How much does it cost your business to lose a customer? What impact does churn have on your bottom line?
+3.	Identify the root causes of customer churn in your business. What are the reasons why customers are leaving? Once you know the root causes, you can start to develop strategies to address them.
+4.	Outline your plan to reduce customer churn. This should include specific actions you will take to improve customer satisfaction, loyalty, and retention.
+ 
+Why – to review
+what - product
+where - country
+when - year 
+how – consult
+
+========================================
+for conclusion:
+
+* total customer decrease, asset decrease, profit decrase
+
+* most asset and porfit are from non trade, as of sep 23, there's stil 17% (8.8 trade & 91.2 non trade) of the current profit that are still to obtained
+
+* EXIM customer of profitable criteria is non trade, syndicated, traditional, usd, overseas project financing, manufacturing, non smes in malaysia
+
+* customer quality improve most from watchlist to active
+
+* concern ngan impaired as 50% of asset tp x buat profit
+
+* non trade also contribute to most asset impaired
+
+* indon has the most accounts to impaired (16 accounts)
+* longest impaired since 2008 is from indonesia (PT Eden Capital Indonesia)
+* largest asset impaired is from indonesia (PT Srivijaya Air)
+
+* for all accounts, it indicate high number of account is fully settled which is a good thing we dont have to carry lost. but for impaired account we carry lost because most exits account are fully write off.
+
+* i suggest to look into recovery to profit on impaired asset.
+
+* using the models created we can use as a bench mark for incoming customer and monitor the specific area
+
+========================================
+
+mne lagi profit, mne lg safe, why our portfolio is like this 

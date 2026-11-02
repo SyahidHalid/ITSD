@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CCPT & ESG Assessment</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;padding:0;font-family:Arial,Helvetica,sans-serif;color:#111827}
+body{background:#e5e7eb;padding:24px}.page{max-width:1250px;margin:auto;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 4px 18px rgba(0,0,0,.08)}
+.header{padding:28px 32px;background:linear-gradient(135deg,#07396e,#1261a0);color:#fff}.header h1{margin:0;font-size:28px}.header p{margin:8px 0 0;opacity:.9}
+.content{padding:28px}.main-block-title{margin:34px 0 16px;padding:15px 18px;background:#111827;color:#fff;font-size:20px;font-weight:bold;border-radius:6px}.main-block-title:first-child{margin-top:0}.esg-main-title{background:#166534}
+.section{margin-bottom:24px;border:1px solid #d7dde5;border-radius:7px;overflow:hidden}.section-title{padding:13px 17px;background:#07396e;color:#fff;font-weight:bold;font-size:16px}
+.section-title.gp3{background:#0f766e}.section-title.gp4{background:#5b21b6}.section-title.result{background:#111827}.section-title.esg{background:#166534}.section-title.esg-b{background:#9a3412}.section-title.esg-c{background:#7f1d1d}.section-title.esg-result{background:#14532d}
+.section-subtitle{padding:10px 17px;background:#f1f5f9;border-bottom:1px solid #d7dde5;color:#475569;font-size:13px;line-height:1.5}.section-body{padding:18px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}.form-row{margin-bottom:18px}.field-label{display:block;margin-bottom:7px;font-weight:bold;font-size:14px}.required{color:#dc2626}
+input[type=text],select,textarea{width:100%;padding:10px 12px;border:1px solid #b8c1cc;border-radius:4px;font-family:inherit;font-size:14px;background:#fff}textarea{min-height:70px;resize:vertical}
+input[type=radio],input[type=checkbox]{transform:scale(1.15);cursor:pointer}.hidden{display:none!important}.notice{padding:18px;background:#f8fafc;border:1px dashed #94a3b8;border-radius:5px;color:#64748b;text-align:center}
+.sector-info{margin-bottom:16px;padding:12px 14px;background:#eff6ff;border-left:4px solid #2563eb;color:#1e3a8a;font-size:14px}
+table{width:100%;border-collapse:collapse}.assessment-table{font-size:13px}.assessment-table th,.assessment-table td{border:1px solid #cbd5e1;padding:10px;vertical-align:top}.assessment-table th{background:#07396e;color:#fff;text-align:left}.assessment-table .number{width:46px;text-align:center}.assessment-table .answer{width:155px;text-align:center;vertical-align:middle}
+.objective-tag{display:inline-block;padding:5px 8px;background:#dbeafe;color:#1e3a8a;border-radius:4px;font-size:12px;font-weight:bold}
+.question-card{margin-bottom:14px;border:1px solid #d7dde5;border-radius:6px;overflow:hidden}.question-text{padding:13px 15px;background:#f8fafc;line-height:1.5;font-weight:600}.question-answer{display:flex;gap:28px;flex-wrap:wrap;padding:12px 15px}.radio-option,.check-option{display:inline-flex;align-items:center;gap:7px;cursor:pointer}
+.details-area{padding:0 15px 15px}.details-area label{display:block;margin-bottom:6px;color:#475569;font-size:12px;font-weight:bold}.category{margin:18px 0 10px;padding:9px 12px;background:#ccfbf1;border-left:4px solid #0f766e;color:#115e59;font-weight:bold}.gp4-category{background:#ede9fe;border-left-color:#7c3aed;color:#4c1d95}
+.esg-a-table th{background:#166534}.esg-a-table .answer{width:190px}.auto-result-box{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px;border:1px solid #d7dde5;border-radius:6px;background:#f8fafc}.auto-result-title{font-weight:bold;line-height:1.5}.auto-pill{min-width:90px;padding:9px 18px;border-radius:30px;text-align:center;font-size:16px;font-weight:bold;background:#e5e7eb;color:#475569}.auto-pill.yes{background:#fee2e2;color:#991b1b}.auto-pill.no{background:#dcfce7;color:#166534}
+.esg-c-table th{background:#7f1d1d}.esg-c-table .selection{width:85px;text-align:center;vertical-align:middle}.classification-cell{width:120px;font-weight:bold}.prohibited{color:#991b1b}.restricted{color:#9a3412}
+.esg-criteria-table{font-size:12.5px}.esg-criteria-table th,.esg-criteria-table td{border:1px solid #cbd5e1;padding:9px;vertical-align:top;line-height:1.45}.esg-criteria-table th{background:#166534;color:#fff;text-align:left}.esg-criteria-table .criteria-col{width:200px;font-weight:bold;background:#f0fdf4}.esg-criteria-table .check-col{width:75px;text-align:center;vertical-align:middle}.esg-note{margin-top:10px;color:#64748b;font-size:12px}
+.financing-type-box{padding:16px;background:#f0fdf4;border:1px solid #bbf7d0;border-radius:6px;margin-bottom:18px}.financing-type-title{margin-bottom:12px;font-weight:bold}.financing-type-options{display:flex;gap:30px;flex-wrap:wrap}
+.result-financing{margin-bottom:20px;padding:15px;background:#f8fafc;border:1px solid #cbd5e1;border-radius:5px}.result-financing h3{margin:0 0 12px;font-size:14px}.financing-result-row{display:flex;justify-content:space-between;align-items:center;max-width:500px;padding:5px 0}.result-tick{font-size:19px;font-weight:bold}
+.esg-result-table{font-size:13px}.esg-result-table th,.esg-result-table td{border:1px solid #94a3b8;padding:9px}.esg-result-table th{background:#dcfce7;color:#111827}.esg-result-table .result-category{width:160px;text-align:center;font-weight:bold;vertical-align:middle}.esg-result-table .result-answer{width:100px;text-align:center;vertical-align:middle;font-weight:bold}.result-yes{color:#166534;font-weight:bold}.result-no{color:#991b1b}
+.classification-box{padding:28px;background:#f8fafc;border:1px solid #d7dde5;border-radius:7px;text-align:center}.classification-label{color:#64748b;font-size:13px;font-weight:bold;text-transform:uppercase;letter-spacing:1px}.classification-value{margin:8px 0;font-size:58px;font-weight:bold;color:#07396e}.classification-description{max-width:800px;margin:auto;line-height:1.6}
+.summary-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px}.summary-item{padding:15px;border:1px solid #d7dde5;border-radius:5px;text-align:center}.summary-item strong{display:block;margin-bottom:7px;color:#64748b;font-size:12px}.status-pass{color:#15803d;font-weight:bold}.status-fail{color:#b91c1c;font-weight:bold}
+.classification-table{margin-top:22px;font-size:13px}.classification-table th,.classification-table td{border:1px solid #cbd5e1;padding:9px;text-align:center}.classification-table th{background:#07396e;color:#fff}.classification-table tr.active-result{background:#dcfce7;font-weight:bold}
+.button-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}button{padding:11px 20px;border:0;border-radius:4px;font-weight:bold;cursor:pointer;font-size:14px}.btn-primary{background:#07396e;color:#fff}.btn-green{background:#166534;color:#fff}.btn-save{background:#0f766e;color:#fff}.btn-pdf{background:#b91c1c;color:#fff}.btn-secondary{background:#e5e7eb;color:#111827}
+.risk-low{background:#dcfce7!important;color:#166534;font-weight:bold}.risk-moderate{background:#fef3c7!important;color:#92400e;font-weight:bold}.risk-high{background:#fee2e2!important;color:#991b1b;font-weight:bold}.mandatory-remark{border:2px solid #dc2626!important;background:#fff7f7!important}.na-box{padding:18px;background:#f8fafc;border:1px dashed #94a3b8;border-radius:6px;color:#64748b;text-align:center}.disabled-row{opacity:.5;background:#f1f5f9}.consent-box{padding:18px;background:#f8fafc;border:1px solid #cbd5e1;border-radius:6px}
+@media print{@page{size:A4 portrait;margin:10mm}body{background:#fff;padding:0;font-size:10px}.page{max-width:none;box-shadow:none;border-radius:0}.header{padding:15px 18px}.content{padding:12px}.no-print,.button-row{display:none!important}.section,.question-card{break-inside:avoid}.main-block-title{break-after:avoid}textarea,input[type=text]{border:0}.esg-result-table{font-size:10px}}
+@media(max-width:800px){body{padding:8px}.content{padding:14px}.form-grid,.summary-grid{grid-template-columns:1fr}.auto-result-box{flex-direction:column;align-items:flex-start}.financing-type-options{flex-direction:column;gap:10px}}
+</style>
+</head>
+<body>
+<div class="page">
+<div class="header"><h1>CCPT & ESG Assessment</h1><p>Customer Climate Change and ESG Assessment</p></div>
+<div class="content">
+
+<div class="section">
+<div class="section-title">Customer Information</div>
+<div class="section-body">
+<div class="form-grid">
+<div class="form-row"><label class="field-label">Customer Name</label><input type="text" id="customerName" placeholder="Enter Customer Name"></div>
+<div class="form-row"><label class="field-label">Entity <span class="required">*</span></label><select id="entity" onchange="entityChanged()"><option value="">-- Select Entity --</option><option value="BPMB">BPMB Bank</option><option value="SME">SME Bank</option><option value="EXIM">EXIM Bank</option></select></div>
+<div class="form-row"><label class="field-label">Customer Category <span class="required">*</span></label><select id="customerCategory" onchange="customerCategoryChanged()"><option value="">-- Select Entity First --</option></select></div>
+<div class="form-row"><label class="field-label">Customer BNM Sector <span class="required">*</span></label>
+<select id="sector" onchange="sectorChanged()"><option value="">-- Select Customer BNM Sector --</option><option value="agriculture">Agriculture, Forestry and Fishing</option><option value="construction">Construction</option><option value="electricity">Electricity, Gas, Steam and Air Conditioning Supply</option><option value="manufacturing">Manufacturing</option><option value="transportation">Transportation and Storage</option><option value="waste">Water Supply; Sewerage; Waste Management and Remediation Activities</option><option value="realestate">Real Estate Activities</option><option value="others">Others (Please specify)</option></select></div>
+<div class="form-row hidden" id="otherSectorRow"><label class="field-label">Please specify sector</label><input type="text" id="otherSector" placeholder="Specify Customer BNM Sector"></div>
+<div class="form-row"><label class="field-label">Postcode <span class="required">*</span></label><input type="text" id="postcode" maxlength="5" inputmode="numeric" placeholder="e.g. 50450" oninput="postcodeChanged()"></div>
+<div class="form-row"><label class="field-label">Location Risk</label><input type="text" id="locationRisk" value="Low" readonly class="risk-low"><div style="margin-top:6px;font-size:12px;color:#64748b">Automatically detected from postcode. Unlisted postcode defaults to Low.</div></div>
+</div>
+</div></div>
+
+<div class="main-block-title">PART 1 — CCPT ASSESSMENT</div>
+<div class="section"><div class="section-title">GP1 – Climate Change Mitigation</div><div class="section-subtitle">Economic activities are filtered according to the selected BNM Sector / Classification.</div><div class="section-body" id="gp1Container"><div class="notice">Please select Customer BNM Sector first.</div></div></div>
+<div class="section"><div class="section-title">GP2 – Climate Change Adaptation</div><div class="section-subtitle">Questions are displayed according to the selected BNM Sector.</div><div class="section-body" id="gp2Container"><div class="notice">Please select Customer BNM Sector first.</div></div></div>
+<div class="section"><div class="section-title gp3">GP3 – No Significant Harm to the Environment</div><div class="section-subtitle">All GP3 questions must be answered. When “Yes” is selected, Details / Remarks is mandatory.</div><div class="section-body" id="gp3Container"></div></div>
+<div class="section" id="gp4Section"><div class="section-title gp4">GP4 – Remedial Efforts to Promote Transition</div><div class="section-subtitle">GP4 is required only when significant harm is identified under GP3.</div><div class="section-body" id="gp4Container"><div class="notice">Complete GP3 first. GP4 will be enabled only when required.</div></div></div>
+
+<div class="section"><div class="section-title result">Overall CCPT Classification</div><div class="section-body">
+<div class="classification-box"><div class="classification-label">Classification</div><div class="classification-value" id="classificationValue">-</div><div class="classification-description" id="classificationDescription">Complete GP1, GP2 and GP3. GP4 will be required only when significant harm is identified.</div></div>
+<div class="summary-grid"><div class="summary-item"><strong>GP1</strong><span id="gp1Status">Pending</span></div><div class="summary-item"><strong>GP2</strong><span id="gp2Status">Pending</span></div><div class="summary-item"><strong>GP3</strong><span id="gp3Status">Pending</span></div><div class="summary-item"><strong>GP4</strong><span id="gp4Status">Pending</span></div></div>
+<table class="classification-table"><thead><tr><th>Classification</th><th>GP1 / GP2</th><th>GP3</th><th>GP4</th></tr></thead><tbody>
+<tr id="row-C1"><td>C1</td><td>GP1 or GP2 or both</td><td>✓</td><td>N/A</td></tr>
+<tr id="row-C2"><td>C2</td><td>GP1 or GP2 or both</td><td>✕</td><td>✓</td></tr>
+<tr id="row-C3"><td>C3</td><td>Neither</td><td>✕</td><td>✓</td></tr>
+<tr id="row-C4"><td>C4</td><td>GP1 or GP2 or both</td><td>✕</td><td>✕</td></tr>
+<tr id="row-C5a"><td>C5a</td><td>Neither</td><td>✕</td><td>✕</td></tr>
+<tr id="row-C5b"><td>C5b</td><td>Neither</td><td>✓</td><td>N/A</td></tr>
+</tbody></table>
+<div class="button-row no-print"><button type="button" class="btn-primary" onclick="calculateClassification()">Calculate CCPT</button></div>
+</div></div>
+
+<div class="main-block-title esg-main-title">PART 2 — ESG ASSESSMENT</div>
+<div class="section"><div class="section-title esg">A. Compliance to Social Well-Being</div><div class="section-subtitle">Selection of “No” will be deemed as <strong>Non ESG – Violation of Social Well-Being</strong>. For Non-SME (Corporate), the last two questions are marked N/A.</div><div class="section-body">
+<table class="assessment-table esg-a-table"><thead><tr><th>Customer's business operations comply with the following regulatory requirements</th><th class="answer">Yes / No</th></tr></thead><tbody>
+<tr id="esgARow0"><td>(a) Labour rights and working conditions.</td><td class="answer"><label class="radio-option"><input type="radio" name="esgA_0" value="yes" onchange="updateESGState()">Yes</label>&nbsp;&nbsp;<label class="radio-option"><input type="radio" name="esgA_0" value="no" onchange="updateESGState()">No</label></td></tr>
+<tr id="esgARow1"><td>(b) Occupational safety and health (OSH).</td><td class="answer"><label class="radio-option"><input type="radio" name="esgA_1" value="yes" onchange="updateESGState()">Yes</label>&nbsp;&nbsp;<label class="radio-option"><input type="radio" name="esgA_1" value="no" onchange="updateESGState()">No</label><span class="hidden" id="esgANA1">N/A</span></td></tr>
+<tr id="esgARow2"><td>(c) Human rights and community relations.</td><td class="answer"><label class="radio-option"><input type="radio" name="esgA_2" value="yes" onchange="updateESGState()">Yes</label>&nbsp;&nbsp;<label class="radio-option"><input type="radio" name="esgA_2" value="no" onchange="updateESGState()">No</label><span class="hidden" id="esgANA2">N/A</span></td></tr>
+</tbody></table></div></div>
+
+<div class="section"><div class="section-title esg-b">B. Violation of Social Well-Being</div><div class="section-body"><div class="auto-result-box"><div class="auto-result-title">Violation of social well-being<div style="margin-top:5px;font-size:12px;font-weight:normal;color:#64748b">Automatically derived from Section A.</div></div><div class="auto-pill" id="sectionBResult">Pending</div></div></div></div>
+
+<div class="section"><div class="section-title esg-c">C. Customer's business activities are listed as Prohibited / Restricted ESG activities</div><div class="section-subtitle">Tick where the activity is applicable to the customer.</div><div class="section-body"><table class="assessment-table esg-c-table"><thead><tr><th>Classification</th><th>Category</th><th>Business Activity</th><th class="selection">Tick</th></tr></thead><tbody id="esgCBody"></tbody></table></div></div>
+
+<div class="section" id="financingSection"><div class="section-title esg">ESG Financing Type</div><div class="section-body"><div id="financingNA" class="na-box hidden">Not required because the assessment is currently classified as Non-ESG.</div><div class="financing-type-box" id="financingBox"><div class="financing-type-title">Please classify customer's financing as project or non-project related:</div><div class="financing-type-options"><label class="radio-option"><input type="radio" name="financingType" value="project"> ESG project related financing</label><label class="radio-option"><input type="radio" name="financingType" value="non-project"> ESG non-project-related financing</label></div></div></div></div>
+
+<div class="section" id="criteriaSection"><div class="section-title esg">ESG Criteria Assessment</div><div class="section-subtitle">Only ONE ESG category / sub-category may be selected. Select the category that best represents the financing purpose.</div><div class="section-body"><div id="criteriaNA" class="na-box hidden">Not required because the assessment is currently classified as Non-ESG.</div><div id="criteriaBox"><table class="esg-criteria-table"><thead><tr><th>ESG Category</th><th>Criteria / Sub-Criteria</th><th class="check-col">Select</th></tr></thead><tbody id="esgCriteriaBody"></tbody></table><div class="esg-note">Only one item may be selected.</div></div></div></div>
+
+<div class="section"><div class="section-title esg">Consent / Remarks</div><div class="section-body"><div class="consent-box"><label class="field-label">Consent / Additional Remarks</label><textarea id="consentRemarks" placeholder="Enter consent, remarks or additional information"></textarea></div></div></div>
+
+<div class="section"><div class="section-title esg-result">ESG RESULT</div><div class="section-body">
+<div id="esgResultPlaceholder" class="notice">Complete the ESG assessment and click Calculate ESG Result.</div>
+<div id="esgResultArea" class="hidden"><div class="result-financing"><h3>Customer's financing is project or non-project related</h3><div class="financing-result-row"><span>ESG project related financing</span><span class="result-tick" id="resultProject">☐</span></div><div class="financing-result-row"><span>ESG non-project-related financing</span><span class="result-tick" id="resultNonProject">☐</span></div></div><table class="esg-result-table"><thead><tr><th>Category</th><th>Sub-Category</th><th>Yes / No</th></tr></thead><tbody id="esgResultTableBody"></tbody></table></div>
+<div class="button-row no-print"><button type="button" class="btn-green" onclick="calculateESGResult()">Calculate ESG Result</button><button type="button" id="saveButton" class="btn-save hidden" onclick="saveAssessment()">Save Assessment</button><button type="button" id="pdfButton" class="btn-pdf hidden" onclick="generatePDF()">Generate PDF</button><button type="button" class="btn-secondary" onclick="resetAssessment()">Reset All</button></div>
+</div></div>
+
+</div></div>
+
+<script>
+const customerCategories={BPMB:["Micro","Small","Medium","Non-SME"],SME:["Micro","Small","Medium","Large"],EXIM:["SME (Micro)","SME (Small)","SME (Medium)","Non-SME (Commercial)","Non-SME (Corporate)"]};
+
+const postcodeRiskData=`01000 Low
+02000 Moderate
+02100 Low
+02200 Low
+02400 Low
+02450 Low
+02500 Low
+02600 Low
+02700 Moderate
+02800 Low
+05050 High
+05100 Moderate
+05150 High
+05200 Moderate
+05250 High
+05300 Moderate
+05350 High
+05400 High
+05460 Moderate
+06000 Moderate
+06010 Low
+06050 Low
+06100 Low
+06150 Low
+06200 Moderate
+06250 Moderate
+06300 Moderate
+06350 Low
+06400 Low
+06500 High
+06550 High
+06570 Low
+06600 High
+06650 Low
+06700 Low
+06710 Low
+06720 Low
+06750 Low
+06800 Low
+06900 Low
+06910 Moderate
+07000 Low
+08000 Low
+08010 Low
+08100 Moderate
+08110 Low
+08200 Low
+08210 Low
+08300 Low
+08320 Low
+08400 Low
+08500 Low
+08600 Low
+08700 Low
+08800 Low
+09000 Moderate
+09010 Low
+09090 Moderate
+09100 Low
+09200 Moderate
+09300 Low
+09310 Low
+09400 Low
+09600 Low
+09700 Low
+09800 Low
+10000 Low
+10150 Low
+10250 Low
+10300 Low
+10350 Low
+10400 Low
+10450 Low
+10460 Low
+10470 Low
+11000 Low
+11010 Low
+11020 Low
+11050 Moderate
+11060 Low
+11100 Moderate
+11200 Low
+11400 Low
+11500 Low
+11600 Low
+11700 Low
+11800 Low
+11900 Low
+11920 Low
+11950 Low
+11960 Low
+12000 Moderate
+12100 Moderate
+13020 Low
+13100 Low
+13110 Low
+13200 Moderate
+13300 Low
+13310 Low
+13400 Low
+13500 Low
+13600 Low
+13700 Low
+13800 Low
+14000 Low
+14020 Low
+14100 Moderate
+14110 High
+14120 High
+14200 High
+14300 High
+14310 Moderate
+14320 Moderate
+14400 Low
+15000 Low
+15050 High
+15100 Moderate
+15150 Low
+15200 Low
+15300 Low
+15350 Low
+15400 Low
+16010 Moderate
+16020 Low
+16050 Moderate
+16070 High
+16090 Moderate
+16100 Low
+16150 Low
+16200 Low
+16210 Moderate
+16300 Moderate
+16310 Moderate
+16400 Moderate
+16450 Moderate
+16600 Low
+16700 Low
+16800 Moderate
+17000 High
+17010 High
+17020 Low
+17030 Low
+17040 Low
+17200 High
+17500 Low
+17510 Low
+17600 Low
+17610 Low
+17700 Low
+18000 Moderate
+18200 Moderate
+18300 Low
+18500 Low
+20050 High
+20300 Low
+20400 High
+21000 High
+21010 High
+21020 Moderate
+21030 Moderate
+21040 High
+21060 Low
+21070 High
+21080 High
+21100 High
+21200 High
+21210 Moderate
+21300 High
+21400 High
+21450 Low
+21500 Low
+21600 Moderate
+21610 Moderate
+21700 Low
+21800 Moderate
+21810 Moderate
+22000 Moderate
+22010 Low
+22020 Low
+22100 Low
+22120 High
+22200 Moderate
+22300 Moderate
+23000 Low
+23050 Low
+23100 Low
+23200 Moderate
+23300 Moderate
+23400 Low
+24000 Moderate
+24060 Low
+24100 Low
+24300 Low
+25000 High
+25050 Low
+25100 High
+25150 High
+25200 Moderate
+25300 Low
+26010 Low
+26050 Low
+26060 High
+26070 Moderate
+26080 Moderate
+26090 Low
+26100 Low
+26140 Low
+26200 Moderate
+26250 Low
+26300 Low
+26310 Low
+26400 Low
+26410 Low
+26420 Low
+26430 Low
+26440 Low
+26450 Low
+26500 Low
+26600 Low
+26620 Low
+26630 Low
+26640 Low
+26650 Low
+26680 Low
+26690 Low
+26700 Low
+26800 Low
+26810 Low
+26820 High
+26900 Low
+27000 Low
+27010 Low
+27020 Moderate
+27030 Low
+27040 Low
+27050 High
+27060 Low
+27070 Low
+27090 High
+27100 Low
+27150 Moderate
+27200 Moderate
+27210 Moderate
+27300 High
+27310 Low
+27400 Moderate
+27600 Moderate
+27610 Low
+27620 Low
+27630 Moderate
+27650 High
+28000 Moderate
+28020 Low
+28030 Low
+28050 High
+28100 Low
+28200 Low
+28300 Low
+28310 Low
+28320 High
+28380 Low
+28400 Moderate
+28500 Low
+28600 High
+28620 Low
+28700 High
+28730 Low
+28740 High
+28750 Moderate
+28800 Low
+30000 Moderate
+30010 Moderate
+30020 Moderate
+30100 Moderate
+30200 Moderate
+30250 Moderate
+30350 Moderate
+30450 Moderate
+31000 Low
+31050 Low
+31100 Low
+31150 Moderate
+31200 Moderate
+31250 Moderate
+31300 Low
+31350 Moderate
+31400 Low
+31450 Low
+31500 Low
+31550 Moderate
+31560 Moderate
+31600 Low
+31610 Low
+31650 Moderate
+31700 Low
+31750 Low
+31800 Low
+31850 Low
+31900 Low
+31910 Low
+31950 Low
+32000 Low
+32040 Moderate
+32200 Moderate
+32400 Low
+32500 Low
+32600 Low
+32610 Low
+32700 Low
+32800 Low
+32900 Low
+33000 Low
+33010 Moderate
+33020 Low
+33030 Low
+33040 Low
+33100 Low
+33300 Low
+33310 Low
+33320 Low
+33400 Low
+33410 Low
+33420 Low
+33500 Low
+33600 Low
+33700 Low
+33800 Low
+34000 Moderate
+34010 Moderate
+34100 Low
+34130 Low
+34140 Low
+34200 High
+34250 Moderate
+34300 High
+34310 Low
+34350 High
+34400 Moderate
+34500 Moderate
+34510 Moderate
+34520 High
+34600 Moderate
+34650 Moderate
+34700 Moderate
+34750 Moderate
+34800 Low
+34850 Moderate
+34900 Low
+34950 High
+35000 Low
+35300 Low
+35350 Low
+35400 Low
+35500 Low
+35600 Low
+35800 Low
+35820 Low
+35900 Low
+35950 Low
+36000 Moderate
+36100 Low
+36110 Moderate
+36200 Low
+36300 Low
+36400 Low
+36600 High
+36700 Low
+36750 Low
+36800 Low
+39000 Low
+40000 Low
+40100 Low
+40150 Low
+40160 Low
+40170 Low
+40200 Moderate
+40300 Moderate
+40400 High
+40450 Low
+40460 Low
+40470 Moderate
+41000 Moderate
+41050 Low
+41100 Low
+41150 Moderate
+41200 Low
+41250 Low
+41300 Moderate
+41400 Low
+41700 Moderate
+42000 Low
+42100 Low
+42200 Low
+42300 Low
+42500 Low
+42600 Low
+42610 Low
+42700 Moderate
+42800 Low
+42920 Low
+42960 Low
+43000 Moderate
+43100 Low
+43200 Low
+43300 Low
+43400 Moderate
+43500 Low
+43600 Low
+43650 High
+43700 Low
+43800 Moderate
+43900 High
+43950 High
+44000 Low
+44020 Low
+44100 Low
+44200 Low
+44300 Low
+45000 Low
+45100 Low
+45200 Low
+45300 Low
+45400 Low
+45500 Low
+45600 Low
+45700 Low
+45800 Low
+46000 Moderate
+46050 Moderate
+46100 Moderate
+46150 Moderate
+46200 Moderate
+46300 Moderate
+46350 Moderate
+46400 Moderate
+47000 Low
+47100 Low
+47110 Moderate
+47120 Moderate
+47130 Low
+47150 Low
+47160 Low
+47180 Low
+47190 Moderate
+47200 Low
+47300 Moderate
+47301 Moderate
+47400 Moderate
+47410 Moderate
+47500 Moderate
+47600 Low
+47610 Moderate
+47620 Low
+47630 Low
+47650 Low
+47800 Moderate
+47810 Moderate
+47820 Moderate
+47830 Moderate
+48000 Low
+48010 Low
+48020 Low
+48050 Low
+48100 Low
+48200 Low
+48300 Low
+50050 Moderate
+50100 Moderate
+50250 Moderate
+50300 Moderate
+50350 Moderate
+50400 Moderate
+50450 Moderate
+50460 Moderate
+50470 Moderate
+50480 Moderate
+50490 Moderate
+50586 Moderate
+50603 Moderate
+51000 Moderate
+51100 Moderate
+51200 Moderate
+52000 Moderate
+52100 Moderate
+52200 Moderate
+53000 Moderate
+53100 Moderate
+53200 Moderate
+53300 Moderate
+54000 Moderate
+54100 Moderate
+54200 Moderate
+55000 Moderate
+55100 Moderate
+55200 Moderate
+55300 Moderate
+56000 Moderate
+56100 Moderate
+57000 Moderate
+57100 Moderate
+58000 Moderate
+58100 Moderate
+58200 Moderate
+59000 Moderate
+59100 Moderate
+59200 Moderate
+60000 Moderate
+62000 Low
+62050 Low
+62150 Low
+62200 Moderate
+62250 Low
+62300 Moderate
+62502 Moderate
+63000 Low
+64000 High
+68000 Moderate
+68100 Moderate
+69000 Low
+70000 Moderate
+70100 Moderate
+70200 Low
+70300 Low
+70400 Low
+70450 Moderate
+71000 Low
+71010 Low
+71050 Low
+71100 Moderate
+71150 Moderate
+71200 Moderate
+71250 Low
+71300 Moderate
+71350 Low
+71400 Low
+71450 Moderate
+71500 Low
+71550 Low
+71600 Moderate
+71650 Moderate
+71700 Low
+71750 Moderate
+71760 Low
+71800 Low
+71900 Low
+71950 Low
+71960 Low
+72000 Low
+72100 Moderate
+72120 Low
+72200 Moderate
+72300 Low
+72400 Low
+72500 Moderate
+73000 Low
+73100 Moderate
+73200 Low
+73300 Low
+73400 Low
+73430 Low
+73440 Moderate
+73500 Low
+75000 Low
+75050 Moderate
+75100 Low
+75150 Low
+75200 Low
+75250 Low
+75260 Low
+75300 Moderate
+75350 Moderate
+75400 Low
+75450 Low
+75460 Low
+76100 Low
+76300 Low
+76400 Low
+76450 Low
+77000 Low
+77100 Low
+77200 Low
+77300 Low
+77400 Low
+77500 Low
+78000 Low
+78100 Low
+78200 Moderate
+78300 Low
+79100 Low
+79150 Low
+79200 Low
+79250 Low
+80000 Low
+80050 Low
+80100 Low
+80150 Low
+80200 Low
+80250 Low
+80300 Low
+80350 Low
+80400 Low
+80990 Low
+81000 Low
+81100 Low
+81200 Low
+81300 Low
+81400 Low
+81440 Low
+81450 Low
+81500 Low
+81550 Low
+81600 Low
+81700 Low
+81750 Low
+81800 Low
+81850 Moderate
+81900 Low
+81920 Low
+81930 Low
+82000 Low
+82100 Low
+82200 Low
+82300 Low
+83000 Low
+83010 Low
+83100 Low
+83200 Low
+83300 Low
+83500 Low
+83600 Low
+83700 Low
+84000 Low
+84150 Low
+84200 Low
+84300 Low
+84400 Low
+84500 Low
+84600 Low
+84700 Low
+84800 Low
+84900 Low
+85000 Moderate
+85100 Low
+85200 Low
+85300 Low
+85400 Low
+86000 Low
+86100 Low
+86200 Low
+86300 Low
+86400 Low
+86700 Low
+86800 Low
+86810 Low
+86900 Low
+87000 High
+88000 Low
+88100 Low
+88200 High
+88300 High
+88400 High
+88450 High
+89000 Low
+89050 High
+89100 Low
+89150 High
+89158 High
+89200 High
+89208 Low
+89250 High
+89300 Low
+89308 Low
+89500 High
+89507 High
+89600 High
+89650 Low
+89657 Low
+89709 High
+89740 Low
+89760 Low
+89800 High
+89850 Low
+89900 Low
+90000 Low
+90100 Low
+90200 Low
+91000 Low
+91100 Low
+91150 Low
+91300 Low
+91308 Low
+93000 Low
+93010 Low
+93050 Low
+93100 Moderate
+93150 Moderate
+93200 Low
+93250 High
+93300 Moderate
+93350 Low
+93400 Moderate
+93450 Moderate
+93500 High
+94000 Low
+94200 Low
+94300 Low
+94500 Low
+94600 Low
+94700 Low
+94750 Low
+94800 Low
+95000 Low
+95300 Low
+95400 Low
+95500 Low
+95600 Moderate
+95700 Low
+95800 Moderate
+96000 Low
+96100 Low
+96300 Low
+96400 Moderate
+96500 Low
+96507 Low
+96600 Low
+96700 Low
+97000 Low
+97200 Low
+98000 Low
+98050 High
+98150 Low
+98200 Low
+98300 High
+98700 Moderate
+98850 Moderate
+44010 Moderate
+88857 Moderate
+89609 Moderate
+83400 Moderate
+07100 Moderate
+89857 Moderate
+16080 Moderate
+21090 Moderate
+20000 Moderate
+97100 Moderate`;
+const postcodeRisk={};
+postcodeRiskData.trim().split(/\n+/).forEach(line=>{const [pc,risk]=line.trim().split(/\s+/);postcodeRisk[pc]=risk;});
+
+const gp1EconomicActivities=[
+{classification:"electricity",objective:"(a) Avoid GHG emissions",activity:"Retrofit of distribution systems, transmission lines or substations to reduce energy use and/or losses."},
+{classification:"transportation",objective:"(a) Avoid GHG emissions",activity:"Development and operation of urban mass transit systems."},
+{classification:"manufacturing",objective:"(b) Reduce GHG emissions",activity:"Development, manufacturing and/or distribution of products or components designed to have a positive environmental impact in terms of reducing carbon emissions, waste, energy use, water use and material use for circularity and/or adaptive reuse."},
+{classification:"waste",objective:"(c) Enable others to avoid or reduce GHG emissions",activity:"Waste minimisation, collection, management, recycling, re-use, processing and disposal infrastructure, technologies and solutions."},
+{classification:"waste",objective:"(c) Enable others to avoid or reduce GHG emissions",activity:"Biological treatment facilities including anaerobic digestion and composting facilities."},
+{classification:"agriculture",objective:"(b) Reduce GHG emissions",activity:"Avoidance or reduction of GHG emissions through improved agricultural activities and practices."},
+{classification:"agriculture",objective:"(b) Reduce GHG emissions",activity:"Lowering emissions for agricultural or biofuel production."},
+{classification:"agriculture",objective:"(b) Reduce GHG emissions",activity:"Maintaining or strengthening land carbon sinks."},
+{classification:"agriculture",objective:"(b) Reduce GHG emissions",activity:"Reduce GHG-intensive activities and deploy efficient technologies to reduce emissions."},
+{classification:"construction",objective:"(b) Reduce GHG emissions",activity:"Construction activities incorporating technologies, designs or materials that reduce greenhouse gas emissions."},
+{classification:"realestate",objective:"Not applicable",activity:"No specific GP1 economic activity configured under this classification."},
+{classification:"others",objective:"(c) Enable others to avoid or reduce GHG emissions",activity:"Others (Please specify)."}];
+
+const gp2BySector={
+agriculture:["Does the Client implement measures to improve resilience against drought, flood and other climate-related physical risks?","Does the Client adopt climate-resilient farming or agricultural practices?"],
+construction:["Does the Client incorporate climate-resilient design into construction projects?","Are flood, heat, extreme rainfall and other physical climate risks considered during design and construction?"],
+electricity:["Does the Client implement measures to improve resilience of electricity, gas, steam or air-conditioning infrastructure against climate-related physical risks?","Are climate-related risks considered in infrastructure design, operation and maintenance?"],
+manufacturing:["Does the Client implement measures to protect manufacturing facilities against climate-related physical risks?","Does the Client have measures to improve resilience of its supply chain and operations?"],
+transportation:["Does the Client implement climate adaptation measures for transportation infrastructure and operations?","Does the Client have measures to maintain transportation continuity during extreme climate events?"],
+waste:["Does the Client implement climate adaptation measures for waste management, wastewater or treatment infrastructure?","Does the Client have measures to maintain operations during climate-related disruption?"],
+realestate:["Does the Client implement measures to improve resilience of buildings or properties against flood, heat and extreme weather?","Are climate-related physical risks considered in property development and management?"],
+others:["Has the Client identified climate-related physical risks affecting its business?","Has the Client implemented appropriate climate adaptation measures?"]};
+
+const gp3Questions=[
+{section:"GP3 – General",question:"Has the Client received any legal, compliance issues and/or complaints, negative coverage from media/NGOs etc. associated with the Client's environmental performance in the last 3 years?"},
+{section:"GP3 – General",question:"Are there any remedial measures which have commenced or are on-going to address the identified issues or complaints above?"},
+{section:"GP3 – Pollution",question:"Are any of the Client's activities involved in the release and/or use of hazardous substances, pollutants, waste or environmentally harmful materials?"},
+{section:"GP3 – Pollution",question:"Are there any remedial measures which have commenced or are on-going to address the pollution concerns identified?"},
+{section:"GP3 – Ecosystem & Biodiversity",question:"Are the Client's operations located within 10 km of any protected natural areas, wildlife habitats, national parks, forests, wetlands or other areas important for biodiversity conservation?"},
+{section:"GP3 – Ecosystem & Biodiversity",question:"Does the Client's operations create negative impacts on biodiversity and surrounding ecosystem?"},
+{section:"GP3 – Ecosystem & Biodiversity",question:"Are there any remedial measures which have commenced or are on-going for the protection and conservation of biodiversity and surrounding ecosystem?"},
+{section:"GP3 – Efficient Use of Resources",question:"Does the Client's core activities involve significant consumption of natural resources?"},
+{section:"GP3 – Efficient Use of Resources",question:"Are there any remedial measures which have commenced or are on-going to monitor, reduce and improve efficiencies in resource consumption?"},
+{section:"GP3 – GHG Emissions",question:"Do the Client's core activities lead to significant greenhouse gas (GHG) emissions?"},
+{section:"GP3 – GHG Emissions",question:"Are there any remedial measures which have commenced or are on-going to reduce GHG emissions and/or utilise carbon offsets?"}];
+
+const gp3HarmQuestions=[0,2,4,5,7,9];
+const gp4Questions=[
+"Has the Client established time-bound remedial measures to address the significant harm identified under GP3?",
+"Does the Client plan to monitor the progress and effectiveness of the remedial measures against appropriate performance evaluation criteria, indicators and time-bound targets?",
+"Does the Client have adequate financial capacity and/or secured financing facilities to fund the remedial measures?"
+];
+
+const esgSectionCActivities=[
+{classification:"Prohibited",category:"Environmental",activity:"Development or business activities that may result in significant adverse environmental impact."},
+{classification:"Prohibited",category:"Environmental",activity:"Production and/or trade in products, substances or materials prohibited under applicable environmental laws and regulations."},
+{classification:"Prohibited",category:"Environmental",activity:"Business activities involving environmentally harmful or prohibited substances."},
+{classification:"Prohibited",category:"Environmental",activity:"Logging activities prohibited or undertaken without required regulatory approval."},
+{classification:"Prohibited",category:"Environmental",activity:"Mining activities involving prohibited or environmentally harmful practices."},
+{classification:"Prohibited",category:"Social",activity:"Business activities involving unacceptable labour, human rights or social practices."},
+{classification:"Restricted",category:"Restricted",activity:"Production of or trade in unbonded asbestos."}];
+
+const esgCriteria=[
+{category:"Environmental",resultKey:"renewable",title:"Renewable Energy",items:["Acquisition, construction, research, development, operation, renovation, consultancy and/or maintenance of renewable energy generation sources.","Solar energy.","Hydropower.","Geothermal energy.","Bio-energy.","Connection of renewables into the grid.","Manufacturing, trading and/or import of renewable energy technology.","Others (please specify)."]},
+{category:"Environmental",resultKey:"cleanTransportation",title:"Clean Transportation",items:["Electric vehicles, bicycles and associated infrastructure.","Electrified and/or low-emission passenger vehicles.","Public / mass transportation systems.","Others (please specify)."]},
+{category:"Environmental",resultKey:"greenBuilding",title:"Green Building",items:["Green certified commercial or residential buildings.","Green Building Index (GBI) Gold and above.","LEED Gold and above.","Singapore BCA Green Mark.","BREEAM Excellent and above.","Minimum improvement in energy use or carbon emission as a result of renovation.","Others (please specify)."]},
+{category:"Environmental",resultKey:"energyEfficiency",title:"Energy Efficiency",items:["Facilities and equipment that reduce energy consumption or improve efficiency.","Energy efficient heating, ventilation, air-conditioning, refrigeration, lighting and electrical equipment.","Waste heat recovery.","Energy storage, smart grids and demand response.","Smart meters, sensors and energy monitoring systems.","Others (please specify)."]},
+{category:"Environmental",resultKey:"water",title:"Sustainable Water and Wastewater Management",items:["Sustainable water and wastewater facilities or systems.","Collection, treatment, recycling and reuse of water and wastewater.","Flood prevention or flood defence systems.","Water efficiency technology and water metering.","Wastewater treatment infrastructure.","Others (please specify)."]},
+{category:"Environmental",resultKey:"wastePollution",title:"Waste and Pollution Control",items:["Treatment, collection, reuse or reduction of emissions, waste and hazardous waste.","Improvement in waste collection systems and treatment facilities.","Research and development promoting efficient resource use.","Others (please specify)."]},
+{category:"Social",resultKey:"affordableInfrastructure",title:"Affordable Basic Infrastructure",items:["Affordable internet coverage, mobile communication and digital infrastructure.","Infrastructure providing communities with access to transportation and energy.","Others (please specify)."]},
+{category:"Social",resultKey:"healthcare",title:"Access to Essential Services: Healthcare",items:["Public, subsidised and/or non-profit healthcare facilities.","Hospitals, clinics and healthcare centres.","Medical and diagnostic equipment.","Aged care facilities.","Mental health services.","Emergency response and disease-control services.","Medical education and training.","Digital healthcare.","Specialist disability accommodation.","Others (please specify)."]},
+{category:"Social",resultKey:"education",title:"Access to Essential Services: Education and Vocational Training",items:["Public and government subsidised education.","Universities, colleges, schools and early learning services.","Inclusion of excluded and/or marginalised populations in education.","Digital learning.","Others (please specify)."]},
+{category:"Social",resultKey:"socioeconomic",title:"Socioeconomic Advancement and Empowerment",items:["Financing for startups and micro, small and medium-sized enterprises.","Activities contributing to UN SDGs.","Owned or operated by underserved or marginalised groups.","Start-ups.","SMEs with insufficient collateral.","SMEs in high-growth sectors.","First-time customer.","Persons with disabilities or customers in hard-to-reach areas.","Low-income populations.","Women-led SMEs.","At least 51% of shareholding owned by woman / women.","At least 51% of top management are women.","More than 30% of board members are women.","Training for women job seekers.","Others (please specify)."]},
+{category:"Social",resultKey:"pandemic",title:"Pandemic Outbreak Socioeconomic Impact Mitigation",items:["Financial services supporting SMEs facing financial stress due to a pandemic outbreak.","Financial services supporting SME initiatives designed to prevent or alleviate unemployment.","Others (please specify)."]}];
+
+function getAnswer(name){const s=document.querySelector(`input[name="${name}"]:checked`);return s?s.value:null}
+function getSectorLabel(){const s=document.getElementById("sector");return s.value?s.options[s.selectedIndex].text:""}
+function entityChanged(){const e=document.getElementById("entity").value,c=document.getElementById("customerCategory");c.innerHTML=e?'<option value="">-- Select Customer Category --</option>':'<option value="">-- Select Entity First --</option>';if(e)customerCategories[e].forEach(x=>c.add(new Option(x,x)));customerCategoryChanged()}
+function customerCategoryChanged(){const corp=document.getElementById("customerCategory").value==="Non-SME (Corporate)";[1,2].forEach(i=>{document.querySelectorAll(`input[name="esgA_${i}"]`).forEach(r=>{r.disabled=corp;if(corp)r.checked=false});document.getElementById(`esgARow${i}`).classList.toggle("disabled-row",corp);document.getElementById(`esgANA${i}`).classList.toggle("hidden",!corp)});updateESGState()}
+function postcodeChanged(){const p=document.getElementById("postcode");p.value=p.value.replace(/\D/g,"").slice(0,5);const risk=postcodeRisk[p.value]||"Low",r=document.getElementById("locationRisk");r.value=risk;r.className="risk-"+risk.toLowerCase()}
+function sectorChanged(){const sector=document.getElementById("sector").value;document.getElementById("otherSectorRow").classList.toggle("hidden",sector!=="others");resetCCPTResult();if(!sector){document.getElementById("gp1Container").innerHTML='<div class="notice">Please select Customer BNM Sector first.</div>';document.getElementById("gp2Container").innerHTML='<div class="notice">Please select Customer BNM Sector first.</div>';return}renderGP1(sector);renderGP2(sector);updateGP4State()}
+function getGP1Activities(sector){return gp1EconomicActivities.filter(x=>x.classification===sector)}
+function renderGP1(sector){const a=getGP1Activities(sector),c=document.getElementById("gp1Container");if(!a.length){c.innerHTML='<div class="notice">No GP1 activity configured for this sector.</div>';return}let h=`<div class="sector-info">GP1 Classification: <strong>${getSectorLabel()}</strong></div><table class="assessment-table"><thead><tr><th class="number">No.</th><th>Objectives</th><th>Economic Activities</th><th class="answer">Yes / No</th></tr></thead><tbody>`;a.forEach((x,i)=>{h+=`<tr><td class="number">${i+1}</td><td><span class="objective-tag">${x.objective}</span></td><td>${x.activity}${x.activity.toLowerCase().includes("please specify")?'<div style="margin-top:9px"><input type="text" id="gp1OtherActivity" placeholder="Please specify economic activity"></div>':""}</td><td class="answer"><label class="radio-option"><input type="radio" name="gp1_${i}" value="yes">Yes</label>&nbsp;&nbsp;<label class="radio-option"><input type="radio" name="gp1_${i}" value="no">No</label></td></tr>`});c.innerHTML=h+"</tbody></table>"}
+function renderGP2(sector){const q=gp2BySector[sector]||[],c=document.getElementById("gp2Container");let h=`<div class="sector-info">GP2 Classification: <strong>${getSectorLabel()}</strong></div>`;q.forEach((x,i)=>h+=`<div class="question-card"><div class="question-text">${i+1}. ${x}</div><div class="question-answer"><label class="radio-option"><input type="radio" name="gp2_${i}" value="yes">Yes</label><label class="radio-option"><input type="radio" name="gp2_${i}" value="no">No</label></div><div class="details-area"><label>Details / Remarks</label><textarea id="gp2Details_${i}" placeholder="Provide details where applicable"></textarea></div></div>`);c.innerHTML=h}
+function renderGP3(){const c=document.getElementById("gp3Container");let h="",s="";gp3Questions.forEach((x,i)=>{if(s!==x.section){s=x.section;h+=`<div class="category">${x.section}</div>`}h+=`<div class="question-card"><div class="question-text">${i+1}. ${x.question}</div><div class="question-answer"><label class="radio-option"><input type="radio" name="gp3_${i}" value="yes" onchange="gpRemarkChanged('gp3',${i});updateGP4State()">Yes</label><label class="radio-option"><input type="radio" name="gp3_${i}" value="no" onchange="gpRemarkChanged('gp3',${i});updateGP4State()">No</label></div><div class="details-area"><label>Details / Remarks <span id="gp3Req_${i}" class="required hidden">*</span></label><textarea id="gp3Details_${i}" placeholder="Provide details / remedial information"></textarea></div></div>`});c.innerHTML=h}
+function gpRemarkChanged(prefix,i){const yes=getAnswer(`${prefix}_${i}`)==="yes",t=document.getElementById(`${prefix}Details_${i}`),r=document.getElementById(`${prefix}Req_${i}`);if(t){t.required=yes;t.classList.toggle("mandatory-remark",yes&&!t.value.trim())}if(r)r.classList.toggle("hidden",!yes)}
+function gp3Completed(){return gp3Questions.every((_,i)=>getAnswer(`gp3_${i}`)!==null)}
+function gp3HasHarm(){return gp3HarmQuestions.some(i=>getAnswer(`gp3_${i}`)==="yes")}
+function updateGP4State(){const c=document.getElementById("gp4Container"),sector=document.getElementById("sector").value;if(!sector){c.innerHTML='<div class="notice">Please select Customer BNM Sector first.</div>';return}if(!gp3Completed()){c.innerHTML='<div class="notice">Complete GP3 first. GP4 will be enabled only when required.</div>';document.getElementById("gp4Status").textContent="Pending";return}if(!gp3HasHarm()){c.innerHTML='<div class="na-box"><strong>GP4 Not Applicable.</strong><br>No significant harm was identified under GP3.</div>';document.getElementById("gp4Status").textContent="N/A";document.getElementById("gp4Status").className="";return}renderGP4(sector)}
+function renderGP4(sector){const c=document.getElementById("gp4Container");let h=`<div class="sector-info" style="background:#f5f3ff;border-left-color:#7c3aed;color:#4c1d95">Significant harm identified under GP3. Complete the remedial assessment below.</div><div class="category gp4-category">${getSectorLabel()}</div>`;gp4Questions.forEach((q,i)=>h+=`<div class="question-card"><div class="question-text">${i+1}. ${q}</div><div class="question-answer"><label class="radio-option"><input type="radio" name="gp4_${i}" value="yes" onchange="gpRemarkChanged('gp4',${i})">Yes</label><label class="radio-option"><input type="radio" name="gp4_${i}" value="no" onchange="gpRemarkChanged('gp4',${i})">No</label></div><div class="details-area"><label>Remarks <span id="gp4Req_${i}" class="required hidden">*</span></label><textarea id="gp4Details_${i}" placeholder="Provide details of remedial measures"></textarea></div></div>`);c.innerHTML=h}
+function groupCompleted(prefix,count){for(let i=0;i<count;i++)if(getAnswer(`${prefix}_${i}`)===null)return false;return true}
+function validateYesRemarks(prefix,count){for(let i=0;i<count;i++){if(getAnswer(`${prefix}_${i}`)==="yes"){const t=document.getElementById(`${prefix}Details_${i}`);if(!t||!t.value.trim()){if(t){t.classList.add("mandatory-remark");t.focus()}alert(`Remarks are mandatory when Yes is selected in ${prefix.toUpperCase()}.`);return false}}}return true}
+function calculateClassification(){const sector=document.getElementById("sector").value;if(!sector){alert("Please select Customer BNM Sector.");return}const a=getGP1Activities(sector).length,b=(gp2BySector[sector]||[]).length;if(!groupCompleted("gp1",a)){alert("Please complete GP1.");return}if(!groupCompleted("gp2",b)){alert("Please complete GP2.");return}if(!groupCompleted("gp3",gp3Questions.length)){alert("Please complete GP3.");return}if(!validateYesRemarks("gp3",gp3Questions.length))return;const harm=gp3HasHarm();if(harm){if(!groupCompleted("gp4",gp4Questions.length)){alert("Significant harm was identified. Please complete GP4.");return}if(!validateYesRemarks("gp4",gp4Questions.length))return}let gp1=false,gp2=false;for(let i=0;i<a;i++)if(getAnswer(`gp1_${i}`)==="yes")gp1=true;for(let i=0;i<b;i++)if(getAnswer(`gp2_${i}`)==="yes")gp2=true;const gp3=!harm;let gp4=null;if(harm){gp4=true;for(let i=0;i<gp4Questions.length;i++)if(getAnswer(`gp4_${i}`)!=="yes")gp4=false}const supporting=gp1||gp2;let cl,desc;if(supporting&&gp3){cl="C1";desc="Climate Supporting: GP1 and/or GP2 is satisfied and no significant environmental harm is identified."}else if(supporting&&!gp3&&gp4){cl="C2";desc="Transitioning: GP1 and/or GP2 is satisfied, significant harm is identified and remedial efforts are demonstrated."}else if(!supporting&&!gp3&&gp4){cl="C3";desc="Transitioning: GP1 and GP2 are not satisfied, significant harm exists, but remedial efforts are demonstrated."}else if(supporting&&!gp3&&!gp4){cl="C4";desc="Watchlist: GP1 and/or GP2 is satisfied but significant harm exists without adequate remedial efforts."}else if(!supporting&&!gp3&&!gp4){cl="C5a";desc="Watchlist: GP1 and GP2 are not satisfied, significant harm exists and remedial efforts are insufficient."}else{cl="C5b";desc="Watchlist: GP1 and GP2 are not satisfied although no significant environmental harm is identified."}showCCPTResult(cl,desc,gp1,gp2,gp3,gp4)}
+function showCCPTResult(cl,desc,a,b,c,d){document.getElementById("classificationValue").textContent=cl;document.getElementById("classificationDescription").textContent=desc;setStatus("gp1Status",a);setStatus("gp2Status",b);setStatus("gp3Status",c);if(d===null){const e=document.getElementById("gp4Status");e.textContent="N/A";e.className=""}else setStatus("gp4Status",d);document.querySelectorAll(".classification-table tbody tr").forEach(r=>r.classList.remove("active-result"));document.getElementById(`row-${cl}`)?.classList.add("active-result")}
+function setStatus(id,x){const e=document.getElementById(id);e.textContent=x?"✓ Yes":"✕ No";e.className=x?"status-pass":"status-fail"}
+function resetCCPTResult(){document.getElementById("classificationValue").textContent="-";document.getElementById("classificationDescription").textContent="Complete GP1, GP2 and GP3. GP4 will be required only when significant harm is identified.";["gp1Status","gp2Status","gp3Status","gp4Status"].forEach(id=>{const e=document.getElementById(id);e.textContent="Pending";e.className=""});document.querySelectorAll(".active-result").forEach(r=>r.classList.remove("active-result"))}
+
+function renderESGSectionC(){const b=document.getElementById("esgCBody");b.innerHTML=esgSectionCActivities.map((x,i)=>`<tr><td class="classification-cell ${x.classification==="Prohibited"?"prohibited":"restricted"}">${x.classification}</td><td>${x.category}</td><td>${x.activity}</td><td class="selection"><input type="checkbox" class="esg-c-check" data-classification="${x.classification}" id="esgC_${i}" onchange="updateESGState()"></td></tr>`).join("")}
+function renderESGCriteria(){const b=document.getElementById("esgCriteriaBody");let h="",n=0;esgCriteria.forEach((g,gi)=>g.items.forEach((x,i)=>{h+=`<tr>${i===0?`<td class="criteria-col" rowspan="${g.items.length}">${g.title}</td>`:""}<td>${x}${x.toLowerCase().includes("please specify")?`<div style="margin-top:8px"><input type="text" id="esgCriteriaOther_${n}" placeholder="Please specify"></div>`:""}</td><td class="check-col"><input type="radio" name="esgCriteriaSelection" class="esg-criteria-check" id="esgCriteria_${n}" data-group="${gi}" data-result-key="${g.resultKey}"></td></tr>`;n++}));b.innerHTML=h}
+function isCorporate(){return document.getElementById("customerCategory").value==="Non-SME (Corporate)"}
+function socialViolation(){const idx=isCorporate()?[0]:[0,1,2];return idx.some(i=>getAnswer(`esgA_${i}`)==="no")}
+function sectionAComplete(){const idx=isCorporate()?[0]:[0,1,2];return idx.every(i=>getAnswer(`esgA_${i}`)!==null)}
+function prohibitedSelected(){return document.querySelectorAll('.esg-c-check[data-classification="Prohibited"]:checked').length>0}
+function isNonESG(){return socialViolation()||prohibitedSelected()}
+function updateESGState(){const r=document.getElementById("sectionBResult");if(!sectionAComplete()){r.textContent="Pending";r.className="auto-pill"}else if(socialViolation()){r.textContent="Yes";r.className="auto-pill yes"}else{r.textContent="No";r.className="auto-pill no"}const non=isNonESG();document.getElementById("financingNA").classList.toggle("hidden",!non);document.getElementById("financingBox").classList.toggle("hidden",non);document.getElementById("criteriaNA").classList.toggle("hidden",!non);document.getElementById("criteriaBox").classList.toggle("hidden",non);if(non){document.querySelectorAll('input[name="financingType"],input[name="esgCriteriaSelection"]').forEach(x=>x.checked=false)}}
+function selectedCriterion(){const r=document.querySelector('input[name="esgCriteriaSelection"]:checked');if(!r)return null;const g=esgCriteria[Number(r.dataset.group)];return{category:g.category,subCategory:g.title,resultKey:g.resultKey}}
+function resultAnswerHTML(v){return v?'<span class="result-yes">☑ Yes</span>':'<span class="result-no">☐ No</span>'}
+function calculateESGResult(){if(!sectionAComplete()){alert("Please complete ESG Section A.");return}const non=isNonESG(),fin=getAnswer("financingType"),crit=selectedCriterion();if(!non&&!fin){alert("Please select whether the customer's financing is project or non-project related.");return}if(!non&&!crit){alert("Please select ONE ESG Criteria.");return}document.getElementById("resultProject").textContent=!non&&fin==="project"?"☑":"☐";document.getElementById("resultNonProject").textContent=!non&&fin==="non-project"?"☑":"☐";let data=[];if(non){data=[{category:"Non-ESG",subCategory:"Prohibited ESG Activities",value:prohibitedSelected()},{category:"Non-ESG",subCategory:"Violation of Social Well-being",value:socialViolation()}]}else{data=[{category:crit.category,subCategory:crit.subCategory,value:true},{category:"Non-ESG",subCategory:"Prohibited ESG Activities",value:false},{category:"Non-ESG",subCategory:"Violation of Social Well-being",value:false}]}renderESGResultTable(data);document.getElementById("esgResultPlaceholder").classList.add("hidden");document.getElementById("esgResultArea").classList.remove("hidden");document.getElementById("saveButton").classList.remove("hidden");document.getElementById("pdfButton").classList.remove("hidden")}
+function renderESGResultTable(data){const b=document.getElementById("esgResultTableBody"),counts={};data.forEach(x=>counts[x.category]=(counts[x.category]||0)+1);let last=null,h="";data.forEach(x=>{h+="<tr>";if(last!==x.category){h+=`<td class="result-category" rowspan="${counts[x.category]}">${x.category}</td>`;last=x.category}h+=`<td>${x.subCategory}</td><td class="result-answer">${resultAnswerHTML(x.value)}</td></tr>`});b.innerHTML=h}
+function collectRadioGroup(prefix){const r={};document.querySelectorAll(`input[type="radio"][name^="${prefix}_"]`).forEach(x=>{if(x.checked)r[x.name]=x.value});return r}
+function collectCheckedIDs(sel){return Array.from(document.querySelectorAll(sel)).map(x=>x.id)}
+function getDateString(){const d=new Date();return `${d.getFullYear()}${String(d.getMonth()+1).padStart(2,"0")}${String(d.getDate()).padStart(2,"0")}`}
+function saveAssessment(){const data={savedAt:new Date().toISOString(),customer:{name:document.getElementById("customerName").value.trim(),entity:document.getElementById("entity").value,customerCategory:document.getElementById("customerCategory").value,sector:document.getElementById("sector").value,sectorLabel:getSectorLabel(),otherSector:document.getElementById("otherSector").value,postcode:document.getElementById("postcode").value,locationRisk:document.getElementById("locationRisk").value},ccpt:{classification:document.getElementById("classificationValue").textContent,gp1:collectRadioGroup("gp1"),gp2:collectRadioGroup("gp2"),gp3:collectRadioGroup("gp3"),gp4:collectRadioGroup("gp4")},esg:{nonESG:isNonESG(),sectionA:[getAnswer("esgA_0"),getAnswer("esgA_1"),getAnswer("esgA_2")],financingType:getAnswer("financingType"),prohibitedActivities:collectCheckedIDs(".esg-c-check:checked"),criterion:selectedCriterion(),consentRemarks:document.getElementById("consentRemarks").value}};localStorage.setItem("ccpt_esg_assessment",JSON.stringify(data));const blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a"),safe=(data.customer.name||"customer").replace(/[^a-z0-9]/gi,"_").toLowerCase();a.href=url;a.download=`CCPT_ESG_${safe}_${getDateString()}.json`;document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url);alert("Assessment saved successfully.")}
+function generatePDF(){const old=document.title,n=document.getElementById("customerName").value.trim();document.title=n?`CCPT ESG Assessment - ${n}`:"CCPT ESG Assessment";window.print();setTimeout(()=>document.title=old,1000)}
+function resetAssessment(){if(!confirm("Reset the entire CCPT & ESG Assessment?"))return;document.querySelectorAll('input[type="radio"],input[type="checkbox"]').forEach(x=>x.checked=false);document.querySelectorAll('input[type="text"],textarea').forEach(x=>{if(!x.readOnly)x.value=""});["entity","sector"].forEach(id=>document.getElementById(id).value="");entityChanged();document.getElementById("otherSectorRow").classList.add("hidden");document.getElementById("locationRisk").value="Low";document.getElementById("locationRisk").className="risk-low";document.getElementById("gp1Container").innerHTML='<div class="notice">Please select Customer BNM Sector first.</div>';document.getElementById("gp2Container").innerHTML='<div class="notice">Please select Customer BNM Sector first.</div>';renderGP3();document.getElementById("gp4Container").innerHTML='<div class="notice">Complete GP3 first. GP4 will be enabled only when required.</div>';resetCCPTResult();const b=document.getElementById("sectionBResult");b.textContent="Pending";b.className="auto-pill";document.getElementById("esgResultArea").classList.add("hidden");document.getElementById("esgResultPlaceholder").classList.remove("hidden");document.getElementById("saveButton").classList.add("hidden");document.getElementById("pdfButton").classList.add("hidden");customerCategoryChanged();updateESGState()}
+renderGP3();renderESGSectionC();renderESGCriteria();updateESGState();
+</script>
+</body>
+</html>

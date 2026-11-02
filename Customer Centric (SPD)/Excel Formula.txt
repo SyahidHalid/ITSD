@@ -1,0 +1,44 @@
+#ORI
+=IFERROR(IF(ISBLANK(EK5),0,IF(ISBLANK(CQ5),"NA",(+EK5-CQ5)/30.5)),0)
+
+# Test
+=IFERROR(IF(ISBLANK(EK2),"NA",IF(ISBLANK(CQ2),"NA",IF(T2="Impaired",((+EK2-CQ2)/30.5))),0)
+
+#final
+=IF(T2="Impaired",((+EK2-CQ2)/30.5),0)
+
+
+
+#ORI
+=IFERROR(IF(ISBLANK(EK2),0,IF(ISBLANK(EP2),"NA",(EP2-EK2)/30.5)),0)
+
+#final
+=IF(T2="Impaired",((EP2-EK2)/30.5),0)
+
+
+#ORI
+=IFERROR((AW2/Y2),0)
+
+#final
+=         IF(OR(T3="Impaired",T3="Active-Watchlist",T3="Active"),(AW3/Y3),0)
+=IFERROR((IF(OR(T2="Impaired",T2="Active-Watchlist",T2="Active"),(AW2/Y2),0)),0)
+
+
+.
+
+Customer churn is having a significant impact on our business. In the past year, we have lost RM0.95 billion in our Gross Financing Asset due to churn from December 2020 until September 2023. If we do not address the problem of churn, it will continue to have a negative impact on our business.
+
+The movement of EXIM Bank customer and account shows a significant increase for Active customer since the drop of customer and account in year 2021. Meanwhile, Watchlist and Impaired customer and account gradually decreases in tandem with the number of account and customer increases. This would mean lower provisions or cost for the Active customer and higher provisions or cost for Watchlist customer as well as Impaired customer so much less amount of money for the Bank to put aside in for year 2023 compared to year 2021. The movement of Active, Watchlist and Impaired customer and account is shown in the figure below: 
+
+RM 1.30 billion (62%) of Impaired Gross Financing Asset are from Buyer Credit and Overseas Project Financing with 18 number of Accounts from Conventional and Non-Trade financing. The impaired portfolio is mostly non-MYR Currency and non-Syndication/Club Deal with Quarterly Payment Frequency. Based on the data, most sector to impaired is Construction and Manufacturing while by Country it indicates Indonesia accumulates the longest to be impaired (2008, PT Eden Capital), highest number of accounts (16) and highest amount impaired (RM0.87 billion, 42%) that has been experiencing impairment. 
+
+DAX:
+
+Syndication (DAX) = IF(Sheet1[Syndicated / Club Deal]="Not Applicable","Non-Syndication",Sheet1[Syndicated / Club Deal])
+
+Payment Frequency = if(ISBLANK(Sheet1[Payment/Repayment Frequency (Cost/Principal)] )=TRUE,"Not Applicable",Sheet1[Payment/Repayment Frequency (Cost/Principal)])
+
+Collectable Profit = iferror((Sheet1[Cumulative Accrued Profit/Interest (MYR)]/Sheet1[Cumulative Profit Payment/Interest Repayment (MYR)]),0)
+
+
+Collectable Profit Category = IF(Sheet1[Collectable Profit]<=1,"1. Collectable below 100%","2. Collectable above 100%")

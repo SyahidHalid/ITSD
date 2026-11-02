@@ -1,0 +1,55 @@
+Security
+1-	Security of Trade and Non-Trade 
+2-	Security Portfolio 
+3-	Security Criteria Prediction
+
+Financing Asset Quality
+1-	Overall Financing Asset
+2-	Impaired Ratio
+3-	Impaired Behaviour
+4-	Accounts Migration  
+5-	Cycle Diagram
+6-	Customer Churn Prediction
+
+
+mandated: 
+credit facilities to finance and support exports and imports good, services, overseas project
+non-traditional
+export credut insurance services
+gurantee facilities
+
+
+Research Questions
+
+“Which of Trade and Non-Trade is more quality in term of profit and financing asset quality? 
+
+trade is key to the bank ‘s long-term growth strategy
+most amounted profit/financing asset does not directly indicate most secure profit 
+trade is more secure
+less impaired ratio
+manufacturing n electricity susah impaired
+
+Which is risker to do business and where could EXIM Bank focus to expand for more profit? 
+
+profit ene and manufacturing sector, eswatini and thailand
+
+non trade is risker because low security
+most risk is non trade because sensitivity is high (byk branch)
+trade 24 branch score 0.023 - 0.42
+non trade 59 branch score 0.021 - 0.662
+high sensitivity means high risk
+thailand and eswatini is most secure to do business less impaired n susah nk impaired
+non trade is riskier sbb infuence dlm impaired
+country cm UAE Saudi malaysia indonesia high impaired
+
+trade x senang impaired
+
+How does EXIM Bank perform complying the mandated role?”
+
+exim does goes for non traditional nad overseas with the highest profit
+- need to more explore the unserved country cause high profit security compare to indon and malay
+
+
+Recommendation
+“In light of the bank’s strong financial performance and its commitment to i
+“Create a threshold agreed upon, monitor and review exceptional case above threshold, Identify customer at risk, Allocate asset correctly”
