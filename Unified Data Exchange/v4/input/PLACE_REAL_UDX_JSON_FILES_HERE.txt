@@ -1,0 +1,6 @@
+Place the four actual UDX JSON outputs in this folder. Exact filenames:
+udx_run_summary.JSON
+sme_golden_records.JSON
+intervention_potential_leads.JSON
+financing_potential_leads.JSON
+This note is not read by the prototype.
